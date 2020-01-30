@@ -289,7 +289,7 @@ class App extends Component {
     form_data.append('file', this.state.file);
     // form_data.append('title', this.state.title);
     // form_data.append('content', this.state.content);
-    let url = 'fashionq/upload/';
+    let url = 'fashionq/posts/';
     axios.post(url, form_data, {
       headers: {
         'content-type': 'multipart/form-data'
