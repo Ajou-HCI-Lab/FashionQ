@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="703638d6-134f-4fc4-86fa-c4f25cd782a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/back/fashionq/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/back/fashionq/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/back/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/FashionQ_Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/back/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/backend/back/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/back/media/서명.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/config/paths.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/config/paths.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/back/fashionq/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/back/fashionq/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/back/fashionq/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/back/fashionq/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/back/fashionq/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/back/fashionq/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +21,10 @@
     <session id="1673479190">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -29,11 +32,11 @@
           <entry key="css" value="4" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="4" />
-          <entry key="js" value="29" />
+          <entry key="js" value="30" />
           <entry key="json" value="1" />
           <entry key="lock" value="2" />
           <entry key="png" value="1" />
-          <entry key="py" value="41" />
+          <entry key="py" value="43" />
           <entry key="svg" value="1" />
         </counts>
       </usages-collector>
@@ -43,9 +46,9 @@
           <entry key="HTML" value="4" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="29" />
+          <entry key="JavaScript" value="30" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="41" />
+          <entry key="Python" value="43" />
           <entry key="SVG" value="1" />
           <entry key="yarn.lock" value="2" />
         </counts>
@@ -55,7 +58,7 @@
           <entry key="gitignore" value="18" />
           <entry key="html" value="40" />
           <entry key="js" value="1411" />
-          <entry key="py" value="1678" />
+          <entry key="py" value="1793" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -63,54 +66,44 @@
           <entry key="HTML" value="40" />
           <entry key="JavaScript" value="1411" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="1678" />
+          <entry key="Python" value="1793" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front/src/App.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/back/fashionq/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="743">
-              <caret line="291" column="29" selection-start-line="291" selection-start-column="29" selection-end-line="291" selection-end-column="29" />
+            <state relative-caret-position="45">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#8152#8193#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+            <state relative-caret-position="504">
+              <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/back/back/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="57" column="59" lean-forward="true" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/backend/back/fashionq/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/back/fashionq/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="90">
+              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -119,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/backend/back/fashionq/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -127,20 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front/config/paths.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="71" column="57" selection-start-line="71" selection-start-column="57" selection-end-line="71" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/back/fashionq/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="285">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -152,9 +136,34 @@
         <entry file="file://$PROJECT_DIR$/backend/back/fashionq/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/back/back/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#628#660#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="288" column="27" selection-start-line="288" selection-start-column="27" selection-end-line="288" selection-end-column="27" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#8152#8193#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,7 +173,7 @@
         <entry file="file://$PROJECT_DIR$/backend/back/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -203,9 +212,11 @@
       <find>MIDDLEW</find>
       <find>Request.fi</find>
       <find>bundles</find>
-      <find>File</find>
       <find>CORS</find>
       <find>root</find>
+      <find>views.</find>
+      <find>File</find>
+      <find>upload</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -228,17 +239,17 @@
         <option value="$PROJECT_DIR$/front/src/index.js" />
         <option value="$PROJECT_DIR$/front/public/index.html" />
         <option value="$PROJECT_DIR$/backend/back/fashionq/forms.py" />
-        <option value="$PROJECT_DIR$/backend/back/fashionq/admin.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/backend/back/back/urls.py" />
         <option value="$PROJECT_DIR$/front/config/paths.js" />
         <option value="$PROJECT_DIR$/backend/back/back/settings.py" />
         <option value="$PROJECT_DIR$/backend/back/templates/index.html" />
-        <option value="$PROJECT_DIR$/backend/back/fashionq/models.py" />
         <option value="$PROJECT_DIR$/backend/back/fashionq/serializers.py" />
-        <option value="$PROJECT_DIR$/backend/back/fashionq/urls.py" />
         <option value="$PROJECT_DIR$/backend/back/fashionq/views.py" />
         <option value="$PROJECT_DIR$/front/src/App.js" />
+        <option value="$PROJECT_DIR$/backend/back/fashionq/admin.py" />
+        <option value="$PROJECT_DIR$/backend/back/fashionq/urls.py" />
+        <option value="$PROJECT_DIR$/backend/back/fashionq/models.py" />
       </list>
     </option>
   </component>
@@ -248,113 +259,437 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/front/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/front/node_modules/@babel/code-frame/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/compat-data/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/compat-data/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/core/node_modules/@babel/code-frame/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/core/node_modules/@babel/parser/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/core/node_modules/@babel/template/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/core/node_modules/@babel/types/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/core/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/core/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/core/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/core/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/generator/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/generator/node_modules/source-map/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/generator/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-annotate-as-pure/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-annotate-as-pure/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-builder-binary-assignment-operator-visitor/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-builder-binary-assignment-operator-visitor/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-builder-react-jsx/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-builder-react-jsx/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-call-delegate/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-call-delegate/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-compilation-targets/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-compilation-targets/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-create-class-features-plugin/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-create-class-features-plugin/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-create-regexp-features-plugin/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-define-map/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-define-map/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-explode-assignable-expression/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-explode-assignable-expression/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-function-name/node_modules/@babel/code-frame/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-function-name/node_modules/@babel/parser/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-function-name/node_modules/@babel/template/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-function-name/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-function-name/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-get-function-arity/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-get-function-arity/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-hoist-variables/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-hoist-variables/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-member-expression-to-functions/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-member-expression-to-functions/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-module-imports/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-module-transforms/node_modules/@babel/code-frame/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-module-transforms/node_modules/@babel/helper-module-imports/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-module-transforms/node_modules/@babel/parser/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-module-transforms/node_modules/@babel/template/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-module-transforms/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-module-transforms/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-optimise-call-expression/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-optimise-call-expression/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-regex/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-remap-async-to-generator/node_modules/@babel/code-frame/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-remap-async-to-generator/node_modules/@babel/parser/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-remap-async-to-generator/node_modules/@babel/template/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-remap-async-to-generator/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-remap-async-to-generator/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/@babel/code-frame/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/@babel/generator/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/@babel/helper-function-name/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/@babel/helper-get-function-arity/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/@babel/helper-split-export-declaration/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/@babel/parser/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/@babel/template/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/@babel/traverse/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/@babel/types/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/source-map/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-simple-access/node_modules/@babel/code-frame/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-simple-access/node_modules/@babel/parser/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-simple-access/node_modules/@babel/template/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-simple-access/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-simple-access/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-split-export-declaration/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-split-export-declaration/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-wrap-function/node_modules/@babel/code-frame/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-wrap-function/node_modules/@babel/parser/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-wrap-function/node_modules/@babel/template/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-wrap-function/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-wrap-function/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helpers/node_modules/@babel/code-frame/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helpers/node_modules/@babel/parser/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helpers/node_modules/@babel/template/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/helpers/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helpers/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/highlight/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/parser/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-async-generator-functions/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-async-generator-functions/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-class-properties/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-decorators/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-dynamic-import/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-dynamic-import/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-json-strings/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-json-strings/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-numeric-separator/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-object-rest-spread/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-object-rest-spread/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-optional-catch-binding/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-optional-catch-binding/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-optional-chaining/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-unicode-property-regex/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-unicode-property-regex/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-async-generators/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-async-generators/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-decorators/node_modules/@babel/helper-plugin-utils/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-decorators/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-dynamic-import/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-dynamic-import/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-flow/node_modules/@babel/helper-plugin-utils/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-flow/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-json-strings/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-json-strings/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-jsx/node_modules/@babel/helper-plugin-utils/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-jsx/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-nullish-coalescing-operator/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-nullish-coalescing-operator/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-numeric-separator/node_modules/@babel/helper-plugin-utils/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-numeric-separator/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-object-rest-spread/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-object-rest-spread/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-optional-catch-binding/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-optional-catch-binding/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-optional-chaining/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-optional-chaining/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-top-level-await/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-top-level-await/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-typescript/node_modules/@babel/helper-plugin-utils/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-typescript/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-arrow-functions/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-arrow-functions/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-async-to-generator/node_modules/@babel/helper-module-imports/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-async-to-generator/node_modules/@babel/helper-plugin-utils/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-async-to-generator/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-async-to-generator/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-block-scoped-functions/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-block-scoped-functions/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-block-scoping/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-block-scoping/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-classes/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-classes/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-computed-properties/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-computed-properties/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-destructuring/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-destructuring/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-dotall-regex/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-dotall-regex/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-duplicate-keys/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-duplicate-keys/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-exponentiation-operator/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-exponentiation-operator/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-flow-strip-types/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-for-of/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-for-of/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-function-name/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-function-name/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-literals/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-literals/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-member-expression-literals/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-member-expression-literals/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-modules-amd/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-modules-amd/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-modules-commonjs/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-modules-commonjs/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-modules-systemjs/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-modules-systemjs/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-modules-umd/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-modules-umd/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-named-capturing-groups-regex/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-new-target/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-new-target/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-object-super/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-object-super/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-parameters/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-parameters/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-property-literals/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-property-literals/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-react-constant-elements/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-react-display-name/node_modules/@babel/helper-plugin-utils/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-react-display-name/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-react-jsx-self/node_modules/@babel/helper-plugin-utils/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-react-jsx-self/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-react-jsx-source/node_modules/@babel/helper-plugin-utils/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-react-jsx-source/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-react-jsx/node_modules/@babel/helper-plugin-utils/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-react-jsx/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-regenerator/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-reserved-words/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-reserved-words/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/baz/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/browser_field/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/dot_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/incorrect_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/invalid_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/multirepo/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/multirepo/packages/package-a/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/multirepo/packages/package-b/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/nested_symlinks/mylib/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/symlinked/package/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-shorthand-properties/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-shorthand-properties/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-spread/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-spread/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-sticky-regex/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-sticky-regex/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-template-literals/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-template-literals/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-typeof-symbol/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-typeof-symbol/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-typescript/node_modules/@babel/helper-plugin-utils/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-typescript/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-unicode-regex/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-unicode-regex/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/preset-env/node_modules/@babel/helper-module-imports/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/preset-env/node_modules/@babel/helper-plugin-utils/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/preset-env/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/preset-env/node_modules/@babel/plugin-proposal-optional-chaining/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/preset-env/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/preset-env/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/preset-env/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/preset-react/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/preset-typescript/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/runtime-corejs3/helpers/esm/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/runtime-corejs3/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/runtime/helpers/esm/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/runtime/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/template/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/traverse/node_modules/@babel/code-frame/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/traverse/node_modules/@babel/helper-function-name/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/traverse/node_modules/@babel/helper-get-function-arity/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/traverse/node_modules/@babel/helper-split-export-declaration/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/traverse/node_modules/@babel/parser/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/traverse/node_modules/@babel/template/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@babel/traverse/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/traverse/node_modules/debug/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/traverse/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@cnakazawa/watch/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@csstools/convert-colors/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@csstools/normalize.css/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@emotion/hash/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@hapi/address/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@hapi/bourne/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@hapi/hoek/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@hapi/joi/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@hapi/topo/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@jest/console/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/core/node_modules/jest-resolve/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@jest/core/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@jest/environment/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@jest/fake-timers/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/reporters/node_modules/jest-resolve/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@jest/reporters/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@jest/source-map/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@jest/test-result/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@jest/test-sequencer/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/@babel/code-frame/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/@babel/core/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/@babel/core/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/@babel/parser/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/@babel/template/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/@babel/types/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/resolve/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/resolve/test/resolver/baz/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/resolve/test/resolver/browser_field/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/resolve/test/resolver/dot_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/resolve/test/resolver/incorrect_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/resolve/test/resolver/invalid_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/resolve/test/resolver/multirepo/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/resolve/test/resolver/multirepo/packages/package-a/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/resolve/test/resolver/multirepo/packages/package-b/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/resolve/test/resolver/nested_symlinks/mylib/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/resolve/test/resolver/symlinked/package/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@jest/transform/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@jest/types/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/AppBar/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Avatar/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Backdrop/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Badge/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/BottomNavigation/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/BottomNavigationAction/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Box/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Breadcrumbs/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Button/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/ButtonBase/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/ButtonGroup/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Card/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/CardActionArea/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/CardActions/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/CardContent/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/CardHeader/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/CardMedia/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Checkbox/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Chip/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/CircularProgress/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/ClickAwayListener/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Collapse/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Container/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/CssBaseline/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Dialog/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/DialogActions/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/DialogContent/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/DialogContentText/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/DialogTitle/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Divider/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Drawer/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/ExpansionPanel/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/ExpansionPanelActions/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/ExpansionPanelDetails/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/ExpansionPanelSummary/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Fab/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Fade/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/FilledInput/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/FormControl/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/FormControlLabel/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/FormGroup/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/FormHelperText/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/FormLabel/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Grid/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/GridList/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/GridListTile/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/GridListTileBar/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Grow/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Hidden/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Icon/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/IconButton/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Input/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/InputAdornment/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/InputBase/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/InputLabel/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/LinearProgress/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Link/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/List/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/ListItem/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/ListItemAvatar/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/ListItemIcon/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/ListItemSecondaryAction/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/ListItemText/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/ListSubheader/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Menu/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/MenuItem/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/MenuList/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/MobileStepper/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Modal/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/NativeSelect/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/NoSsr/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/OutlinedInput/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Paper/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Popover/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Popper/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Portal/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Radio/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/RadioGroup/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/RootRef/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Select/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Slide/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Slider/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Snackbar/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/SnackbarContent/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Step/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/StepButton/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/StepConnector/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/StepContent/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/StepIcon/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/StepLabel/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Stepper/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/SvgIcon/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/SwipeableDrawer/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Switch/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Tab/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Table/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/TableBody/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/TableCell/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/TableContainer/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/TableFooter/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/TableHead/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/TablePagination/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/TableRow/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/TableSortLabel/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Tabs/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/TextField/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/TextareaAutosize/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Toolbar/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Tooltip/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Typography/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/Zoom/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/colors/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/locale/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/styles/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/test-utils/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/useMediaQuery/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/useScrollTrigger/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/utils/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/withMobileDialog/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/core/withWidth/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/styles/ServerStyleSheets/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/styles/StylesProvider/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/styles/ThemeProvider/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/styles/createGenerateClassName/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/styles/createStyles/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/styles/getStylesCreator/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/styles/getThemeProps/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/styles/jssPreset/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/styles/makeStyles/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/styles/mergeClasses/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/styles/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/styles/styled/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/styles/useTheme/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/styles/withStyles/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/styles/withTheme/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/system/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/types/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@material-ui/utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@mrmlnc/readdir-enhanced/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@nodelib/fs.stat/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@sheerun/mutationobserver-shim/package.json" />
@@ -367,10 +702,53 @@
       <path value="$PROJECT_DIR$/front/node_modules/@svgr/babel-plugin-transform-react-native-svg/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@svgr/babel-plugin-transform-svg-component/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@svgr/babel-preset/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/core/node_modules/camelcase/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@svgr/core/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@svgr/hast-util-to-babel-ast/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/@babel/code-frame/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/@babel/core/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/@babel/parser/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/@babel/template/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/@babel/types/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/resolve/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/resolve/test/resolver/baz/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/resolve/test/resolver/browser_field/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/resolve/test/resolver/dot_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/resolve/test/resolver/incorrect_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/resolve/test/resolver/invalid_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/resolve/test/resolver/multirepo/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/resolve/test/resolver/multirepo/packages/package-a/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/resolve/test/resolver/multirepo/packages/package-b/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/resolve/test/resolver/nested_symlinks/mylib/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/resolve/test/resolver/symlinked/package/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/source-map/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-svgo/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/@babel/code-frame/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/@babel/core/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/@babel/parser/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/@babel/template/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/@babel/types/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/resolve/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/resolve/test/resolver/baz/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/resolve/test/resolver/browser_field/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/resolve/test/resolver/dot_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/resolve/test/resolver/incorrect_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/resolve/test/resolver/invalid_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/resolve/test/resolver/multirepo/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/resolve/test/resolver/multirepo/packages/package-a/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/resolve/test/resolver/multirepo/packages/package-b/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/resolve/test/resolver/nested_symlinks/mylib/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/resolve/test/resolver/symlinked/package/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/node_modules/source-map/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@svgr/webpack/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@testing-library/dom/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@testing-library/jest-dom/node_modules/@babel/runtime/helpers/esm/package.json" />
@@ -397,6 +775,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/@types/prop-types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@types/q/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@types/react-dom/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@types/react-transition-group/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@types/react/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@types/stack-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@types/testing-library__dom/package.json" />
@@ -408,6 +787,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/@typescript-eslint/experimental-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@typescript-eslint/parser/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@typescript-eslint/typescript-estree/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/@typescript-eslint/typescript-estree/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@typescript-eslint/typescript-estree/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@webassemblyjs/ast/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@webassemblyjs/floating-point-hex-parser/package.json" />
@@ -430,17 +810,22 @@
       <path value="$PROJECT_DIR$/front/node_modules/@xtuc/ieee754/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@xtuc/long/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/abab/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/abbrev/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/acorn-globals/node_modules/acorn/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/acorn-globals/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/acorn-jsx/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/acorn-walk/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/acorn/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/address/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/adjust-sourcemap-loader/node_modules/camelcase/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/adjust-sourcemap-loader/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/aggregate-error/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/ajv-errors/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/ajv-keywords/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/ajv/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/alphanum-sort/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/amdefine/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/ansi-colors/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/ansi-escapes/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/ansi-html/package.json" />
@@ -449,6 +834,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/anymatch/node_modules/normalize-path/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/anymatch/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/aproba/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/are-we-there-yet/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/argparse/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/aria-query/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/arity-n/package.json" />
@@ -456,6 +842,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/arr-flatten/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/arr-union/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/array-equal/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/array-find-index/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/array-flatten/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/array-includes/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/array-union/package.json" />
@@ -471,6 +858,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/ast-types-flow/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/astral-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/async-each/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/async-foreach/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/async-limiter/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/async/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/asynckit/package.json" />
@@ -479,13 +867,22 @@
       <path value="$PROJECT_DIR$/front/node_modules/autoprefixer/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/aws-sign2/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/axios/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/axios/node_modules/follow-redirects/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/axios/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/axios/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/axobject-query/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-code-frame/node_modules/ansi-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-code-frame/node_modules/ansi-styles/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-code-frame/node_modules/chalk/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-code-frame/node_modules/js-tokens/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-code-frame/node_modules/strip-ansi/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-code-frame/node_modules/supports-color/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-code-frame/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-core/node_modules/json5/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-core/node_modules/slash/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-core/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-core/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-eslint/node_modules/resolve/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-eslint/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-eslint/node_modules/resolve/test/resolver/baz/package.json" />
@@ -501,7 +898,24 @@
       <path value="$PROJECT_DIR$/front/node_modules/babel-eslint/node_modules/resolve/test/resolver/symlinked/package/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-eslint/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-extract-comments/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-generator/node_modules/jsesc/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-generator/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-generator/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-helper-builder-binary-assignment-operator-visitor/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-helper-call-delegate/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-helper-define-map/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-helper-explode-assignable-expression/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-helper-function-name/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-helper-get-function-arity/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-helper-hoist-variables/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-helper-optimise-call-expression/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-helper-regex/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-helper-remap-async-to-generator/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-helper-replace-supers/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-helpers/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-loader/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-messages/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-check-es2015-constants/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-dynamic-import-node/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-istanbul/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-jest-hoist/package.json" />
@@ -523,28 +937,104 @@
       <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-macros/node_modules/resolve/test/resolver/symlinked/package/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-macros/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-named-asset-import/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-syntax-async-functions/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-syntax-exponentiation-operator/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-syntax-object-rest-spread/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-syntax-trailing-function-commas/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-async-to-generator/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-arrow-functions/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-block-scoped-functions/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-block-scoping/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-classes/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-computed-properties/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-destructuring/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-duplicate-keys/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-for-of/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-function-name/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-literals/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-modules-amd/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-modules-commonjs/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-modules-systemjs/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-modules-umd/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-object-super/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-parameters/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-shorthand-properties/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-spread/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-sticky-regex/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-template-literals/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-typeof-symbol/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-unicode-regex/node_modules/jsesc/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-unicode-regex/node_modules/regexpu-core/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-unicode-regex/node_modules/regjsgen/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-unicode-regex/node_modules/regjsparser/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-unicode-regex/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-exponentiation-operator/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-object-rest-spread/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-react-remove-prop-types/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-regenerator/node_modules/regenerator-transform/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-regenerator/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-strict-mode/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-env/node_modules/browserslist/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-env/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-env/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-preset-jest/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/@babel/core/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/@babel/plugin-proposal-object-rest-spread/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/@babel/plugin-syntax-dynamic-import/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/@babel/plugin-transform-destructuring/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/@babel/plugin-transform-react-display-name/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/@babel/preset-env/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/resolve/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/resolve/test/resolver/baz/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/resolve/test/resolver/browser_field/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/resolve/test/resolver/dot_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/resolve/test/resolver/incorrect_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/resolve/test/resolver/invalid_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/resolve/test/resolver/multirepo/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/resolve/test/resolver/multirepo/packages/package-a/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/resolve/test/resolver/multirepo/packages/package-b/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/resolve/test/resolver/nested_symlinks/mylib/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/resolve/test/resolver/symlinked/package/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/node_modules/source-map/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-preset-react-app/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-register/node_modules/core-js/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-register/node_modules/source-map-support/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-register/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-register/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-runtime/node_modules/core-js/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-runtime/node_modules/regenerator-runtime/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-runtime/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-template/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-traverse/node_modules/globals/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-traverse/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-types/node_modules/to-fast-properties/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/babel-types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babylon/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/balanced-match/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/base/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/base/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/base/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/base/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/base/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/base/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/base64-js/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/batch/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/bcrypt-pbkdf/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/big.js/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/binary-extensions/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/block-stream/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/bluebird/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/bn.js/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/body-parser/node_modules/bytes/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/body-parser/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/bonjour/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/boolbase/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/braces/node_modules/extend-shallow/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/braces/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/brorand/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/browser-process-hrtime/package.json" />
@@ -579,6 +1069,8 @@
       <path value="$PROJECT_DIR$/front/node_modules/caller-path/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/callsites/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/camel-case/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/camelcase-keys/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/camelcase-keys/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/caniuse-api/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/caniuse-lite/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/capture-exit/package.json" />
@@ -592,6 +1084,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/chrome-trace-event/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/ci-info/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/cipher-base/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/class-utils/node_modules/define-property/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/class-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/clean-css/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/clean-stack/package.json" />
@@ -599,6 +1092,23 @@
       <path value="$PROJECT_DIR$/front/node_modules/cli-width/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/cliui/node_modules/string-width/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/clone-deep/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/clone-deep/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/cloudinary-core/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/cloudinary-react/lib/Util/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/cloudinary-react/lib/components/CloudinaryComponent/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/cloudinary-react/lib/components/CloudinaryContext/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/cloudinary-react/lib/components/Image/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/cloudinary-react/lib/components/Transformation/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/cloudinary-react/lib/components/Video/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/cloudinary-react/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/cloudinary-react/src/Util/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/cloudinary-react/src/components/CloudinaryComponent/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/cloudinary-react/src/components/CloudinaryContext/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/cloudinary-react/src/components/Image/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/cloudinary-react/src/components/Transformation/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/cloudinary-react/src/components/Video/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/clsx/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/co/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/coa/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/code-point-at/package.json" />
@@ -613,6 +1123,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/commondir/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/component-emitter/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/compose-function/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/compressible/node_modules/mime-db/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/compressible/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/compression/node_modules/safe-buffer/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/compression/package.json" />
@@ -621,17 +1132,20 @@
       <path value="$PROJECT_DIR$/front/node_modules/confusing-browser-globals/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/connect-history-api-fallback/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/console-browserify/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/console-control-strings/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/constants-browserify/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/contains-path/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/content-disposition/node_modules/safe-buffer/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/content-disposition/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/convert-css-length/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/convert-source-map/node_modules/safe-buffer/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/convert-source-map/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/cookie-signature/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/cookie/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/copy-concurrently/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/copy-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/core-js-compat/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/core-js-compat/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/core-js-pure/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/core-js/package.json" />
@@ -648,6 +1162,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/css-color-names/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/css-declaration-sorter/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/css-has-pseudo/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/css-loader/node_modules/camelcase/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/css-loader/node_modules/postcss-value-parser/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/css-loader/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/css-prefers-color-scheme/package.json" />
@@ -656,6 +1171,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/css-select/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/css-tree/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/css-unit-converter/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/css-vendor/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/css-what/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/css.escape/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/css/package.json" />
@@ -671,10 +1187,12 @@
       <path value="$PROJECT_DIR$/front/node_modules/cssom/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/cssstyle/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/csstype/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/currently-unhandled/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/cyclist/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/d/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/damerau-levenshtein/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/data-urls/node_modules/whatwg-url/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/data-urls/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/debug/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/debug/package.json" />
@@ -694,9 +1212,11 @@
       <path value="$PROJECT_DIR$/front/node_modules/del/node_modules/globby/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/del/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/delegates/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/depd/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/des.js/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/detect-indent/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/detect-newline/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/detect-node/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/detect-port-alt/package.json" />
@@ -708,8 +1228,49 @@
       <path value="$PROJECT_DIR$/front/node_modules/dns-txt/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/doctrine/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/dom-converter/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/activeElement/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/addClass/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/addEventListener/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/animate/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/animationFrame/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/camelize/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/camelizeStyle/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/canUseDOM/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/closest/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/contains/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/css/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/filterEventHandler/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/getComputedStyle/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/getScrollAccessor/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/hasClass/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/height/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/hyphenate/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/hyphenateStyle/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/isDocument/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/isTransform/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/isWindow/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/listen/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/matches/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/offset/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/offsetParent/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/ownerDocument/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/ownerWindow/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/position/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/querySelectorAll/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/removeClass/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/removeEventListener/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/scrollLeft/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/scrollParent/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/scrollTo/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/scrollTop/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/scrollbarSize/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/toggleClass/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/transitionEnd/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-helpers/width/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/dom-serializer/node_modules/domelementtype/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/dom-serializer/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/dom-walk/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/domain-browser/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/domelementtype/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/domexception/package.json" />
@@ -733,6 +1294,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/entities/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/errno/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/error-ex/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/es-abstract/node_modules/is-callable/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/es-abstract/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/es-to-primitive/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/es5-ext/package.json" />
@@ -756,6 +1318,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/eslint-import-resolver-node/node_modules/resolve/test/resolver/nested_symlinks/mylib/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint-import-resolver-node/node_modules/resolve/test/resolver/symlinked/package/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint-import-resolver-node/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint-loader/node_modules/fs-extra/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint-loader/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint-module-utils/node_modules/find-up/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint-module-utils/node_modules/locate-path/package.json" />
@@ -800,6 +1363,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/eslint-scope/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint-visitor-keys/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/ansi-escapes/node_modules/type-fest/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/ansi-escapes/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/cli-cursor/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/debug/package.json" />
@@ -807,12 +1371,31 @@
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/emoji-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/figures/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/glob-parent/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/globals/node_modules/type-fest/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/globals/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/cli-width/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/external-editor/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/run-async/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/ajax/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/internal-compatibility/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/operators/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/src/ajax/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/src/fetch/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/src/internal-compatibility/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/src/operators/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/src/testing/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/src/webSocket/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/testing/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/webSocket/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/through/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/is-fullwidth-code-point/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/mute-stream/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/onetime/node_modules/mimic-fn/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/onetime/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/restore-cursor/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/string-width/node_modules/strip-ansi/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/string-width/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/package.json" />
@@ -831,16 +1414,25 @@
       <path value="$PROJECT_DIR$/front/node_modules/exec-sh/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/execa/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/exit/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/expand-brackets/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/expand-brackets/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/expect/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/express/node_modules/array-flatten/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/express/node_modules/safe-buffer/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/express/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/ext/node_modules/type/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/ext/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/extend-shallow/node_modules/is-extendable/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/extend-shallow/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/extend/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/external-editor/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/extglob/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/extglob/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/extglob/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/extglob/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/extglob/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/extglob/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/extglob/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/extsprintf/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/fast-deep-equal/package.json" />
@@ -854,6 +1446,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/file-entry-cache/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/file-loader/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/filesize/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/fill-range/node_modules/extend-shallow/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/fill-range/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/finalhandler/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/find-cache-dir/package.json" />
@@ -878,10 +1471,19 @@
       <path value="$PROJECT_DIR$/front/node_modules/fs-minipass/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/fs-write-stream-atomic/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/fstream/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/function-bind/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/functional-red-black-tree/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/gauge/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/gauge/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/gauge/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/gauge/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/gauge/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/gaze/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/gensync/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/get-caller-file/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/get-own-enumerable-property-symbols/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/get-stdin/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/get-stream/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/get-value/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/getpass/package.json" />
@@ -892,11 +1494,13 @@
       <path value="$PROJECT_DIR$/front/node_modules/global-modules/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/global-prefix/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/global-prefix/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/global/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/globals/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/globby/node_modules/ignore/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/globby/node_modules/pify/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/globby/node_modules/slash/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/globby/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/globule/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/graceful-fs/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/growly/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/gzip-size/package.json" />
@@ -904,9 +1508,11 @@
       <path value="$PROJECT_DIR$/front/node_modules/har-schema/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/har-validator/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/harmony-reflect/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/has-ansi/node_modules/ansi-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/has-ansi/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/has-flag/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/has-symbols/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/has-unicode/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/has-value/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/has-values/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/has-values/package.json" />
@@ -916,6 +1522,8 @@
       <path value="$PROJECT_DIR$/front/node_modules/he/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/hex-color-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/hmac-drbg/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/hoist-non-react-statics/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/home-or-tmp/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/hosted-git-info/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/hpack.js/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/hsl-regex/package.json" />
@@ -923,6 +1531,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/html-comment-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/html-encoding-sniffer/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/html-entities/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/html-escaper/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/html-minifier/node_modules/commander/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/html-minifier/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/html-webpack-plugin/package.json" />
@@ -937,6 +1546,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/http-proxy/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/http-signature/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/https-browserify/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/hyphenate-style-name/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/iconv-lite/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/icss-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/identity-obj-proxy/package.json" />
@@ -950,6 +1560,8 @@
       <path value="$PROJECT_DIR$/front/node_modules/import-from/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/import-local/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/imurmurhash/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/in-publish/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/in-publish/test/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/indent-string/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/indexes-of/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/infer-owner/package.json" />
@@ -979,9 +1591,11 @@
       <path value="$PROJECT_DIR$/front/node_modules/is-directory/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/is-extendable/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/is-finite/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/is-fullwidth-code-point/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/is-generator-fn/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/is-in-browser/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/is-number/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/is-obj/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/is-path-cwd/package.json" />
@@ -998,6 +1612,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/is-svg/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/is-symbol/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/is-utf8/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/is-windows/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/is-wsl/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/isarray/package.json" />
@@ -1005,12 +1620,36 @@
       <path value="$PROJECT_DIR$/front/node_modules/isobject/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/isstream/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/istanbul-lib-coverage/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/istanbul-lib-instrument/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/istanbul-lib-instrument/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/istanbul-lib-report/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/istanbul-lib-source-maps/node_modules/debug/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/istanbul-lib-source-maps/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/istanbul-reports/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-changed-files/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/@babel/code-frame/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/@babel/core/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/@babel/parser/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/@babel/template/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/@babel/types/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/babel-jest/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/jest-resolve/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/resolve/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/resolve/test/resolver/baz/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/resolve/test/resolver/browser_field/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/resolve/test/resolver/dot_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/resolve/test/resolver/incorrect_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/resolve/test/resolver/invalid_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/resolve/test/resolver/multirepo/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/resolve/test/resolver/multirepo/packages/package-a/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/resolve/test/resolver/multirepo/packages/package-b/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/resolve/test/resolver/nested_symlinks/mylib/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/resolve/test/resolver/symlinked/package/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/source-map/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-config/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-diff/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-docblock/package.json" />
@@ -1031,23 +1670,33 @@
       <path value="$PROJECT_DIR$/front/node_modules/jest-pnp-resolver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-regex-util/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-resolve-dependencies/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-runner/node_modules/jest-resolve/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-runner/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-runtime/node_modules/jest-resolve/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-runtime/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-serializer/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-snapshot/node_modules/jest-resolve/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-snapshot/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-snapshot/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-util/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-validate/node_modules/camelcase/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-validate/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest-watch-typeahead/node_modules/ansi-escapes/node_modules/type-fest/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-watch-typeahead/node_modules/ansi-escapes/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-watch-typeahead/node_modules/slash/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-watch-typeahead/node_modules/string-length/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-watch-typeahead/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-watcher/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-worker/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jest/node_modules/jest-cli/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/js-base64/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/js-levenshtein/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/js-tokens/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/js-yaml/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jsdom/node_modules/acorn/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jsdom/node_modules/whatwg-url/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jsdom/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jsesc/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/json-parse-better-errors/package.json" />
@@ -1061,6 +1710,14 @@
       <path value="$PROJECT_DIR$/front/node_modules/jsonfile/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jsonify/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jss-plugin-camel-case/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jss-plugin-default-unit/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jss-plugin-global/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jss-plugin-nested/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jss-plugin-props-sort/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jss-plugin-rule-value-function/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jss-plugin-vendor-prefixer/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/jss/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jsx-ast-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/killable/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/kind-of/package.json" />
@@ -1070,8 +1727,11 @@
       <path value="$PROJECT_DIR$/front/node_modules/lcid/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/left-pad/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/leven/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/levenary/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/levn/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/lines-and-columns/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/load-json-file/node_modules/parse-json/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/load-json-file/node_modules/pify/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/load-json-file/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/loader-fs-cache/node_modules/find-cache-dir/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/loader-fs-cache/node_modules/find-up/package.json" />
@@ -1092,7 +1752,9 @@
       <path value="$PROJECT_DIR$/front/node_modules/lodash/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/loglevel/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/loose-envify/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/loud-rejection/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/lower-case/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/lru-cache/node_modules/yallist/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/lru-cache/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/make-dir/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/make-dir/package.json" />
@@ -1100,12 +1762,27 @@
       <path value="$PROJECT_DIR$/front/node_modules/mamacro/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/map-age-cleaner/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/map-cache/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/map-obj/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/map-visit/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/md5.js/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/mdn-data/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/mem/node_modules/mimic-fn/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/mem/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/memory-fs/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/indent-string/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/load-json-file/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/parse-json/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/path-exists/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/path-type/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/read-pkg-up/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/read-pkg/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/redent/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/strip-bom/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/strip-indent/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/meow/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/merge-deep/node_modules/clone-deep/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/merge-deep/node_modules/shallow-clone/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/merge-deep/node_modules/shallow-clone/node_modules/lazy-cache/package.json" />
@@ -1123,7 +1800,9 @@
       <path value="$PROJECT_DIR$/front/node_modules/mime-types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/mime/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/mimic-fn/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/min-document/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/min-indent/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/mini-css-extract-plugin/node_modules/schema-utils/node_modules/ajv-errors/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/mini-css-extract-plugin/node_modules/schema-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/mini-css-extract-plugin/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/minimalistic-assert/package.json" />
@@ -1134,6 +1813,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/minipass-flush/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/minipass-pipeline/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/minipass/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/mississippi/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/mixin-deep/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/mixin-object/node_modules/for-in/package.json" />
@@ -1145,6 +1825,8 @@
       <path value="$PROJECT_DIR$/front/node_modules/multicast-dns-service-types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/multicast-dns/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/mute-stream/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/nan/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/nan/tools/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/nanomatch/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/nanomatch/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/natural-compare/package.json" />
@@ -1155,6 +1837,8 @@
       <path value="$PROJECT_DIR$/front/node_modules/no-case/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/node-forge/flash/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/node-forge/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/node-gyp/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/node-gyp/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/node-int64/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/node-libs-browser/node_modules/inherits/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/node-libs-browser/node_modules/punycode/package.json" />
@@ -1163,7 +1847,18 @@
       <path value="$PROJECT_DIR$/front/node_modules/node-modules-regexp/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/node-notifier/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/node-notifier/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/node-releases/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/node-releases/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/node-sass/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/node-sass/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/node-sass/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/node-sass/node_modules/cross-spawn/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/node-sass/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/node-sass/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/node-sass/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/node-sass/node_modules/yallist/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/node-sass/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/nopt/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/normalize-package-data/node_modules/resolve/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/normalize-package-data/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/normalize-package-data/node_modules/resolve/test/resolver/baz/package.json" />
@@ -1181,14 +1876,17 @@
       <path value="$PROJECT_DIR$/front/node_modules/normalize-package-data/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/normalize-path/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/normalize-range/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/normalize-scroll-left/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/normalize-url/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/npm-run-path/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/npmlog/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/nth-check/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/num2fraction/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/number-is-nan/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/nwsapi/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/oauth-sign/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/object-copy/node_modules/define-property/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/object-copy/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/object-hash/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/object-inspect/package.json" />
@@ -1199,6 +1897,11 @@
       <path value="$PROJECT_DIR$/front/node_modules/object.assign/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/object.entries/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/object.fromentries/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/object.getownpropertydescriptors/node_modules/es-abstract/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/object.getownpropertydescriptors/node_modules/is-callable/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/object.getownpropertydescriptors/node_modules/is-regex/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/object.getownpropertydescriptors/node_modules/string.prototype.trimleft/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/object.getownpropertydescriptors/node_modules/string.prototype.trimright/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/object.getownpropertydescriptors/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/object.pick/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/object.values/package.json" />
@@ -1214,7 +1917,12 @@
       <path value="$PROJECT_DIR$/front/node_modules/optionator/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/original/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/os-browserify/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/os-homedir/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/os-locale/node_modules/invert-kv/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/os-locale/node_modules/lcid/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/os-locale/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/osenv/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/p-defer/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/p-each-series/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/p-finally/package.json" />
@@ -1258,7 +1966,9 @@
       <path value="$PROJECT_DIR$/front/node_modules/pkg-up/node_modules/p-try/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/pkg-up/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/pn/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/pnp-webpack-plugin/node_modules/ts-pnp/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/pnp-webpack-plugin/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/popper.js/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/portfinder/node_modules/debug/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/portfinder/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/posix-character-classes/package.json" />
@@ -1291,6 +2001,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/postcss-initial/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/postcss-lab-function/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/postcss-load-config/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/postcss-loader/node_modules/schema-utils/node_modules/ajv-errors/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/postcss-loader/node_modules/schema-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/postcss-loader/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/postcss-logical/package.json" />
@@ -1358,6 +2069,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/prop-types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/proxy-addr/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/prr/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/pseudomap/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/psl/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/public-encrypt/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/pump/package.json" />
@@ -1374,17 +2086,36 @@
       <path value="$PROJECT_DIR$/front/node_modules/randombytes/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/randomfill/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/raw-body/node_modules/bytes/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/raw-body/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/react-app-polyfill/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/react-dev-utils/node_modules/browserslist/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/react-dev-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/react-dom/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/react-error-overlay/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/react-flip-move/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/react-hot-loader/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/react-hot-loader/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/react-images-upload/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/react-is/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/react-lifecycles-compat/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/react-transition-group/CSSTransition/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/react-transition-group/ReplaceTransition/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/react-transition-group/SwitchTransition/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/react-transition-group/Transition/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/react-transition-group/TransitionGroup/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/react-transition-group/TransitionGroupContext/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/react-transition-group/config/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/react-transition-group/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/react/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/read-pkg-up/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/read-pkg-up/node_modules/locate-path/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/read-pkg-up/node_modules/p-limit/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/read-pkg-up/node_modules/p-locate/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/read-pkg-up/node_modules/p-try/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/read-pkg-up/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/read-pkg/node_modules/path-type/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/read-pkg/node_modules/pify/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/read-pkg/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/readable-stream/node_modules/safe-buffer/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/readable-stream/node_modules/string_decoder/package.json" />
@@ -1403,15 +2134,19 @@
       <path value="$PROJECT_DIR$/front/node_modules/regexpp/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/regexpu-core/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/regjsgen/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/regjsparser/node_modules/jsesc/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/regjsparser/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/relateurl/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/remove-trailing-separator/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/renderkid/node_modules/ansi-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/renderkid/node_modules/strip-ansi/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/renderkid/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/repeat-element/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/repeat-string/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/repeating/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/request-promise-core/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/request-promise-native/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/request/node_modules/form-data/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/request/node_modules/punycode/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/request/node_modules/qs/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/request/node_modules/tough-cookie/package.json" />
@@ -1421,9 +2156,23 @@
       <path value="$PROJECT_DIR$/front/node_modules/requires-port/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/resolve-cwd/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/resolve-from/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/resolve-url-loader/node_modules/camelcase/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/resolve-url-loader/node_modules/postcss/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/resolve-url-loader/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/resolve-url/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/resolve/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/resolve/test/resolver/baz/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/resolve/test/resolver/browser_field/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/resolve/test/resolver/dot_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/resolve/test/resolver/incorrect_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/resolve/test/resolver/invalid_main/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/resolve/test/resolver/multirepo/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/resolve/test/resolver/multirepo/packages/package-a/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/resolve/test/resolver/multirepo/packages/package-b/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/resolve/test/resolver/nested_symlinks/mylib/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/resolve/test/resolver/symlinked/package/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/restore-cursor/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/ret/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/retry/package.json" />
@@ -1438,6 +2187,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/run-async/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/run-queue/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/rxjs/ajax/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/rxjs/fetch/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/rxjs/internal-compatibility/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/rxjs/operators/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/rxjs/package.json" />
@@ -1454,10 +2204,37 @@
       <path value="$PROJECT_DIR$/front/node_modules/safer-buffer/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/sane/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/sanitize.css/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/get-caller-file/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/load-json-file/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/parse-json/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/path-exists/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/path-type/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/read-pkg-up/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/read-pkg/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/require-main-filename/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/strip-bom/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/which-module/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/wrap-ansi/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/y18n/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/yargs-parser/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-graph/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-loader/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/sass-loader/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/sax/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/saxes/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/scheduler/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/schema-utils/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/scss-tokenizer/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/scss-tokenizer/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/select-hose/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/selfsigned/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/send/node_modules/mime/package.json" />
@@ -1470,10 +2247,14 @@
       <path value="$PROJECT_DIR$/front/node_modules/serve-index/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/serve-static/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/set-blocking/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/set-value/node_modules/extend-shallow/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/set-value/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/setimmediate/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/setprototypeof/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/sha.js/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/shallow-clone/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/shallow-clone/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/shallowequal/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/shebang-command/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/shebang-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/shell-quote/package.json" />
@@ -1485,8 +2266,14 @@
       <path value="$PROJECT_DIR$/front/node_modules/slash/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/slice-ansi/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/snapdragon-node/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/snapdragon-node/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/snapdragon-node/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/snapdragon-node/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/snapdragon-node/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/snapdragon-util/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/snapdragon/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/snapdragon/node_modules/extend-shallow/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/snapdragon/node_modules/source-map/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/snapdragon/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/sockjs-client/node_modules/debug/package.json" />
@@ -1520,8 +2307,10 @@
       <path value="$PROJECT_DIR$/front/node_modules/ssri/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/stable/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/stack-utils/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/static-extend/node_modules/define-property/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/static-extend/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/stdout-stream/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/stealthy-require/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/stream-browserify/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/stream-each/package.json" />
@@ -1532,6 +2321,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/string-length/node_modules/ansi-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/string-length/node_modules/strip-ansi/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/string-length/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/string-width/node_modules/ansi-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/string-width/node_modules/strip-ansi/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/string-width/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/string.prototype.trimleft/package.json" />
@@ -1557,9 +2347,11 @@
       <path value="$PROJECT_DIR$/front/node_modules/table/node_modules/string-width/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/table/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/tapable/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/tar/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/terser-webpack-plugin/node_modules/find-cache-dir/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/terser-webpack-plugin/node_modules/find-up/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/terser-webpack-plugin/node_modules/locate-path/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/terser-webpack-plugin/node_modules/make-dir/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/terser-webpack-plugin/node_modules/make-dir/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/terser-webpack-plugin/node_modules/p-locate/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/terser-webpack-plugin/node_modules/path-exists/package.json" />
@@ -1578,6 +2370,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/thunky/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/timers-browserify/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/timsort/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/tiny-warning/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/tmp/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/tmpl/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/to-arraybuffer/package.json" />
@@ -1588,6 +2381,9 @@
       <path value="$PROJECT_DIR$/front/node_modules/toidentifier/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/tough-cookie/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/tr46/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/trim-newlines/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/trim-right/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/true-case-path/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/tslib/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/tsutils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/tty-browserify/package.json" />
@@ -1644,20 +2440,32 @@
       <path value="$PROJECT_DIR$/front/node_modules/watchpack/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/wbuf/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webidl-conversions/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/webpack-bundle-tracker/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-middleware/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/cliui/node_modules/ansi-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/cliui/node_modules/strip-ansi/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/cliui/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/get-caller-file/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/require-main-filename/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/schema-utils/node_modules/ajv-errors/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/schema-utils/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/strip-ansi/node_modules/ansi-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/wrap-ansi/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/wrap-ansi/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/yargs-parser/node_modules/camelcase/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/yargs-parser/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/yargs/node_modules/os-locale/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/yargs/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-log/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-manifest-plugin/node_modules/fs-extra/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-manifest-plugin/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-sources/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/webpack/node_modules/acorn/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack/node_modules/cacache/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack/node_modules/eslint-scope/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack/node_modules/schema-utils/package.json" />
@@ -1673,6 +2481,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/whatwg-url/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/which-module/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/which/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/wide-align/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/word-wrap/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/workbox-background-sync/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/workbox-broadcast-update/package.json" />
@@ -1691,7 +2500,9 @@
       <path value="$PROJECT_DIR$/front/node_modules/workbox-sw/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/workbox-webpack-plugin/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/workbox-window/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/worker-farm/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/worker-rpc/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/wrap-ansi/node_modules/string-width/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/wrap-ansi/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/wrappy/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/write-file-atomic/package.json" />
@@ -1703,6 +2514,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/y18n/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/yallist/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/yaml/package.json" />
+      <path value="$PROJECT_DIR$/front/node_modules/yargs-parser/node_modules/camelcase/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/yargs-parser/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/yargs/node_modules/string-width/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/yargs/package.json" />
@@ -1710,8 +2522,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1307" />
-    <option name="width" value="1253" />
+    <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -1866,18 +2677,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1307" y="0" width="1253" height="1440" extended-state="0" />
+    <frame x="668" y="0" width="1012" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24029727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28350514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" weight="0.329927" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.14525548" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -1885,11 +2690,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.18571429" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1913,13 +2724,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/back/production_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/back/production_settings.py" />
     <entry file="file://$PROJECT_DIR$/front/src/index.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1933,9 +2738,6 @@
     <entry file="file://$PROJECT_DIR$/backend/back/back/asgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/back/fashionq/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1946,46 +2748,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/FileUploader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1293">
-          <caret line="326" column="28" selection-start-line="326" selection-start-column="28" selection-end-line="326" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/FileManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/ImageUploadDemo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/Vanilla.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/FileUploader.js" />
+    <entry file="file://$PROJECT_DIR$/front/src/FileManager.js" />
+    <entry file="file://$PROJECT_DIR$/front/src/ImageUploadDemo.js" />
+    <entry file="file://$PROJECT_DIR$/front/src/Vanilla.js" />
     <entry file="file://$PROJECT_DIR$/front/src/csrftoken.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -2042,18 +2808,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/forms.py">
+    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/forms.py" />
+    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/media/서명.png" />
+    <entry file="file://$PROJECT_DIR$/backend/back/back/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1290">
+          <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/tests.py">
+    <entry file="file://$PROJECT_DIR$/front/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="585" column="64" selection-start-line="585" selection-start-column="60" selection-end-line="585" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/back/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/config/paths.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="71" column="57" selection-start-line="71" selection-start-column="57" selection-end-line="71" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/back/fashionq/admin.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -2065,77 +2881,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/media/서명.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/back/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/back/back/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#628#660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/config/paths.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="71" column="57" selection-start-line="71" selection-start-column="57" selection-end-line="71" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/config/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="585" column="64" selection-start-line="585" selection-start-column="60" selection-end-line="585" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/back/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="57" column="59" lean-forward="true" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2143,30 +2894,37 @@
     <entry file="file://$PROJECT_DIR$/backend/back/fashionq/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/views.py">
+    <entry file="file://$PROJECT_DIR$/front/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="185">
+          <caret line="288" column="27" selection-start-line="288" selection-start-column="27" selection-end-line="288" selection-end-column="27" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#8152#8193#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/App.js">
+    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="291" column="29" selection-start-line="291" selection-start-column="29" selection-end-line="291" selection-end-column="29" />
+        <state relative-caret-position="90">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#8152#8193#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
