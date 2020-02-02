@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="703638d6-134f-4fc4-86fa-c4f25cd782a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/FashionQ_Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/load_model/color_extraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FashionQ_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FashionQ_Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/back/back/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/back/back/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/back/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/backend/back/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/back/fashionq/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/back/fashionq/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/back/fashionq/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/back/fashionq/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/back/fashionq/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/back/fashionq/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/back/fashionq/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/back/fashionq/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/back/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/back/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/back/webpack-stats.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/back/webpack-stats.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/load_model/singleton_retinanet.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/load_model/singleton_retinanet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/front/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,26 +35,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="4" />
-          <entry key="gitignore" value="2" />
-          <entry key="html" value="4" />
-          <entry key="js" value="30" />
-          <entry key="json" value="1" />
+          <entry key="css" value="7" />
+          <entry key="csv" value="1" />
+          <entry key="gitignore" value="3" />
+          <entry key="html" value="11" />
+          <entry key="js" value="50" />
+          <entry key="json" value="2" />
           <entry key="lock" value="2" />
-          <entry key="png" value="1" />
-          <entry key="py" value="43" />
+          <entry key="png" value="3" />
+          <entry key="py" value="57" />
           <entry key="svg" value="1" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="4" />
-          <entry key="HTML" value="4" />
-          <entry key="Image" value="1" />
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="30" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="43" />
+          <entry key="CSS" value="7" />
+          <entry key="CSV" value="1" />
+          <entry key="HTML" value="11" />
+          <entry key="Image" value="3" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="50" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="57" />
           <entry key="SVG" value="1" />
           <entry key="yarn.lock" value="2" />
         </counts>
@@ -56,102 +65,80 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="18" />
-          <entry key="html" value="40" />
-          <entry key="js" value="1411" />
-          <entry key="py" value="1793" />
+          <entry key="html" value="99" />
+          <entry key="js" value="2338" />
+          <entry key="py" value="3880" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="40" />
-          <entry key="JavaScript" value="1411" />
+          <entry key="HTML" value="99" />
+          <entry key="JavaScript" value="2338" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="1793" />
+          <entry key="Python" value="3880" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/back/fashionq/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/back/fashionq/apps.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/back/fashionq/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/back/fashionq/serializers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/back/fashionq/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="437">
+              <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
+                <marker date="1580650930129" expanded="true" signature="736:780" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/back/fashionq/urls.py">
+        <entry file="file://$PROJECT_DIR$/backend/back/back/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="120">
+              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/back/back/urls.py">
+        <entry file="file://$PROJECT_DIR$/backend/load_model/color_extraction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="330">
+              <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
               <folding>
-                <element signature="e#628#660#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1580650688215" expanded="true" signature="109:111" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/load_model/singleton_retinanet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4">
+              <caret line="305" lean-forward="true" selection-start-line="305" selection-end-line="305" />
+              <folding>
+                <element signature="e#157#169#0" expanded="true" />
+                <marker date="1580648092686" expanded="true" signature="1115:1117" ph="..." />
+                <marker date="1580648092686" expanded="true" signature="9689:9692" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -159,21 +146,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="288" column="27" selection-start-line="288" selection-start-column="27" selection-end-line="288" selection-end-column="27" />
+            <state relative-caret-position="705">
+              <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#8152#8193#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/back/templates/index.html">
+        <entry file="file://$PROJECT_DIR$/front/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,16 +172,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>entry</find>
-      <find>oneof</find>
       <find>static</find>
       <find>host</find>
       <find>plugins</find>
@@ -202,7 +189,6 @@
       <find>MEDIA_RO</find>
       <find>images</find>
       <find>file</find>
-      <find>main</find>
       <find>fileup</find>
       <find>title</find>
       <find>sass</find>
@@ -217,6 +203,13 @@
       <find>views.</find>
       <find>File</find>
       <find>upload</find>
+      <find>get_se</find>
+      <find>get_ses</find>
+      <find>index</find>
+      <find>load_model</find>
+      <find>singleton_retina</find>
+      <find>SingletonReti</find>
+      <find>main</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -230,7 +223,6 @@
         <option value="$PROJECT_DIR$/front/config/webpack.config.js" />
         <option value="$PROJECT_DIR$/front/src/CSRFToken.js" />
         <option value="$PROJECT_DIR$/front/src/csrftoken.js" />
-        <option value="$PROJECT_DIR$/backend/back/back/__init__.py" />
         <option value="$PROJECT_DIR$/front/src/ApiService.js" />
         <option value="$PROJECT_DIR$/front/src/FileUploader.js" />
         <option value="$PROJECT_DIR$/front/src/FileManager.js" />
@@ -239,17 +231,23 @@
         <option value="$PROJECT_DIR$/front/src/index.js" />
         <option value="$PROJECT_DIR$/front/public/index.html" />
         <option value="$PROJECT_DIR$/backend/back/fashionq/forms.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/backend/back/back/urls.py" />
         <option value="$PROJECT_DIR$/front/config/paths.js" />
         <option value="$PROJECT_DIR$/backend/back/back/settings.py" />
-        <option value="$PROJECT_DIR$/backend/back/templates/index.html" />
         <option value="$PROJECT_DIR$/backend/back/fashionq/serializers.py" />
-        <option value="$PROJECT_DIR$/backend/back/fashionq/views.py" />
-        <option value="$PROJECT_DIR$/front/src/App.js" />
         <option value="$PROJECT_DIR$/backend/back/fashionq/admin.py" />
-        <option value="$PROJECT_DIR$/backend/back/fashionq/urls.py" />
         <option value="$PROJECT_DIR$/backend/back/fashionq/models.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/backend/back/load_model/singleton_retinanet.py" />
+        <option value="$PROJECT_DIR$/front/src/DataFrame.js" />
+        <option value="$PROJECT_DIR$/backend/back/templates/dataframe.html" />
+        <option value="$PROJECT_DIR$/backend/back/fashionq/urls.py" />
+        <option value="$PROJECT_DIR$/backend/back/templates/index.html" />
+        <option value="$PROJECT_DIR$/front/src/App.js" />
+        <option value="$PROJECT_DIR$/backend/load_model/singleton_retinanet.py" />
+        <option value="$PROJECT_DIR$/backend/back/back/__init__.py" />
+        <option value="$PROJECT_DIR$/backend/load_model/color_extraction.py" />
+        <option value="$PROJECT_DIR$/backend/back/fashionq/views.py" />
       </list>
     </option>
   </component>
@@ -275,14 +273,11 @@
       <path value="$PROJECT_DIR$/front/node_modules/@babel/core/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/core/node_modules/source-map/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/core/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/generator/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/generator/node_modules/source-map/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/generator/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-annotate-as-pure/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-annotate-as-pure/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-builder-binary-assignment-operator-visitor/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-builder-binary-assignment-operator-visitor/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-builder-react-jsx/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-builder-react-jsx/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-call-delegate/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-call-delegate/package.json" />
@@ -295,16 +290,9 @@
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-define-map/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-explode-assignable-expression/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-explode-assignable-expression/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-function-name/node_modules/@babel/code-frame/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-function-name/node_modules/@babel/parser/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-function-name/node_modules/@babel/template/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-function-name/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-function-name/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-get-function-arity/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-get-function-arity/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-hoist-variables/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-hoist-variables/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-member-expression-to-functions/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-member-expression-to-functions/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-module-imports/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-module-transforms/node_modules/@babel/code-frame/package.json" />
@@ -313,38 +301,13 @@
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-module-transforms/node_modules/@babel/template/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-module-transforms/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-module-transforms/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-optimise-call-expression/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-optimise-call-expression/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-regex/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-remap-async-to-generator/node_modules/@babel/code-frame/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-remap-async-to-generator/node_modules/@babel/parser/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-remap-async-to-generator/node_modules/@babel/template/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-remap-async-to-generator/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-remap-async-to-generator/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/@babel/code-frame/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/@babel/generator/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/@babel/helper-function-name/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/@babel/helper-get-function-arity/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/@babel/helper-split-export-declaration/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/@babel/parser/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/@babel/template/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/@babel/traverse/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/@babel/types/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/node_modules/source-map/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-replace-supers/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-simple-access/node_modules/@babel/code-frame/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-simple-access/node_modules/@babel/parser/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-simple-access/node_modules/@babel/template/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-simple-access/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-simple-access/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-split-export-declaration/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-split-export-declaration/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-wrap-function/node_modules/@babel/code-frame/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-wrap-function/node_modules/@babel/parser/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-wrap-function/node_modules/@babel/template/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-wrap-function/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helper-wrap-function/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helpers/node_modules/@babel/code-frame/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/helpers/node_modules/@babel/parser/package.json" />
@@ -355,14 +318,11 @@
       <path value="$PROJECT_DIR$/front/node_modules/@babel/parser/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-async-generator-functions/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-async-generator-functions/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-class-properties/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-decorators/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-dynamic-import/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-dynamic-import/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-json-strings/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-json-strings/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-numeric-separator/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-object-rest-spread/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-object-rest-spread/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-optional-catch-binding/node_modules/@babel/helper-plugin-utils/package.json" />
@@ -372,20 +332,12 @@
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-proposal-unicode-property-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-async-generators/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-async-generators/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-decorators/node_modules/@babel/helper-plugin-utils/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-decorators/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-dynamic-import/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-dynamic-import/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-flow/node_modules/@babel/helper-plugin-utils/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-flow/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-json-strings/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-json-strings/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-jsx/node_modules/@babel/helper-plugin-utils/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-jsx/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-nullish-coalescing-operator/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-nullish-coalescing-operator/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-numeric-separator/node_modules/@babel/helper-plugin-utils/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-numeric-separator/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-object-rest-spread/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-object-rest-spread/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-optional-catch-binding/node_modules/@babel/helper-plugin-utils/package.json" />
@@ -394,8 +346,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-optional-chaining/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-top-level-await/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-top-level-await/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-typescript/node_modules/@babel/helper-plugin-utils/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-syntax-typescript/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-arrow-functions/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-arrow-functions/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-async-to-generator/node_modules/@babel/helper-module-imports/package.json" />
@@ -418,7 +368,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-duplicate-keys/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-exponentiation-operator/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-exponentiation-operator/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-flow-strip-types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-for-of/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-for-of/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-function-name/node_modules/@babel/helper-plugin-utils/package.json" />
@@ -444,33 +393,9 @@
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-parameters/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-property-literals/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-property-literals/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-react-constant-elements/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-react-display-name/node_modules/@babel/helper-plugin-utils/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-react-display-name/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-react-jsx-self/node_modules/@babel/helper-plugin-utils/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-react-jsx-self/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-react-jsx-source/node_modules/@babel/helper-plugin-utils/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-react-jsx-source/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-react-jsx/node_modules/@babel/helper-plugin-utils/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-react-jsx/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-regenerator/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-reserved-words/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-reserved-words/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/baz/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/browser_field/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/dot_main/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/incorrect_main/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/invalid_main/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/multirepo/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/multirepo/packages/package-a/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/multirepo/packages/package-b/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/nested_symlinks/mylib/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/resolve/test/resolver/symlinked/package/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-runtime/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-shorthand-properties/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-shorthand-properties/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-spread/node_modules/@babel/helper-plugin-utils/package.json" />
@@ -481,8 +406,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-template-literals/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-typeof-symbol/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-typeof-symbol/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-typescript/node_modules/@babel/helper-plugin-utils/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-typescript/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-unicode-regex/node_modules/@babel/helper-plugin-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/plugin-transform-unicode-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/preset-env/node_modules/@babel/helper-module-imports/package.json" />
@@ -492,20 +415,11 @@
       <path value="$PROJECT_DIR$/front/node_modules/@babel/preset-env/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/preset-env/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/preset-env/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/preset-react/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/preset-typescript/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/runtime-corejs3/helpers/esm/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/runtime-corejs3/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/runtime/helpers/esm/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/runtime/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/template/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/traverse/node_modules/@babel/code-frame/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/traverse/node_modules/@babel/helper-function-name/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/traverse/node_modules/@babel/helper-get-function-arity/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/traverse/node_modules/@babel/helper-split-export-declaration/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/traverse/node_modules/@babel/parser/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/traverse/node_modules/@babel/template/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@babel/traverse/node_modules/@babel/types/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/traverse/node_modules/debug/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/traverse/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@babel/types/package.json" />
@@ -519,11 +433,9 @@
       <path value="$PROJECT_DIR$/front/node_modules/@hapi/joi/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@hapi/topo/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@jest/console/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@jest/core/node_modules/jest-resolve/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@jest/core/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@jest/environment/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@jest/fake-timers/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@jest/reporters/node_modules/jest-resolve/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@jest/reporters/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@jest/source-map/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@jest/test-result/package.json" />
@@ -702,7 +614,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/@svgr/babel-plugin-transform-react-native-svg/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@svgr/babel-plugin-transform-svg-component/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@svgr/babel-preset/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@svgr/core/node_modules/camelcase/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@svgr/core/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@svgr/hast-util-to-babel-ast/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@svgr/plugin-jsx/node_modules/@babel/code-frame/package.json" />
@@ -787,7 +698,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/@typescript-eslint/experimental-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@typescript-eslint/parser/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@typescript-eslint/typescript-estree/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/@typescript-eslint/typescript-estree/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@typescript-eslint/typescript-estree/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@webassemblyjs/ast/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/@webassemblyjs/floating-point-hex-parser/package.json" />
@@ -812,9 +722,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/abab/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/abbrev/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/accepts/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/acorn-globals/node_modules/acorn/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/acorn-globals/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/acorn-jsx/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/acorn-walk/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/acorn/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/address/package.json" />
@@ -867,12 +775,8 @@
       <path value="$PROJECT_DIR$/front/node_modules/autoprefixer/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/aws-sign2/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/aws4/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/axios/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/axios/node_modules/follow-redirects/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/axios/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/axios/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/axobject-query/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/babel-code-frame/node_modules/ansi-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-code-frame/node_modules/ansi-styles/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-code-frame/node_modules/chalk/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-code-frame/node_modules/js-tokens/package.json" />
@@ -963,7 +867,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-sticky-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-template-literals/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-typeof-symbol/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-unicode-regex/node_modules/jsesc/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-unicode-regex/node_modules/regexpu-core/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-unicode-regex/node_modules/regjsgen/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/babel-plugin-transform-es2015-unicode-regex/node_modules/regjsparser/package.json" />
@@ -1016,10 +919,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/babylon/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/balanced-match/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/base/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/base/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/base/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/base/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/base/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/base/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/base64-js/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/batch/package.json" />
@@ -1029,12 +928,10 @@
       <path value="$PROJECT_DIR$/front/node_modules/block-stream/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/bluebird/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/bn.js/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/body-parser/node_modules/bytes/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/body-parser/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/bonjour/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/boolbase/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/brace-expansion/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/braces/node_modules/extend-shallow/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/braces/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/brorand/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/browser-process-hrtime/package.json" />
@@ -1084,7 +981,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/chrome-trace-event/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/ci-info/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/cipher-base/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/class-utils/node_modules/define-property/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/class-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/clean-css/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/clean-stack/package.json" />
@@ -1123,7 +1019,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/commondir/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/component-emitter/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/compose-function/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/compressible/node_modules/mime-db/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/compressible/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/compression/node_modules/safe-buffer/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/compression/package.json" />
@@ -1162,7 +1057,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/css-color-names/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/css-declaration-sorter/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/css-has-pseudo/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/css-loader/node_modules/camelcase/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/css-loader/node_modules/postcss-value-parser/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/css-loader/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/css-prefers-color-scheme/package.json" />
@@ -1192,9 +1086,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/d/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/damerau-levenshtein/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/dashdash/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/data-urls/node_modules/whatwg-url/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/data-urls/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/debug/node_modules/ms/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/debug/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/decamelize/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/decode-uri-component/package.json" />
@@ -1294,7 +1186,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/entities/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/errno/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/error-ex/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/es-abstract/node_modules/is-callable/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/es-abstract/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/es-to-primitive/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/es5-ext/package.json" />
@@ -1318,7 +1209,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/eslint-import-resolver-node/node_modules/resolve/test/resolver/nested_symlinks/mylib/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint-import-resolver-node/node_modules/resolve/test/resolver/symlinked/package/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint-import-resolver-node/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint-loader/node_modules/fs-extra/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint-loader/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint-module-utils/node_modules/find-up/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint-module-utils/node_modules/locate-path/package.json" />
@@ -1363,7 +1253,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/eslint-scope/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint-visitor-keys/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/ansi-escapes/node_modules/type-fest/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/ansi-escapes/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/cli-cursor/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/debug/package.json" />
@@ -1371,31 +1260,12 @@
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/emoji-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/figures/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/glob-parent/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/globals/node_modules/type-fest/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/globals/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/cli-width/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/external-editor/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/run-async/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/ajax/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/internal-compatibility/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/operators/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/src/ajax/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/src/fetch/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/src/internal-compatibility/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/src/operators/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/src/testing/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/src/webSocket/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/testing/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/rxjs/webSocket/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/node_modules/through/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/inquirer/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/is-fullwidth-code-point/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/mute-stream/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/onetime/node_modules/mimic-fn/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/onetime/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/restore-cursor/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/string-width/node_modules/strip-ansi/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/node_modules/string-width/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/eslint/package.json" />
@@ -1414,25 +1284,16 @@
       <path value="$PROJECT_DIR$/front/node_modules/exec-sh/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/execa/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/exit/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/expand-brackets/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/expand-brackets/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/expect/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/express/node_modules/array-flatten/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/express/node_modules/safe-buffer/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/express/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/ext/node_modules/type/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/ext/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/extend-shallow/node_modules/is-extendable/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/extend-shallow/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/extend/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/external-editor/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/extglob/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/extglob/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/extglob/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/extglob/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/extglob/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/extglob/node_modules/kind-of/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/extglob/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/extsprintf/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/fast-deep-equal/package.json" />
@@ -1446,7 +1307,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/file-entry-cache/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/file-loader/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/filesize/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/fill-range/node_modules/extend-shallow/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/fill-range/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/finalhandler/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/find-cache-dir/package.json" />
@@ -1474,9 +1334,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/fstream/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/function-bind/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/functional-red-black-tree/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/gauge/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/gauge/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/gauge/node_modules/string-width/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/gauge/node_modules/strip-ansi/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/gauge/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/gaze/package.json" />
@@ -1508,7 +1365,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/har-schema/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/har-validator/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/harmony-reflect/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/has-ansi/node_modules/ansi-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/has-ansi/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/has-flag/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/has-symbols/package.json" />
@@ -1531,11 +1387,9 @@
       <path value="$PROJECT_DIR$/front/node_modules/html-comment-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/html-encoding-sniffer/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/html-entities/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/html-escaper/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/html-minifier/node_modules/commander/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/html-minifier/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/html-webpack-plugin/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/htmlparser2/node_modules/entities/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/htmlparser2/node_modules/readable-stream/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/htmlparser2/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/http-deceiver/package.json" />
@@ -1620,7 +1474,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/isobject/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/isstream/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/istanbul-lib-coverage/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/istanbul-lib-instrument/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/istanbul-lib-instrument/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/istanbul-lib-report/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/istanbul-lib-source-maps/node_modules/debug/package.json" />
@@ -1632,9 +1485,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/@babel/parser/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/@babel/template/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/@babel/types/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/babel-jest/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/jest-resolve/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/resolve/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-config/node_modules/resolve/test/resolver/baz/package.json" />
@@ -1670,33 +1521,24 @@
       <path value="$PROJECT_DIR$/front/node_modules/jest-pnp-resolver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-regex-util/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-resolve-dependencies/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/jest-runner/node_modules/jest-resolve/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-runner/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/jest-runtime/node_modules/jest-resolve/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-runtime/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-serializer/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/jest-snapshot/node_modules/jest-resolve/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/jest-snapshot/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-snapshot/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-util/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/jest-validate/node_modules/camelcase/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-validate/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/jest-watch-typeahead/node_modules/ansi-escapes/node_modules/type-fest/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-watch-typeahead/node_modules/ansi-escapes/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-watch-typeahead/node_modules/slash/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-watch-typeahead/node_modules/string-length/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-watch-typeahead/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-watcher/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest-worker/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/jest/node_modules/jest-cli/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jest/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/js-base64/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/js-levenshtein/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/js-tokens/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/js-yaml/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jsbn/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/jsdom/node_modules/acorn/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/jsdom/node_modules/whatwg-url/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jsdom/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/jsesc/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/json-parse-better-errors/package.json" />
@@ -1730,8 +1572,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/levenary/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/levn/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/lines-and-columns/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/load-json-file/node_modules/parse-json/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/load-json-file/node_modules/pify/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/load-json-file/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/loader-fs-cache/node_modules/find-cache-dir/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/loader-fs-cache/node_modules/find-up/package.json" />
@@ -1754,7 +1594,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/loose-envify/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/loud-rejection/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/lower-case/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/lru-cache/node_modules/yallist/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/lru-cache/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/make-dir/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/make-dir/package.json" />
@@ -1767,20 +1606,10 @@
       <path value="$PROJECT_DIR$/front/node_modules/md5.js/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/mdn-data/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/media-typer/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/mem/node_modules/mimic-fn/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/mem/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/memory-fs/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/find-up/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/indent-string/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/load-json-file/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/parse-json/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/path-exists/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/path-type/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/pify/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/read-pkg-up/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/read-pkg/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/redent/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/strip-bom/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/meow/node_modules/strip-indent/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/meow/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/merge-deep/node_modules/clone-deep/package.json" />
@@ -1802,7 +1631,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/mimic-fn/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/min-document/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/min-indent/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/mini-css-extract-plugin/node_modules/schema-utils/node_modules/ajv-errors/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/mini-css-extract-plugin/node_modules/schema-utils/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/mini-css-extract-plugin/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/minimalistic-assert/package.json" />
@@ -1847,9 +1675,7 @@
       <path value="$PROJECT_DIR$/front/node_modules/node-modules-regexp/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/node-notifier/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/node-notifier/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/node-releases/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/node-releases/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/node-sass/node_modules/ansi-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/node-sass/node_modules/ansi-styles/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/node-sass/node_modules/chalk/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/node-sass/node_modules/cross-spawn/package.json" />
@@ -1886,7 +1712,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/nwsapi/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/oauth-sign/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/object-assign/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/object-copy/node_modules/define-property/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/object-copy/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/object-hash/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/object-inspect/package.json" />
@@ -1897,11 +1722,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/object.assign/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/object.entries/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/object.fromentries/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/object.getownpropertydescriptors/node_modules/es-abstract/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/object.getownpropertydescriptors/node_modules/is-callable/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/object.getownpropertydescriptors/node_modules/is-regex/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/object.getownpropertydescriptors/node_modules/string.prototype.trimleft/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/object.getownpropertydescriptors/node_modules/string.prototype.trimright/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/object.getownpropertydescriptors/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/object.pick/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/object.values/package.json" />
@@ -1918,8 +1738,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/original/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/os-browserify/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/os-homedir/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/os-locale/node_modules/invert-kv/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/os-locale/node_modules/lcid/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/os-locale/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/os-tmpdir/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/osenv/package.json" />
@@ -1966,7 +1784,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/pkg-up/node_modules/p-try/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/pkg-up/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/pn/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/pnp-webpack-plugin/node_modules/ts-pnp/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/pnp-webpack-plugin/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/popper.js/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/portfinder/node_modules/debug/package.json" />
@@ -2086,7 +1903,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/randombytes/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/randomfill/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/range-parser/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/raw-body/node_modules/bytes/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/raw-body/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/react-app-polyfill/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/react-dev-utils/node_modules/browserslist/package.json" />
@@ -2134,7 +1950,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/regexpp/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/regexpu-core/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/regjsgen/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/regjsparser/node_modules/jsesc/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/regjsparser/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/relateurl/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/remove-trailing-separator/package.json" />
@@ -2156,7 +1971,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/requires-port/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/resolve-cwd/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/resolve-from/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/resolve-url-loader/node_modules/camelcase/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/resolve-url-loader/node_modules/postcss/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/resolve-url-loader/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/resolve-url/package.json" />
@@ -2227,7 +2041,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/yargs-parser/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/sass-graph/node_modules/yargs/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/sass-graph/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/sass-loader/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/sass-loader/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/sax/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/saxes/package.json" />
@@ -2247,7 +2060,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/serve-index/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/serve-static/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/set-blocking/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/set-value/node_modules/extend-shallow/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/set-value/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/setimmediate/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/setprototypeof/package.json" />
@@ -2307,7 +2119,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/ssri/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/stable/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/stack-utils/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/static-extend/node_modules/define-property/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/static-extend/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/statuses/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/stdout-stream/package.json" />
@@ -2351,7 +2162,6 @@
       <path value="$PROJECT_DIR$/front/node_modules/terser-webpack-plugin/node_modules/find-cache-dir/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/terser-webpack-plugin/node_modules/find-up/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/terser-webpack-plugin/node_modules/locate-path/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/terser-webpack-plugin/node_modules/make-dir/node_modules/semver/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/terser-webpack-plugin/node_modules/make-dir/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/terser-webpack-plugin/node_modules/p-locate/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/terser-webpack-plugin/node_modules/path-exists/package.json" />
@@ -2446,26 +2256,15 @@
       <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/cliui/node_modules/strip-ansi/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/cliui/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/get-caller-file/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/require-main-filename/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/schema-utils/node_modules/ajv-errors/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/schema-utils/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/strip-ansi/node_modules/ansi-regex/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/wrap-ansi/node_modules/string-width/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/wrap-ansi/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/yargs-parser/node_modules/camelcase/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/yargs-parser/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/yargs/node_modules/os-locale/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/node_modules/yargs/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-dev-server/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-log/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-manifest-plugin/node_modules/fs-extra/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-manifest-plugin/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack-sources/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/webpack/node_modules/acorn/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack/node_modules/cacache/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack/node_modules/eslint-scope/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/webpack/node_modules/schema-utils/package.json" />
@@ -2514,14 +2313,13 @@
       <path value="$PROJECT_DIR$/front/node_modules/y18n/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/yallist/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/yaml/package.json" />
-      <path value="$PROJECT_DIR$/front/node_modules/yargs-parser/node_modules/camelcase/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/yargs-parser/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/yargs/node_modules/string-width/package.json" />
       <path value="$PROJECT_DIR$/front/node_modules/yargs/package.json" />
       <path value="$PROJECT_DIR$/front/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
@@ -2554,13 +2352,6 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="backend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="back" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="assets" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="FashionQ_Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="backend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="back" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="back" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -2575,24 +2366,37 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="backend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="back" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="media" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FashionQ_Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="backend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="back" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="FashionQ_Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="backend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="images" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FashionQ_Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="backend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="load_model" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="FashionQ_Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="front" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="FashionQ_Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="front" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="FashionQ_Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="front" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="scripts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="FashionQ_Project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -2639,6 +2443,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend" />
       <recent name="$PROJECT_DIR$/front/src" />
     </key>
   </component>
@@ -2677,10 +2482,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="668" y="0" width="1012" height="1050" extended-state="0" />
+    <frame x="834" y="0" width="846" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28350514" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24502487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -2717,17 +2522,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front/config/webpackDevServer.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="58" column="67" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/back/production_settings.py" />
-    <entry file="file://$PROJECT_DIR$/front/src/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/node_modules/react-images-upload/compiled.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -2736,9 +2530,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/back/back/asgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/front/yarn.lock">
@@ -2752,26 +2543,6 @@
     <entry file="file://$PROJECT_DIR$/front/src/FileManager.js" />
     <entry file="file://$PROJECT_DIR$/front/src/ImageUploadDemo.js" />
     <entry file="file://$PROJECT_DIR$/front/src/Vanilla.js" />
-    <entry file="file://$PROJECT_DIR$/front/src/csrftoken.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/App.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/src/ApiService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -2782,51 +2553,8 @@
     <entry file="file://$PROJECT_DIR$/front/src/logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/webpack-stats.dev.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="137" selection-start-column="137" selection-end-column="137" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/back/fashionq/forms.py" />
-    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/back/media/서명.png" />
-    <entry file="file://$PROJECT_DIR$/backend/back/back/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/config/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="585" column="64" selection-start-line="585" selection-start-column="60" selection-end-line="585" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2834,40 +2562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
           <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/config/paths.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="71" column="57" selection-start-line="71" selection-start-column="57" selection-end-line="71" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2881,50 +2575,268 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/csrftoken.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/webpack-stats.dev.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="674" selection-start-column="674" selection-end-column="674" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/scripts/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/scripts/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/DataFrame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+          <folding>
+            <element signature="e#1#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/back/back/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="375">
+          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
           <folding>
             <element signature="e#628#660#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/front/config/env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/config/paths.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/scripts/start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/public/logo512.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/public/logo192.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/public/robots.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/setupTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="130" column="19" lean-forward="true" selection-start-line="130" selection-start-column="19" selection-end-line="130" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="612" column="25" selection-start-line="612" selection-start-column="25" selection-end-line="612" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/templates/dataframe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backend/back/fashionq/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="20" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/node_modules/react-loading/dist/react-loading.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/mydataset_classmapping.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-482" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/front/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="288" column="27" selection-start-line="288" selection-start-column="27" selection-end-line="288" selection-end-column="27" />
+        <state relative-caret-position="705">
+          <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#8152#8193#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/models.py">
+    <entry file="file://$PROJECT_DIR$/backend/load_model/singleton_retinanet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="-4">
+          <caret line="305" lean-forward="true" selection-start-line="305" selection-end-line="305" />
+          <folding>
+            <element signature="e#157#169#0" expanded="true" />
+            <marker date="1580648092686" expanded="true" signature="1115:1117" ph="..." />
+            <marker date="1580648092686" expanded="true" signature="9689:9692" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/back/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/load_model/color_extraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1580650688215" expanded="true" signature="109:111" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/back/fashionq/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="437">
+          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+            <marker date="1580650930129" expanded="true" signature="736:780" ph="..." />
           </folding>
         </state>
       </provider>
