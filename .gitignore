@@ -131,7 +131,7 @@ bower_components
 psd
 thumb
 sketch
-
+mydataset_classmapping.csv
 
 *.h5
 mymodel.h5
