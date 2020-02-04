@@ -132,7 +132,10 @@ psd
 thumb
 sketch
 mydataset_classmapping.csv
-
+mydataset_classmapping_tmp.csv
+color_extractor
+color_extractor.py
+color_names.npz
 *.h5
 mymodel.h5
 # End of https://www.gitignore.io/api/react,django
