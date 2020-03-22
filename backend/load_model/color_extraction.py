@@ -9,7 +9,7 @@ class ColorExtraction:
 		super().__init__()
 
 	def multiple_color_extraction(self):
-		path = "../images/"
+		path = "../back/media/"
 		files = os.listdir(path)
 		if ".DS_Store" in files:
 			files.remove(".DS_Store")
@@ -32,7 +32,7 @@ class ColorExtraction:
 	def columns_from_color_detector(self, dataframe):
 
 		####################
-		# input data 변경 필요
+		# input datas_json 변경 필요
 		df = pd.DataFrame(dataframe)
 		####################
 

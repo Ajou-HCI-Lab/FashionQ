@@ -138,4 +138,9 @@ color_extractor.py
 color_names.npz
 *.h5
 mymodel.h5
+trend_data
+tSNE_data
+datas_json
+Annotation_Stylegroup.csv
+
 # End of https://www.gitignore.io/api/react,django

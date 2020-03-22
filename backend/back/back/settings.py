@@ -26,6 +26,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+PROJECT_ROOT = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), ".."),
+)
 # Application definition
 
 INSTALLED_APPS = [
@@ -39,6 +42,7 @@ INSTALLED_APPS = [
 	'fashionq',
 	'corsheaders',
 	'rest_framework',
+	'djangobower',
 ]
 
 REST_FRAMEWORK = {
@@ -68,6 +72,10 @@ WEBPACK_LOADER = {
 ROOT_URLCONF = 'back.urls'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+TEMPLATE_DIRS = (
+    os.path.join(PROJECT_ROOT, 'templates'),
+)
 TEMPLATES = [
 	{
 		'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -85,6 +93,7 @@ TEMPLATES = [
 ]
 STATICFILES_DIRS = (
 	os.path.join(BASE_DIR, 'assets'),
+	os.path.join(BASE_DIR,'media'),
 )
 WSGI_APPLICATION = 'back.wsgi.application'
 
@@ -97,7 +106,6 @@ DATABASES = {
 		'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 	}
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
 
@@ -133,3 +141,17 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+BOWER_COMPONENTS_ROOT = os.path.join(PROJECT_ROOT, 'components')
+
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'djangobower.finders.BowerFinder',
+)
+BOWER_PATH = '/usr/bin/bower'
+BOWER_INSTALLED_APPS = (
+    'jquery',
+    'underscore',
+)

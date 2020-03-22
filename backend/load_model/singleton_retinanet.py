@@ -53,6 +53,7 @@ class SingletonRetinaNet:
 
 
 	def __init__(self):
+		global model, nmf_path
 		# use this environment flag to change which GPU to use
 		os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 		os.environ["CUDA_VISIBLE_DEVICES"] = '6'
@@ -74,8 +75,8 @@ class SingletonRetinaNet:
 		model_path = os.path.join('mymodel.h5')  # 101로 할지
 		# resnet50_csv_20.h5
 		# load retinanet model
-		self.model = models.load_model(model_path, backbone_name=backbone)
-		self.nmf_path = "../images"
+		model = models.load_model(model_path, backbone_name=backbone)
+		nmf_path = "../back/media"
 		# if the model is not converted to an inference model, use the line below
 		# see: https://github.com/fizyr/keras-retinanet#converting-a-training-model-to-inference-model
 		# model = models.convert_model(model)
@@ -86,16 +87,18 @@ class SingletonRetinaNet:
 		labels_to_names = df
 
 	def get_list(self):
+		global model, nmf_path
 		# nmf_path = './images'
 		# test_list= os.listdir(os.path.join(nmf_path,season))
-		test_list = os.listdir(os.path.join(self.nmf_path))
+		test_list = os.listdir(os.path.join(nmf_path))
 		return test_list
 
 	def run_detection(self):
+		global model, nmf_path
 		# load image
 
-		path = os.path.join(self.nmf_path)
-		# path = "/home/jin6491/temp_15/RetinaNet/keras-retinanet-master/data/imgs" #grey+shpening_test
+		path = os.path.join(nmf_path)
+		# path = "/home/jin6491/temp_15/RetinaNet/keras-retinanet-master/datas_json/imgs" #grey+shpening_test
 		image_name = []
 		prediction = []
 		confidence = []
@@ -118,7 +121,7 @@ class SingletonRetinaNet:
 
 			# process image
 			start = time.time()
-			boxes, scores, labels = self.model.predict_on_batch(np.expand_dims(image, axis=0))
+			boxes, scores, labels = model.predict_on_batch(np.expand_dims(image, axis=0))
 			print(num, len(self.get_list()))
 			print("processing time: ", time.time() - start)
 			print("-----------------------------------------")
@@ -168,11 +171,11 @@ class SingletonRetinaNet:
 
 
 	def columns_from_attribute_detector(self, dataFrame):
-		# input data 변경 필요
+		# input datas_json 변경 필요
 		###########################################################
 		prediction_df = pd.DataFrame(dataFrame)
-		print(prediction_df)
-		print(prediction_df.__class__)
+		# print(prediction_df)
+		# print(prediction_df.__class__)
 		###########################################################
 
 		# parmeters
