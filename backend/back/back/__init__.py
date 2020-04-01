@@ -8,3 +8,6 @@ sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(os.path.abspath(
 # from backend.back.load_model import singleton_retinanet
 from load_model import singleton_retinanet
 # singleton_retinanet.singleton_retinanet.instance()
+
+# TODO : 리로드 할 때마다 파일 삭제하기
+print("reload")

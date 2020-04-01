@@ -2,17 +2,412 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="703638d6-134f-4fc4-86fa-c4f25cd782a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group1/FW2010_fendi_25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group1/FW2010_ralph-rucci_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group1/FW2012_jeremy-laing_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group1/FW2015_6397_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group1/FW2015_nili-lotan_21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group1/FW2015_pamella-roland_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group10/FW2011_joseph_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group10/FW2012_duro-olowu_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group10/FW2013_gryphon_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group10/FW2013_paco-rabanne_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group10/FW2014_martin-grant_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group10/FW2014_tom-ford_30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group11/FW2015_marchesa_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group11/FW2015_nicole-miller_29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group11/FW2016_antonio-berardi_45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group11/FW2016_calvin-klein-collection_35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group11/FW2016_jason-wu_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group11/FW2016_oscar-de-la-renta_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group12/FW2014_bibhu-mohapatra_35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group12/FW2015_clover-canyon_24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group12/FW2015_clover-canyon_36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group12/FW2016_juan-carlos-obando_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group12/FW2017_giorgio-armani_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group12/SS2015_sea_25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group13/FW2013_dimitri_28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group13/FW2013_dimitri_32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group13/FW2015_alice-olivia_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group13/SS2017_sportmax_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group13/SS2017_versace_42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group13/SS2019_dries-van-noten_55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group14/FW2010_catherine-malandrino_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group14/FW2010_sonia-rykiel_34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group14/FW2014_francesco-scognamiglio_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group14/FW2018_ann-demeulemeester_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group14/FW2018_ann-demeulemeester_38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group14/FW2018_fendi_40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group15/FW2010_cynthia-steffe_22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group15/FW2010_lanvin_23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group15/FW2010_marni_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group15/FW2010_neil-barrett_18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group15/FW2010_ruffian_25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group15/FW2010_vivienne-tam_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group16/FW2010_balenciaga_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group16/FW2010_bcbg-max-azria_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group16/FW2010_bcbg-max-azria_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group16/FW2010_costello-tagliapietra_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group16/FW2010_luisa-beccaria_23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group16/FW2011_l-wren-scott_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group17/FW2011_carolina-herrera_28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group17/FW2011_david-koma_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group17/FW2011_imitation-of-christ_50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group17/FW2011_marc-by-marc-jacobs_32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group17/FW2012_alexis-mabille_22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group17/FW2013_co_23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group18/FW2012_tadashi-shoji_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group18/FW2016_bottega-veneta_42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group18/SS2017_tsumori-chisato_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group18/SS2018_agnona_26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group18/SS2018_marco-de-vincenzo_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group18/SS2019_marco-de-vincenzo_30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group19/FW2016_derek-lam_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group19/FW2016_giamba_33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group19/FW2016_marissa-webb_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group19/FW2016_prabal-gurung_28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group19/FW2016_vanessa-seward_27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group19/FW2019_simone-rocha_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group2/FW2010_sharon-wauchob_28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group2/FW2011_altuzarra_33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group2/FW2011_michael-van-der-ham_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group2/FW2013_dries-van-noten_47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group2/FW2014_alexander-mcqueen_29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group2/FW2014_andreas-kronthaler-for-vivienne-westwood_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group20/FW2011_bcbg-max-azria_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group20/FW2011_narciso-rodriguez_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group20/FW2012_wayne_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group20/FW2014_fashion-east_31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group20/FW2015_barbara-bui_33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group20/FW2016_antonio-berardi_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group21/FW2010_etro_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group21/FW2011_custo-barcelona_37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group21/FW2011_saint-laurent_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group21/FW2011_thomas-tait_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group21/FW2012_pringle-of-scotland_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group21/FW2013_assembly_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group22/FW2010_gianfranco-ferre_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group22/FW2010_gucci_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group22/FW2010_jen-kao_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group22/FW2010_jenni-kayne_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group22/FW2010_karl-lagerfeld_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group22/FW2010_l-a-m-b-_22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group23/FW2011_julian-louie_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group23/FW2012_alice-olivia_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group23/FW2012_clements-ribeiro_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group23/FW2012_sharon-wauchob_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group23/FW2013_emporio-armani_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group23/FW2014_a-w-a-k-e-_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group24/FW2011_gianfranco-ferre_29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group24/FW2013_nicholas-k_23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group24/FW2013_nina-ricci_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group24/FW2014_lanvin_42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group24/FW2016_adam-selman_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group24/FW2016_aquilano-rimondi_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group25/FW2010_altuzarra_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group25/FW2010_bottega-veneta_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group25/FW2010_charlotte-ronson_30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group25/SS2015_marques-almeida_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group25/SS2017_max-mara_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group25/SS2017_nicholas-k_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group3/FW2013_emporio-armani_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group3/FW2014_steven-alan_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group3/FW2014_vivienne-tam_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group3/FW2015_alice-olivia_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group3/FW2015_antonio-marras_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group3/FW2015_manish-arora_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group4/FW2013_emporio-armani_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group4/FW2013_luisa-beccaria_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group4/FW2013_marco-de-vincenzo_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group4/FW2015_chanel_43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group4/FW2016_jil-sander-navy_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group4/FW2016_mother-of-pearl_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group5/FW2010_gianfranco-ferre_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group5/FW2011_chadwick-bell_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group5/FW2011_diane-von-furstenberg_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group5/FW2011_erin-fetherston_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group5/FW2011_milly_31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group5/FW2017_chloe_40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group6/FW2019_coach_25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group6/FW2019_collina-strada_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group6/FW2019_comme-des-garcons_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group6/FW2019_elie-tahari_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group6/FW2019_hermes_44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group6/SS2018_balmain_57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group7/FW2010_vera-wang_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group7/FW2013_alexander-wang_37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group7/FW2013_dkny_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group7/FW2013_dries-van-noten_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group7/FW2013_j-mendel_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group7/FW2013_joy-cioci_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group8/FW2010_aquascutum_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group8/FW2010_costello-tagliapietra_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group8/FW2010_maurizio-pecoraro_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group8/FW2010_proenza-schouler_27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group8/FW2011_araks_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group8/FW2012_jeremy-laing_27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group9/FW2010_michael-angel_21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group9/FW2013_derek-lam-10-crosby_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group9/FW2013_emanuel-ungaro_31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group9/FW2013_erdem_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group9/FW2013_herve-leger-by-max-azria_21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/public/flagship_Images/group9/FW2013_jonathan-saunders_26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/css/material-dashboard-react.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/angular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/chrome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/dashboard.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/edge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/firefox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/html.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/md-react.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/notifications.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/opera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/opt_md_angular_thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/opt_md_thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/opt_md_vue_thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/opt_mdr_thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/safari.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/tables.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/userprofile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/github/vuejs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/img/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/img/cover.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/img/faces/marc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/img/mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/img/new_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/img/reactlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/img/sidebar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/img/sidebar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/img/sidebar-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/img/sidebar-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/img/tim_80x80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/cardImagesStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/checkboxAdnRadioStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/components/buttonStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/components/cardAvatarStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/components/cardBodyStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/components/cardFooterStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/components/cardHeaderStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/components/cardIconStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/components/cardStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/components/customInputStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/components/customTabsStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/components/footerStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/components/headerLinksStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/components/headerStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/components/rtlHeaderLinksStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/components/sidebarStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/components/snackbarContentStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/components/tableStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/components/tasksStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/components/typographyStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/dropdownStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/layouts/adminStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/layouts/rtlStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/tooltipStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/views/dashboardStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/views/iconsStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/assets/jss/material-dashboard-react/views/rtlStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Card/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Card/CardAvatar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Card/CardBody.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Card/CardFooter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Card/CardHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Card/CardIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/CustomButtons/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/CustomInput/CustomInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/CustomTabs/CustomTabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/FixedPlugin/FixedPlugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Grid/GridContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Grid/GridItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Navbars/AdminNavbarLinks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Navbars/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Navbars/RTLNavbarLinks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Sidebar/Sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Snackbar/Snackbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Snackbar/SnackbarContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Table/Table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Tasks/Tasks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Typography/Danger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Typography/Info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Typography/Muted.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Typography/Primary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Typography/Quote.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Typography/Success.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/components/Typography/Warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagshipImagesJson.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group1/FW2010_fendi_25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group1/FW2010_ralph-rucci_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group1/FW2012_jeremy-laing_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group1/FW2015_6397_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group1/FW2015_nili-lotan_21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group1/FW2015_pamella-roland_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group10/FW2011_joseph_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group10/FW2012_duro-olowu_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group10/FW2013_gryphon_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group10/FW2013_paco-rabanne_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group10/FW2014_martin-grant_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group10/FW2014_tom-ford_30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group11/FW2015_marchesa_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group11/FW2015_nicole-miller_29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group11/FW2016_antonio-berardi_45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group11/FW2016_calvin-klein-collection_35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group11/FW2016_jason-wu_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group11/FW2016_oscar-de-la-renta_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group12/FW2014_bibhu-mohapatra_35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group12/FW2015_clover-canyon_24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group12/FW2015_clover-canyon_36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group12/FW2016_juan-carlos-obando_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group12/FW2017_giorgio-armani_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group12/SS2015_sea_25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group13/FW2013_dimitri_28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group13/FW2013_dimitri_32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group13/FW2015_alice-olivia_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group13/SS2017_sportmax_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group13/SS2017_versace_42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group13/SS2019_dries-van-noten_55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group14/FW2010_catherine-malandrino_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group14/FW2010_sonia-rykiel_34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group14/FW2014_francesco-scognamiglio_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group14/FW2018_ann-demeulemeester_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group14/FW2018_ann-demeulemeester_38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group14/FW2018_fendi_40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group15/FW2010_cynthia-steffe_22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group15/FW2010_lanvin_23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group15/FW2010_marni_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group15/FW2010_neil-barrett_18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group15/FW2010_ruffian_25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group15/FW2010_vivienne-tam_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group16/FW2010_balenciaga_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group16/FW2010_bcbg-max-azria_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group16/FW2010_bcbg-max-azria_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group16/FW2010_costello-tagliapietra_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group16/FW2010_luisa-beccaria_23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group16/FW2011_l-wren-scott_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group17/FW2011_carolina-herrera_28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group17/FW2011_david-koma_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group17/FW2011_imitation-of-christ_50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group17/FW2011_marc-by-marc-jacobs_32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group17/FW2012_alexis-mabille_22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group17/FW2013_co_23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group18/FW2012_tadashi-shoji_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group18/FW2016_bottega-veneta_42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group18/SS2017_tsumori-chisato_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group18/SS2018_agnona_26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group18/SS2018_marco-de-vincenzo_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group18/SS2019_marco-de-vincenzo_30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group19/FW2016_derek-lam_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group19/FW2016_giamba_33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group19/FW2016_marissa-webb_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group19/FW2016_prabal-gurung_28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group19/FW2016_vanessa-seward_27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group19/FW2019_simone-rocha_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group2/FW2010_sharon-wauchob_28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group2/FW2011_altuzarra_33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group2/FW2011_michael-van-der-ham_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group2/FW2013_dries-van-noten_47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group2/FW2014_alexander-mcqueen_29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group2/FW2014_andreas-kronthaler-for-vivienne-westwood_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group20/FW2011_bcbg-max-azria_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group20/FW2011_narciso-rodriguez_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group20/FW2012_wayne_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group20/FW2014_fashion-east_31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group20/FW2015_barbara-bui_33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group20/FW2016_antonio-berardi_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group21/FW2010_etro_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group21/FW2011_custo-barcelona_37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group21/FW2011_saint-laurent_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group21/FW2011_thomas-tait_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group21/FW2012_pringle-of-scotland_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group21/FW2013_assembly_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group22/FW2010_gianfranco-ferre_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group22/FW2010_gucci_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group22/FW2010_jen-kao_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group22/FW2010_jenni-kayne_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group22/FW2010_karl-lagerfeld_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group22/FW2010_l-a-m-b-_22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group23/FW2011_julian-louie_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group23/FW2012_alice-olivia_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group23/FW2012_clements-ribeiro_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group23/FW2012_sharon-wauchob_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group23/FW2013_emporio-armani_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group23/FW2014_a-w-a-k-e-_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group24/FW2011_gianfranco-ferre_29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group24/FW2013_nicholas-k_23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group24/FW2013_nina-ricci_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group24/FW2014_lanvin_42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group24/FW2016_adam-selman_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group24/FW2016_aquilano-rimondi_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group25/FW2010_altuzarra_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group25/FW2010_bottega-veneta_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group25/FW2010_charlotte-ronson_30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group25/SS2015_marques-almeida_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group25/SS2017_max-mara_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group25/SS2017_nicholas-k_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group3/FW2013_emporio-armani_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group3/FW2014_steven-alan_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group3/FW2014_vivienne-tam_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group3/FW2015_alice-olivia_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group3/FW2015_antonio-marras_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group3/FW2015_manish-arora_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group4/FW2013_emporio-armani_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group4/FW2013_luisa-beccaria_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group4/FW2013_marco-de-vincenzo_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group4/FW2015_chanel_43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group4/FW2016_jil-sander-navy_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group4/FW2016_mother-of-pearl_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group5/FW2010_gianfranco-ferre_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group5/FW2011_chadwick-bell_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group5/FW2011_diane-von-furstenberg_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group5/FW2011_erin-fetherston_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group5/FW2011_milly_31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group5/FW2017_chloe_40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group6/FW2019_coach_25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group6/FW2019_collina-strada_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group6/FW2019_comme-des-garcons_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group6/FW2019_elie-tahari_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group6/FW2019_hermes_44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group6/SS2018_balmain_57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group7/FW2010_vera-wang_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group7/FW2013_alexander-wang_37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group7/FW2013_dkny_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group7/FW2013_dries-van-noten_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group7/FW2013_j-mendel_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group7/FW2013_joy-cioci_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group8/FW2010_aquascutum_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group8/FW2010_costello-tagliapietra_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group8/FW2010_maurizio-pecoraro_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group8/FW2010_proenza-schouler_27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group8/FW2011_araks_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group8/FW2012_jeremy-laing_27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group9/FW2010_michael-angel_21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group9/FW2013_derek-lam-10-crosby_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group9/FW2013_emanuel-ungaro_31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group9/FW2013_erdem_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group9/FW2013_herve-leger-by-max-azria_21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/flagship_Images/group9/FW2013_jonathan-saunders_26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/layouts/Admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/layouts/RTL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/variables/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/variables/general.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/back/back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/back/back/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/back/back/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/back/back/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/back/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/backend/back/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/back/fashionq/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/back/fashionq/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/back/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/back/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/back/webpack-stats.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/back/webpack-stats.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/data.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/load_model/color_extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/load_model/color_extraction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/load_model/singleton_retinanet.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/load_model/singleton_retinanet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/config/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/public/index.html" afterDir="false" />
@@ -29,6 +424,7 @@
     <SUITE FILE_PATH="coverage/FashionQ_Project$tSNEgraph.coverage" NAME="tSNEgraph Coverage Results" MODIFIED="1583475719761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/tSNE_data" />
     <SUITE FILE_PATH="coverage/FashionQ_Project$test.coverage" NAME="test Coverage Results" MODIFIED="1583135203510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/trend_data" />
     <SUITE FILE_PATH="coverage/FashionQ_Project$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1582530992779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/tSNE_data" />
+    <SUITE FILE_PATH="coverage/FashionQ_Project$makefilelists.coverage" NAME="makefilelists Coverage Results" MODIFIED="1584947760632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend/tSNE_data" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -48,16 +444,18 @@
     <session id="1673479190">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -67,15 +465,16 @@
           <entry key="csv" value="41" />
           <entry key="gitignore" value="7" />
           <entry key="group271421" value="1" />
-          <entry key="html" value="17" />
+          <entry key="html" value="18" />
+          <entry key="ipynb" value="1" />
           <entry key="jpeg" value="2" />
-          <entry key="jpg" value="3" />
-          <entry key="js" value="58" />
-          <entry key="json" value="25" />
+          <entry key="jpg" value="15" />
+          <entry key="js" value="61" />
+          <entry key="json" value="29" />
           <entry key="lock" value="2" />
           <entry key="md" value="1" />
           <entry key="png" value="3" />
-          <entry key="py" value="85" />
+          <entry key="py" value="91" />
           <entry key="svg" value="1" />
           <entry key="txt" value="4" />
         </counts>
@@ -84,13 +483,14 @@
         <counts>
           <entry key="CSS" value="7" />
           <entry key="CSV" value="41" />
-          <entry key="HTML" value="17" />
-          <entry key="Image" value="8" />
-          <entry key="JSON" value="25" />
-          <entry key="JavaScript" value="58" />
+          <entry key="HTML" value="18" />
+          <entry key="IPNB" value="1" />
+          <entry key="Image" value="20" />
+          <entry key="JSON" value="29" />
+          <entry key="JavaScript" value="61" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="86" />
+          <entry key="Python" value="92" />
           <entry key="SVG" value="1" />
           <entry key="yarn.lock" value="2" />
         </counts>
@@ -99,20 +499,20 @@
         <counts>
           <entry key="csv" value="12" />
           <entry key="gitignore" value="143" />
-          <entry key="html" value="245" />
-          <entry key="js" value="5892" />
+          <entry key="html" value="263" />
+          <entry key="js" value="8047" />
           <entry key="json" value="2" />
-          <entry key="py" value="7794" />
+          <entry key="py" value="8112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="12" />
-          <entry key="HTML" value="245" />
+          <entry key="HTML" value="263" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="5892" />
+          <entry key="JavaScript" value="8047" />
           <entry key="PLAIN_TEXT" value="143" />
-          <entry key="Python" value="7794" />
+          <entry key="Python" value="8112" />
         </counts>
       </usages-collector>
     </session>
@@ -122,12 +522,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="3180">
+              <caret line="223" column="6" selection-start-line="223" selection-start-column="6" selection-end-line="223" selection-end-column="6" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
-                <element signature="e#236#284#0" expanded="true" />
+                <element signature="e#237#285#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/config/modules.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="72" lean-forward="true" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -141,42 +559,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/tSNE_data/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
+            <state relative-caret-position="60">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/back/back/settings.py">
+        <entry file="file://$PROJECT_DIR$/backend/back/back/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/trend_data/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="5" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/load_model/singleton_retinanet.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+            <state relative-caret-position="165">
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
               <folding>
-                <element signature="e#157#169#0" expanded="true" />
-                <marker date="1584859787561" expanded="true" signature="1115:1117" ph="..." />
-                <marker date="1584859787561" expanded="true" signature="7429:7431" ph="..." />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,12 +583,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/back/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="240">
+              <caret line="16" column="93" selection-start-line="16" selection-start-column="93" selection-end-line="16" selection-end-column="93" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front/src/datas_json/flagship_Brands.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1695">
+              <caret line="113" column="14" selection-start-line="113" selection-start-column="14" selection-end-line="113" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -198,8 +606,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/back/fashionq/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+            <state relative-caret-position="1140">
+              <caret line="94" column="35" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -217,9 +628,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>File</find>
-      <find>upload</find>
-      <find>get_se</find>
       <find>get_ses</find>
       <find>index</find>
       <find>load_model</find>
@@ -247,6 +655,9 @@
       <find>react-scripts</find>
       <find>react-sc</find>
       <find>react-s</find>
+      <find>listRe</find>
+      <find>flagstatic</find>
+      <find>App</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -276,23 +687,25 @@
         <option value="$PROJECT_DIR$/front/src/DataFrame.js" />
         <option value="$PROJECT_DIR$/backend/back/templates/dataframe.html" />
         <option value="$PROJECT_DIR$/backend/back/fashionq/urls.py" />
-        <option value="$PROJECT_DIR$/backend/back/back/__init__.py" />
         <option value="$PROJECT_DIR$/backend/back/mydataset_classmapping.csv" />
-        <option value="$PROJECT_DIR$/front/public/index.html" />
         <option value="$PROJECT_DIR$/backend/load_model/color_extraction.py" />
         <option value="$PROJECT_DIR$/backend/back/2_t-SNE_dataset.csv" />
-        <option value="$PROJECT_DIR$/backend/tSNE_data/test.py" />
         <option value="$PROJECT_DIR$/backend/trend_data/trend_raw.csv" />
         <option value="$PROJECT_DIR$/backend/trend_data/test.py" />
         <option value="$PROJECT_DIR$/backend/load_model/singleton_retinanet.py" />
         <option value="$PROJECT_DIR$/backend/tSNE_data/tSNEgraph.py" />
         <option value="$PROJECT_DIR$/backend/trend_data/make_json_by_probability.py" />
-        <option value="$PROJECT_DIR$/backend/back/fashionq/views.py" />
         <option value="$PROJECT_DIR$/backend/back/back/settings.py" />
-        <option value="$PROJECT_DIR$/front/src/App.js" />
-        <option value="$PROJECT_DIR$/backend/back/templates/index.html" />
         <option value="$PROJECT_DIR$/front/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/front/src/datas_json/flagship_Brands.json" />
+        <option value="$PROJECT_DIR$/backend/back/back/__init__.py" />
+        <option value="$PROJECT_DIR$/backend/tSNE_data/makefilelists.py" />
+        <option value="$PROJECT_DIR$/backend/back/templates/index.html" />
+        <option value="$PROJECT_DIR$/backend/back/fashionq/views.py" />
+        <option value="$PROJECT_DIR$/front/src/App.js" />
+        <option value="$PROJECT_DIR$/backend/tSNE_data/test.py" />
+        <option value="$PROJECT_DIR$/front/public/index.html" />
       </list>
     </option>
   </component>
@@ -310,9 +723,11 @@
       <path value="$PROJECT_DIR$/front/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1286" />
+    <option name="y" value="23" />
+    <option name="width" value="1274" />
+    <option name="height" value="1336" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -320,6 +735,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FashionQ_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FashionQ_Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FashionQ_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FashionQ_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FashionQ_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FashionQ_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FashionQ_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FashionQ_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -371,91 +814,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="FashionQ_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FashionQ_Project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FashionQ_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FashionQ_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FashionQ_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FashionQ_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FashionQ_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FashionQ_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FashionQ_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FashionQ_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-              <item name="fashionq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FashionQ_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FashionQ_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="load_model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FashionQ_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FashionQ_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="trend_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FashionQ_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FashionQ_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="trend_data" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FashionQ_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FashionQ_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="tSNE_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FashionQ_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FashionQ_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FashionQ_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FashionQ_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FashionQ_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FashionQ_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FashionQ_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FashionQ_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="datas_json" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -469,14 +827,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/tSNE_data" />
       <recent name="$PROJECT_DIR$/front/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/front/public" />
+      <recent name="$PROJECT_DIR$/backend/back/media" />
+      <recent name="$PROJECT_DIR$/front/src" />
       <recent name="$PROJECT_DIR$/front/src/data" />
       <recent name="$PROJECT_DIR$/backend/tSNE_data" />
-      <recent name="$PROJECT_DIR$/backend/trend_data" />
-      <recent name="$PROJECT_DIR$/backend" />
-      <recent name="$PROJECT_DIR$/front/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -491,7 +850,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.make_json_by_probability">
+  <component name="RunManager" selected="Python.makefilelists">
     <configuration name="make_json_by_probability" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FashionQ_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -506,6 +865,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/trend_data/make_json_by_probability.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="makefilelists" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FashionQ_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend/tSNE_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/tSNE_data/makefilelists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -585,9 +966,11 @@
       <item itemvalue="Python.tSNEgraph" />
       <item itemvalue="Python.test (1)" />
       <item itemvalue="Python.make_json_by_probability" />
+      <item itemvalue="Python.makefilelists" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.makefilelists" />
         <item itemvalue="Python.make_json_by_probability" />
         <item itemvalue="Python.tSNEgraph" />
         <item itemvalue="Python.test" />
@@ -618,15 +1001,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="706" y="0" width="974" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2832618" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1076251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25693431" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25693431" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -635,7 +1018,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3379562" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.24160583" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -651,74 +1034,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/DataFrame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/csrftoken.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/scripts/start.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/images/data.jpeg" />
-    <entry file="file://$PROJECT_DIR$/backend/back/media/data.jpeg" />
-    <entry file="file://$PROJECT_DIR$/backend/back/media/green.jpg" />
-    <entry file="file://$PROJECT_DIR$/backend/tSNE_data/group271421" />
-    <entry file="file://$PROJECT_DIR$/backend/tSNE_data/groups.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="1000357" column="10" lean-forward="true" selection-start-line="1000357" selection-start-column="10" selection-end-line="1000357" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/datas_json/groups_new.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-963" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/trend_data/1_city_infor.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="58" lean-forward="true" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/tSNE_data/group1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -757,25 +1072,22 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/trend_data/example/group4/LD4.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/trend_data/example/group4/NY4.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="165">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/trend_data/new_trend_raw.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/trend_data/new_trend_raw.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
@@ -785,6 +1097,9 @@
         <state>
           <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
         </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/tSNE_data/group_top200.json">
@@ -816,10 +1131,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/back/mydataset_classmapping_tmp.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/tSNE_data/2_t-SNE_dataset.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
@@ -829,30 +1144,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/back/mydataset_classmapping.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="-518">
           <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/trend_data/grouped_probability.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/trend_data/grouped_probability.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/tSNE_data/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/trend_data/trend_raw.csv">
@@ -869,13 +1177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/tSNE_data/tSNEgraph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front/src/datas_json/group_top_new_100.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -886,54 +1187,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/datas_json/trend_by_city.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/back/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/trend_data/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/load_model/singleton_retinanet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-          <folding>
-            <element signature="e#157#169#0" expanded="true" />
-            <marker date="1584859787561" expanded="true" signature="1115:1117" ph="..." />
-            <marker date="1584859787561" expanded="true" signature="7429:7431" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -941,24 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="2405" column="26" selection-start-line="2405" selection-start-column="19" selection-end-line="2405" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-            <element signature="e#236#284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -972,6 +1211,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/back/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="889">
+          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/trend_data/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/flagship_Images/.ipynb_checkpoints/Untitled-checkpoint.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/tSNE_data/tSNEgraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/flagshipImagesJson.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/tSNE_data/makefilelists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/datas_json/trend_by_city.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/flagship_Images/group2/FW2011_altuzarra_33.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/flagship_Images/group2/FW2011_michael-van-der-ham_20.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/flagship_Images/group2/FW2013_dries-van-noten_47.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/flagship_Images/group2/FW2014_alexander-mcqueen_29.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/flagship_Images/group2/FW2014_andreas-kronthaler-for-vivienne-westwood_19.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/flagship_Images/group2/FW2010_sharon-wauchob_28.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3180">
+          <caret line="223" column="6" selection-start-line="223" selection-start-column="6" selection-end-line="223" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+            <element signature="e#237#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/config/modules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/front/config/paths.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -979,10 +1317,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/backend/tSNE_data/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/back/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="93" selection-start-line="16" selection-start-column="93" selection-end-line="16" selection-end-column="93" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/src/datas_json/flagship_Brands.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="113" column="14" selection-start-line="113" selection-start-column="14" selection-end-line="113" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/back/fashionq/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="94" column="35" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="72" lean-forward="true" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
         </state>
       </provider>
     </entry>
