@@ -76,6 +76,7 @@ class SingletonRetinaNet:
 		# resnet50_csv_20.h5
 		# load retinanet model
 		model = models.load_model(model_path, backbone_name=backbone)
+
 		nmf_path = "../back/media"
 		# if the model is not converted to an inference model, use the line below
 		# see: https://github.com/fizyr/keras-retinanet#converting-a-training-model-to-inference-model
@@ -93,65 +94,82 @@ class SingletonRetinaNet:
 		test_list = os.listdir(os.path.join(nmf_path))
 		return test_list
 
-	def run_detection(self):
+	def run_detection(self, current_filename):
 		global model, nmf_path
 		# load image
 
 		path = os.path.join(nmf_path)
+		print(nmf_path)
+		print(path)
 		# path = "/home/jin6491/temp_15/RetinaNet/keras-retinanet-master/datas_json/imgs" #grey+shpening_test
 		image_name = []
 		prediction = []
 		confidence = []
 		error = []
 
-		for i, num in zip(self.get_list(), range(0, len(self.get_list()))):
-			try:
-				image = read_image_bgr(os.path.join(path, i))
-			except:
-				error.append(i)
-				continue
+		image = read_image_bgr(os.path.join(path, current_filename))
+		draw = image.copy()
+		draw = cv2.cvtColor(draw, cv2.COLOR_BGR2RGB)
 
-			# copy to draw on
-			draw = image.copy()
-			draw = cv2.cvtColor(draw, cv2.COLOR_BGR2RGB)
+		start = time.time()
+		boxes, scores, labels = model.predict_on_batch(np.expand_dims(image, axis=0))
+		print("processing time: ", time.time() - start)
+		print("-----------------------------------------")
 
-			# preprocess image for network
-			image = preprocess_image(image)
-			image, scale = resize_image(image)
+		image_name.append(current_filename)
+		prediction.append(labels[0])
+		confidence.append(scores[0])
+		prediction_new = []
 
-			# process image
-			start = time.time()
-			boxes, scores, labels = model.predict_on_batch(np.expand_dims(image, axis=0))
-			print(num, len(self.get_list()))
-			print("processing time: ", time.time() - start)
-			print("-----------------------------------------")
 
-			#     # correct for image scale
-			#     boxes /= scale
-
-			#     # visualize detections
-			#     for box, score, label in zip(boxes[0], scores[0], labels[0]):
-			#         # scores are sorted so we can break
-			#         if score < 0.7:
-			#             break
-
-			#         color = label_color(label)
-
-			#         b = box.astype(int)
-			#         draw_box(draw, b, color=color)
-
-			#         caption = "{} {:.3f}".format(labels_to_names[label], score)
-			#         draw_caption(draw, b, caption)
-
-			#     plt.figure(figsize=(15, 15))
-			#     plt.axis('off')
-			# plt.imshow(draw)
-			# plt.show()
-			image_name.append(i)
-			prediction.append(labels[0])
-			confidence.append(scores[0])
-
-			prediction_new = []
+		# for i, num in zip(self.get_list(), range(0, len(self.get_list()))):
+		# 	try:
+		# 		image = read_image_bgr(os.path.join(path, i))
+		# 	except:
+		# 		error.append(i)
+		# 		continue
+		#
+		# 	# copy to draw on
+		# 	draw = image.copy()
+		# 	draw = cv2.cvtColor(draw, cv2.COLOR_BGR2RGB)
+		#
+		# 	# preprocess image for network
+		# 	image = preprocess_image(image)
+		# 	image, scale = resize_image(image)
+		#
+		# 	# process image
+		# 	start = time.time()
+		# 	boxes, scores, labels = model.predict_on_batch(np.expand_dims(image, axis=0))
+		# 	print(num, len(self.get_list()))
+		# 	print("processing time: ", time.time() - start)
+		# 	print("-----------------------------------------")
+		#
+		# 	#     # correct for image scale
+		# 	#     boxes /= scale
+		#
+		# 	#     # visualize detections
+		# 	#     for box, score, label in zip(boxes[0], scores[0], labels[0]):
+		# 	#         # scores are sorted so we can break
+		# 	#         if score < 0.7:
+		# 	#             break
+		#
+		# 	#         color = label_color(label)
+		#
+		# 	#         b = box.astype(int)
+		# 	#         draw_box(draw, b, color=color)
+		#
+		# 	#         caption = "{} {:.3f}".format(labels_to_names[label], score)
+		# 	#         draw_caption(draw, b, caption)
+		#
+		# 	#     plt.figure(figsize=(15, 15))
+		# 	#     plt.axis('off')
+		# 	# plt.imshow(draw)
+		# 	# plt.show()
+		# 	image_name.append(i)
+		# 	prediction.append(labels[0])
+		# 	confidence.append(scores[0])
+		#
+		# 	prediction_new = []
 
 		for i in prediction:
 			new_i = list(i)

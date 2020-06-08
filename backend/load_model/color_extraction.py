@@ -8,7 +8,7 @@ class ColorExtraction:
 	def __init__(self):
 		super().__init__()
 
-	def multiple_color_extraction(self):
+	def multiple_color_extraction(self, current_filename):
 		path = "../back/media/"
 		files = os.listdir(path)
 		if ".DS_Store" in files:
@@ -17,14 +17,22 @@ class ColorExtraction:
 		img_name = []
 		colors = []
 
-		for i, num in zip(files, range(0, len(files))):
-			order = "./color-extractor color_names.npz " + path + i
+		order = "./color-extractor color_names.npz " + path + current_filename
 
-			result = os.popen(order).read().rstrip()
+		result = os.popen(order).read().rstrip()
 
-			img_name.append(i)
-			colors.append(result)
-			print(result, num, " / ", len(files))
+		img_name.append(current_filename)
+		colors.append(result)
+		print(result, " / ", len(files))
+
+		# for i, num in zip(files, range(0, len(files))):
+		# 	order = "./color-extractor color_names.npz " + path + i
+		#
+		# 	result = os.popen(order).read().rstrip()
+		#
+		# 	img_name.append(i)
+		# 	colors.append(result)
+		# 	print(result, num, " / ", len(files))
 
 		df = pd.DataFrame({"img_name": img_name, "colors": colors})
 		return df
