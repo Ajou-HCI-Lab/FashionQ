@@ -1,5 +1,8 @@
 module.exports = {
   parser: 'babel-eslint',
+  rules: {
+    'no-console': "off",
+  },
   env: {
     es6: true,
     node: true,
@@ -19,7 +22,4 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:prettier/recommended',
   ],
-  rules: {
-    'prettier/prettier': 'error',
-  },
 };

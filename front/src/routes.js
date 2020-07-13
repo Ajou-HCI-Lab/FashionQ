@@ -29,6 +29,7 @@ import Language from '@material-ui/icons/Language';
 import DashboardPage from '../../../FashionQ_Project/front/src/views/Dashboard/Dashboard.js';
 import UserProfile from '../../../FashionQ_Project/front/src/views/UserProfile/UserProfile.js';
 import TableList from '../../../FashionQ_Project/front/src/views/TableList/TableList.js';
+import UploadFile from '../../../FashionQ_Project/front/src/views/uploadFile/uploadFile.js';
 import Typography from '../../../FashionQ_Project/front/src/views/Typography/Typography.js';
 import Icons from '../../../FashionQ_Project/front/src/views/Icons/Icons.js';
 import Maps from '../../../FashionQ_Project/front/src/views/Maps/Maps.js';
@@ -39,12 +40,12 @@ import RTLPage from '../../../FashionQ_Project/front/src/views/RTLPage/RTLPage.j
 
 const dashboardRoutes = [
   {
-    path: '/dashboard',
-    name: 'Dashboard',
+    path: '/stylecheck',
+    name: 'Style Check',
     rtlName: 'لوحة القيادة',
     icon: Dashboard,
     component: DashboardPage,
-    layout: '/result',
+    layout: '',
   },
   {
     path: '/user',
@@ -52,40 +53,40 @@ const dashboardRoutes = [
     rtlName: 'ملف تعريفي للمستخدم',
     icon: Person,
     component: UserProfile,
-    layout: '/result',
+    layout: '',
   },
+  // {
+  //   path: '/table',
+  //   name: 'Table List',
+  //   rtlName: 'قائمة الجدول',
+  //   icon: 'content_paste',
+  //   component: TableList,
+  //   layout: '',
+  // },
   {
     path: '/table',
-    name: 'Table List',
-    rtlName: 'قائمة الجدول',
-    icon: 'content_paste',
-    component: TableList,
-    layout: '/result',
-  },
-  {
-    path: '/typography',
-    name: 'Typography',
+    name: 'Style Result',
     rtlName: 'طباعة',
     icon: LibraryBooks,
-    component: Typography,
-    layout: '/result',
+    component: TableList,
+    layout: '',
   },
-  {
-    path: '/icons',
-    name: 'Icons',
-    rtlName: 'الرموز',
-    icon: BubbleChart,
-    component: Icons,
-    layout: '/result',
-  },
-  {
-    path: '/maps',
-    name: 'FashionQ Map',
-    rtlName: 'خرائط',
-    icon: LocationOn,
-    component: Maps,
-    layout: '/result',
-  },
+  // {
+  //   path: '/uploads',
+  //   name: 'Uploads',
+  //   rtlName: 'الرموز',
+  //   icon: BubbleChart,
+  //   component: UploadFile,
+  //   layout: '',
+  // },
+  // {
+  //   path: '/maps',
+  //   name: 'FashionQ Map',
+  //   rtlName: 'خرائط',
+  //   icon: LocationOn,
+  //   component: Maps,
+  //   layout: '',
+  // },
   // {
   //   path: "/notifications",
   //   name: "Notifications",

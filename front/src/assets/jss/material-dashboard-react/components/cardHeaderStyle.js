@@ -10,11 +10,10 @@ import {
 
 const cardHeaderStyle = {
   cardHeader: {
-    padding: '0.75rem 1.25rem',
+    padding: '1.0rem 1.25rem',
     marginBottom: '0',
     borderBottom: 'none',
     background: 'transparent',
-    zIndex: '3 !important',
     '&$cardHeaderPlain,&$cardHeaderIcon,&$cardHeaderStats,&$warningCardHeader,&$successCardHeader,&$dangerCardHeader,&$infoCardHeader,&$primaryCardHeader,&$roseCardHeader': {
       margin: '0 15px',
       padding: '0',
@@ -27,8 +26,11 @@ const cardHeaderStyle = {
     '&$warningCardHeader,&$successCardHeader,&$dangerCardHeader,&$infoCardHeader,&$primaryCardHeader,&$roseCardHeader': {
       '&:not($cardHeaderIcon)': {
         borderRadius: '3px',
-        marginTop: '-20px',
+        marginTop: '-30px',
+        marginBottom: '20px',
         padding: '15px',
+        width: '20%',
+        textAlign: 'center',
       },
     },
     '&$cardHeaderStats svg': {

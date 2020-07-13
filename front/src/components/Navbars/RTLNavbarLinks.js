@@ -59,7 +59,7 @@ export default function RTLNavbarLinks() {
         color={window.innerWidth > 959 ? 'transparent' : 'white'}
         justIcon={window.innerWidth > 959}
         simple={!(window.innerWidth > 959)}
-        aria-label="Dashboard"
+        aria-label="StyleCheck"
         className={classes.buttonLink}
       >
         <Dashboard className={classes.icons} />

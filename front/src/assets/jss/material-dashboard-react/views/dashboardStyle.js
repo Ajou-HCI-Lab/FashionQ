@@ -1,10 +1,11 @@
+/* eslint-disable prettier/prettier */
 import {
   successColor,
   whiteColor,
   grayColor,
   hexToRgb,
 } from 'assets/jss/material-dashboard-react.js';
-
+import '../../../../index.css'
 const dashboardStyle = {
   successText: {
     color: successColor[0],
@@ -14,6 +15,7 @@ const dashboardStyle = {
     height: '16px',
   },
   stats: {
+    textAlign: 'center',
     color: grayColor[0],
     display: 'inline-flex',
     fontSize: '12px',
@@ -35,11 +37,11 @@ const dashboardStyle = {
     },
   },
   cardCategory: {
-    color: grayColor[0],
+    color: '#000000',
     margin: '0',
-    fontSize: '14px',
+    fontSize: '25px',
     marginTop: '0',
-    paddingTop: '10px',
+    paddingTop: '3px',
     marginBottom: '0',
   },
   cardCategoryWhite: {
@@ -54,7 +56,7 @@ const dashboardStyle = {
     marginTop: '0px',
     minHeight: 'auto',
     fontWeight: '300',
-    fontFamily: "'Roboto', 'Helvetica', 'Arial', sans-serif",
+    fontFamily: 'BebasNeue-Bold',
     marginBottom: '3px',
     textDecoration: 'none',
     '& small': {
@@ -68,7 +70,7 @@ const dashboardStyle = {
     marginTop: '0px',
     minHeight: 'auto',
     fontWeight: '300',
-    fontFamily: "'Roboto', 'Helvetica', 'Arial', sans-serif",
+    fontFamily: 'BebasNeue-Bold',
     marginBottom: '3px',
     textDecoration: 'none',
     '& small': {
@@ -77,6 +79,14 @@ const dashboardStyle = {
       lineHeight: '1',
     },
   },
+  table: {
+    width: '100%',
+    border: '1px solid #000000',
+    align: 'center',
+    textAlign: 'center'
+  }
+
+
 };
 
 export default dashboardStyle;

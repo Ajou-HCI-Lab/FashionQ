@@ -6,8 +6,8 @@ import {
 
 const cardStyle = {
   card: {
-    border: '0',
-    marginBottom: '30px',
+    border: '1px solid #000000',
+    marginBottom: '50px',
     marginTop: '30px',
     borderRadius: '6px',
     color: 'rgba(' + hexToRgb(blackColor) + ', 0.87)',
@@ -20,6 +20,7 @@ const cardStyle = {
     minWidth: '0',
     wordWrap: 'break-word',
     fontSize: '.875rem',
+    textAlign: 'center',
   },
   cardPlain: {
     background: 'transparent',

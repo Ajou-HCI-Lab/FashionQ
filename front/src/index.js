@@ -8,17 +8,16 @@ import { createBrowserHistory } from 'history';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import RTL from './layouts/RTL.js';
-
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 const hist = createBrowserHistory();
-
+const theme = createMuiTheme({
+    typography: {
+        fontFamily: 'BebasNeue-Bold',
+    },
+});
 ReactDOM.render(
-    <Router history={hist}>
-        <Switch>
-            <Route path="/result" component={Admin}/>
-            <App/>
-            <Redirect from="/" to="/" />
-        </Switch>
-    </Router>
+    <MuiThemeProvider theme={theme}><App/></MuiThemeProvider>
+
     , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

@@ -17,14 +17,15 @@ import routes from 'routes.js';
 import styles from 'assets/jss/material-dashboard-react/layouts/adminStyle.js';
 
 import bgImage from 'assets/img/sidebar-2.jpg';
-import logo from '../assets/img/reactlogo.png';
+import logo from '../assets/img/prlogo_sign01.png';
 
 let ps;
 
 const switchRoutes = (
   <Switch>
     {routes.map((prop, key) => {
-      if (prop.layout === '/result') {
+      if (prop.layout === '') {
+
         return (
           <Route
             path={prop.layout + prop.path}
@@ -35,7 +36,8 @@ const switchRoutes = (
       }
       return null;
     })}
-    <Redirect from="/result" to="/result/dashboard" />
+    <Redirect from="/" to="/stylecheck" />
+    <Redirect from="/uploads" to="/" />
   </Switch>
 );
 
@@ -68,7 +70,7 @@ export default function Admin({ ...rest }) {
     setMobileOpen(!mobileOpen);
   };
   const getRoute = () => {
-    return window.location.pathname !== '/result/maps';
+    return window.location.pathname !== '/maps';
   };
   const resizeFunction = () => {
     if (window.innerWidth >= 960) {
@@ -95,16 +97,16 @@ export default function Admin({ ...rest }) {
   }, [mainPanel]);
   return (
     <div className={classes.wrapper}>
-      <Sidebar
-        routes={routes}
-        logoText={'FASHIONQ'}
-        logo={logo}
-        image={image}
-        handleDrawerToggle={handleDrawerToggle}
-        open={mobileOpen}
-        color={color}
-        {...rest}
-      />
+      {/*<Sidebar*/}
+      {/*  routes={routes}*/}
+      {/*  logoText={'FASHIONQ'}*/}
+      {/*  logo={logo}*/}
+      {/*  image={image}*/}
+      {/*  handleDrawerToggle={handleDrawerToggle}*/}
+      {/*  open={mobileOpen}*/}
+      {/*  color={color}*/}
+      {/*  {...rest}*/}
+      {/*/>*/}
       <div className={classes.mainPanel} ref={mainPanel}>
         <Navbar
           routes={routes}

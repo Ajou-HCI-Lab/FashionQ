@@ -1,93 +1,820 @@
+/* eslint-disable prettier/prettier,no-unused-vars,no-console,no-undef,react/no-unescaped-entities,jsx-a11y/alt-text */
 import React from 'react';
-import {
-  withScriptjs,
-  withGoogleMap,
-  GoogleMap,
-  Marker,
-} from 'react-google-maps';
+import ReactDOM from 'react-dom'
+// @material-ui/core components
+import {makeStyles} from '@material-ui/core/styles';
+import InputLabel from '@material-ui/core/InputLabel';
+// core components
+import GridItem from 'components/Grid/GridItem.js';
+import GridContainer from 'components/Grid/GridContainer.js';
+import CustomInput from 'components/CustomInput/CustomInput.js';
+import Button from 'components/CustomButtons/Button.js';
+import Card from 'components/Card/Card.js';
+import CardHeader from 'components/Card/CardHeader.js';
+import CardAvatar from 'components/Card/CardAvatar.js';
+import CardBody from 'components/Card/CardBody.js';
+import CardFooter from 'components/Card/CardFooter.js';
 
-const CustomSkinMap = withScriptjs(
-  withGoogleMap(() => (
-    <GoogleMap
-      defaultZoom={13}
-      defaultCenter={{ lat: 40.748817, lng: -73.985428 }}
-      defaultOptions={{
-        scrollwheel: false,
-        zoomControl: true,
-        styles: [
-          {
-            featureType: 'water',
-            stylers: [
-              { saturation: 43 },
-              { lightness: -11 },
-              { hue: '#0088ff' },
-            ],
-          },
-          {
-            featureType: 'road',
-            elementType: 'geometry.fill',
-            stylers: [
-              { hue: '#ff0000' },
-              { saturation: -100 },
-              { lightness: 99 },
-            ],
-          },
-          {
-            featureType: 'road',
-            elementType: 'geometry.stroke',
-            stylers: [{ color: '#808080' }, { lightness: 54 }],
-          },
-          {
-            featureType: 'landscape.man_made',
-            elementType: 'geometry.fill',
-            stylers: [{ color: '#ece2d9' }],
-          },
-          {
-            featureType: 'poi.park',
-            elementType: 'geometry.fill',
-            stylers: [{ color: '#ccdca1' }],
-          },
-          {
-            featureType: 'road',
-            elementType: 'labels.text.fill',
-            stylers: [{ color: '#767676' }],
-          },
-          {
-            featureType: 'road',
-            elementType: 'labels.text.stroke',
-            stylers: [{ color: '#ffffff' }],
-          },
-          { featureType: 'poi', stylers: [{ visibility: 'off' }] },
-          {
-            featureType: 'landscape.natural',
-            elementType: 'geometry.fill',
-            stylers: [{ visibility: 'on' }, { color: '#b8cb93' }],
-          },
-          { featureType: 'poi.park', stylers: [{ visibility: 'on' }] },
-          {
-            featureType: 'poi.sports_complex',
-            stylers: [{ visibility: 'on' }],
-          },
-          { featureType: 'poi.medical', stylers: [{ visibility: 'on' }] },
-          {
-            featureType: 'poi.business',
-            stylers: [{ visibility: 'simplified' }],
-          },
-        ],
-      }}
-    >
-      <Marker position={{ lat: 40.748817, lng: -73.985428 }} />
-    </GoogleMap>
-  )),
-);
+import avatar from 'assets/img/faces/marc.jpg';
+import Popup from "reactjs-popup";
+import AttributeBoxContent from "../Dashboard/attributeBoxContent";
+import Table from "@material-ui/core/Table";
+import TableBody from "@material-ui/core/TableBody";
+import TableRow from "@material-ui/core/TableRow";
+import TableCell from "@material-ui/core/TableCell/TableCell";
+import QuantitativeContent from "../Dashboard/quantitativeContent";
+import scatterJsonarray from "../../datas_json/group_top_new_25_array";
+import Chart from "react-apexcharts";
+import linechartJson from "../../datas_json/trend_by_city_ver2";
+import axios from "axios";
+import {Steps, Tag} from "antd";
+import Carousel, {Modal, ModalGateway} from "react-images";
+import flagshipImagesJson from "../../datas_json/flagshipImagesJson";
+import attributeGroupJson from "../../datas_json/attributeGroupsJson";
+import Attribute from "../Dashboard/Attribute";
+import AttributeCompares from "../Dashboard/AttributeCompares";
+
+const {Step} = Steps;
+
+const styles = {
+  cardCategoryWhite: {
+    color: 'rgba(255,255,255,.62)',
+    margin: '0',
+    fontSize: '14px',
+    marginTop: '0',
+    marginBottom: '0',
+  },
+  cardTitleWhite: {
+    color: '#FFFFFF',
+    marginTop: '0px',
+    minHeight: 'auto',
+    fontWeight: '300',
+    fontFamily: "'Roboto', 'Helvetica', 'Arial', sans-serif",
+    marginBottom: '3px',
+    textDecoration: 'none',
+  },
+};
+
+const useStyles = makeStyles(styles);
+
+const scatter_group_data_array = {
+  series: [
+    {
+      name: 'group1',
+      data: scatterJsonarray['group1'],
+    },
+    {
+      name: 'group2',
+      data: scatterJsonarray['group2'],
+    },
+    {
+      name: 'group3',
+      data: scatterJsonarray['group3'],
+    },
+    {
+      name: 'group4',
+      data: scatterJsonarray['group4'],
+    },
+    {
+      name: 'group5',
+      data: scatterJsonarray['group5'],
+    },
+    {
+      name: 'group6',
+      data: scatterJsonarray['group6'],
+    },
+    {
+      name: 'group7',
+      data: scatterJsonarray['group7'],
+    },
+    {
+      name: 'group8',
+      data: scatterJsonarray['group8'],
+    },
+    {
+      name: 'group9',
+      data: scatterJsonarray['group9'],
+    },
+    {
+      name: 'group10',
+      data: scatterJsonarray['group10'],
+    },
+    {
+      name: 'group11',
+      data: scatterJsonarray['group11'],
+    },
+    {
+      name: 'group12',
+      data: scatterJsonarray['group12'],
+    },
+    {
+      name: 'group13',
+      data: scatterJsonarray['group13'],
+    },
+    {
+      name: 'group14',
+      data: scatterJsonarray['group14'],
+    },
+    {
+      name: 'group15',
+      data: scatterJsonarray['group15'],
+    },
+    {
+      name: 'group16',
+      data: scatterJsonarray['group16'],
+    },
+    {
+      name: 'group17',
+      data: scatterJsonarray['group17'],
+    },
+    {
+      name: 'group18',
+      data: scatterJsonarray['group18'],
+    },
+    {
+      name: 'group19',
+      data: scatterJsonarray['group19'],
+    },
+    {
+      name: 'group20',
+      data: scatterJsonarray['group20'],
+    },
+    {
+      name: 'group21',
+      data: scatterJsonarray['group21'],
+    },
+    {
+      name: 'group22',
+      data: scatterJsonarray['group22'],
+    },
+    {
+      name: 'group23',
+      data: scatterJsonarray['group23'],
+    },
+    {
+      name: 'group24',
+      data: scatterJsonarray['group24'],
+    },
+    {
+      name: 'group25',
+      data: scatterJsonarray['group25'],
+    },
+  ],
+};
+
+let apexChartScatterOptions = {
+  options: {
+    chart: {
+      height: '300',
+      type: 'scatter',
+      zoom: {
+        enabled: false,
+        type: 'xy',
+      },
+    },
+    xaxis: {
+      // tickAmount: 10,
+      labels: {
+        show: false,
+        formatter: function (val) {
+          return parseFloat(val).toFixed(1);
+        },
+      },
+    },
+    yaxis: {
+      show: false,
+      tickAmount: 7,
+    },
+  },
+};
+let colors = [
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+  '#665f5f',
+];
+
+var apexChartLineOptions = {
+  series: [linechartJson['group1'][0]],
+  options: {
+    legend: {
+      show: false
+    },
+    chart: {
+      zoom: {
+        enabled: false
+      }
+    },
+    dataLabels: {
+      enabled: false
+    },
+    stroke: {
+      curve: 'straight'
+    },
+    title: {
+      text: 'Trending',
+      align: 'left'
+    },
+    // grid: {
+    //   row: {
+    //     colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+    //     opacity: 0.5
+    //   },
+    // },
+    xaxis: {
+      categories: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
+    }
+  }
+};
 
 export default function Maps() {
+  const classes = useStyles();
+
+  const [groupNumState, setGroupState] = React.useState('group1');
+
+  let attributeList = [];
+  axios.get('http://localhost:8000/fashionq/test/' + 'group1').then(res => {
+    ReactDOM.render(
+        <img
+            style={{textAlign: 'center', maxWidth: '80%'}}
+            width="100%"
+            height={'auto'}
+            // src={'/static/' + this.state.file.name}
+            src={'/static/' + res.data['filename']}
+        />,
+        document.getElementById('lookImage'),
+    );
+
+
+    ReactDOM.render(
+        <>
+          {attributeGroupJson['Type of clothes'].map(a => {
+            return (
+                <Attribute
+                    key={a}
+                    attr={a}
+                    list={attributeList}
+                    group={'Type of clothes'}
+                />
+            );
+          })}
+          {attributeGroupJson['Dominant colors'].map(a => {
+            return <Attribute key={a} attr={a} list={attributeList}/>;
+          })}
+          {attributeGroupJson['Garments parts'].map(a => {
+            return <Attribute key={a} attr={a} list={attributeList}/>;
+          })}
+          {attributeGroupJson['Textile pattern'].map(a => {
+            return <Attribute key={a} attr={a} list={attributeList}/>;
+          })}
+          {attributeGroupJson['Decorations'].map(a => {
+            return <Attribute key={a} attr={a} list={attributeList}/>;
+          })}
+          {attributeGroupJson['Finishing'].map(a => {
+            return <Attribute key={a} attr={a} list={attributeList}/>;
+          })}
+        </>,
+        document.getElementById('yourLookAttrs'),
+    );
+
+    ReactDOM.render(
+        <>
+          {attributeGroupJson['Type of clothes'].map(a => {
+            return <AttributeCompares key={a} attr={a} groupNum={groupNumState}/>;
+          })}
+          {attributeGroupJson['Dominant colors'].map(a => {
+            return <AttributeCompares key={a} attr={a} groupNum={groupNumState}/>;
+          })}
+          {attributeGroupJson['Garments parts'].map(a => {
+            return <AttributeCompares key={a} attr={a} groupNum={groupNumState}/>;
+          })}
+          {attributeGroupJson['Textile pattern'].map(a => {
+            return <AttributeCompares key={a} attr={a} groupNum={groupNumState}/>;
+          })}
+          {attributeGroupJson['Decorations'].map(a => {
+            return <AttributeCompares key={a} attr={a} groupNum={groupNumState}/>;
+          })}
+          {attributeGroupJson['Finishing'].map(a => {
+            return <AttributeCompares key={a} attr={a} groupNum={groupNumState}/>;
+          })}
+        </>,
+        document.getElementById('AttrsCompare'),
+    );
+
+
+    ReactDOM.render(<Steps current={3}>
+      <Step title="Upload File" description="Upload your own image file"/>
+      <Step title="Style Check"
+            description="Check your style and attributes"
+      />
+      <Step title="Style Result" description="FashionQ!!"/>
+    </Steps>, document.getElementById('fashionqStep'));
+
+
+    let groupNumState = 'group1';
+    let imagesList = flagshipImagesJson[groupNumState];
+    let carouselList = [];
+    for (let i = 0; i < imagesList.length; i++) {
+      let temp = {};
+      temp['source'] =
+          '/static/Representative_Images/' + groupNumState + '/' + imagesList[i];
+      carouselList.push(temp);
+    }
+
+
+    ReactDOM.render(<div>
+          {imagesList.map(img => {
+            return (<div style={{padding: '10'}} key={img}>
+                  <img
+                      style={{width: '15%', float: 'left', padding: '10'}}
+                      src={'/static/Representative_Images/' + groupNumState + '/' + img}
+                  />{' '}</div>
+            );
+          })} </div>,
+        document.getElementById('images1'),
+    );
+
+    ReactDOM.render(<div>
+          {imagesList.map(img => {
+            return (<div style={{padding: '10'}} key={img}>
+                  <img
+                      style={{width: '15%', float: 'left', padding: '10'}}
+                      src={'/static/Representative_Images/' + groupNumState + '/' + img}
+                  />{' '}</div>
+            );
+          })} </div>,
+        document.getElementById('images2'),
+    );
+
+    ReactDOM.render(<div>
+          {imagesList.map(img => {
+            return (<div style={{padding: '10'}} key={img}>
+                  <img
+                      style={{width: '15%', float: 'left', padding: '10'}}
+                      src={'/static/Representative_Images/' + groupNumState + '/' + img}
+                  />{' '}</div>
+            );
+          })} </div>,
+        document.getElementById('images3'),
+    );
+
+    ReactDOM.render(<div>
+          {imagesList.map(img => {
+            return (<div style={{padding: '10'}} key={img}>
+                  <img
+                      style={{width: '16%', float: 'left', padding: '10'}}
+                      src={'/static/Representative_Images/' + groupNumState + '/' + img}
+                  />{' '}</div>
+            );
+          })} </div>,
+        document.getElementById('intersectionLook'),
+    );
+
+
+    function onlyUnique(value, index, self) {
+      return self.indexOf(value) === index;
+    }
+
+    let attributeList = res.data['attribute_names'];
+    let unique = attributeList.filter(onlyUnique);
+    let result = '';
+    for (let j = 0; j < unique.length; j++) {
+      result = result + unique[j] + '<br/>';
+    }
+    ReactDOM.render(
+        <>
+          {unique.map(index => {
+            return (
+                <span key={index}>
+                            <Tag color="white">
+                                <h1 style={{color: '#000000', fontFamily: 'BebasNeue-Bold'}}>{index}</h1>
+                            </Tag>
+                        </span>
+            );
+          })}
+        </>,
+        document.getElementById('attributes'),
+    );
+    ReactDOM.render(
+        <>
+          {unique.map(index => {
+            return (
+                <span key={index}>
+                            <Tag color="white">
+                                <h1 style={{color: '#000000', fontFamily: 'BebasNeue-Bold'}}>{index}</h1>
+                            </Tag>
+                        </span>
+            );
+          })}
+        </>,
+        document.getElementById('attributes'),
+    );
+
+    ReactDOM.render(
+        <div>
+          <img width="200" src={'/static/Brand_Images/chanel.png'}/>
+          <a href={'https://www.vogue.com/fashion-shows/fall-2010-ready-to-wear/chanel'} target={'_blank'}>
+            <div
+                style={{textAlign: 'center', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
+              2010 FW
+            </div>
+          </a>
+        </div>
+        , document.getElementById('intersectionShow'));
+
+  });
+
   return (
-    <CustomSkinMap
-      googleMapURL="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"
-      loadingElement={<div style={{ height: `100%` }} />}
-      containerElement={<div style={{ height: `100vh` }} />}
-      mapElement={<div style={{ height: `100%` }} />}
-    />
+      <div>
+        <GridContainer>
+          <GridItem>
+            <GridItem xs={20}>
+              <Card>
+                <CardHeader color="rose">
+                                <span style={{
+                                  color: '#FFFFFF', fontFamily: 'BebasNeue-Bold', fontSize: '30px'
+                                }} className={classes.cardCategory}>AttributeQ</span>
+                  {/*<Popup*/}
+                  {/*    modal*/}
+                  {/*    trigger={<Button color={'#ff0000'} type={'primary'}>?</Button>}*/}
+                  {/*    position="right center"*/}
+                  {/*>*/}
+                  {/*    {close => <AttributeBoxContent close={close}/>}*/}
+                  {/*</Popup>*/}
+                </CardHeader>
+                <GridContainer
+                    justify="center"
+                    direction="row">
+                  <GridItem xs={20} sm={2}>
+                    <span id="lookImage" className={classes.stats}></span>
+                  </GridItem>
+                  <GridItem xs={20} sm={17}>
+                                    <span>
+                                        <div
+                                            style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
+                                            ATTRIBUTES
+                                        </div>
+                                        <Card style={{width: '100%'}}>
+                                            <br/>
+                                            <div style={{textAlign: 'left'}} id={'attributes'}/></Card>
+                                    </span>
+                    <Table
+                        alignItems="center"
+                        justify="center"
+                        style={{textAlign: 'center', width: '70%'}}
+                        className={classes.table}
+                    >
+                      <TableBody>
+                        <TableRow>
+                          <TableCell
+                              style={{
+                                fontFamily: 'BebasNeue-Bold',
+                                //backgroundColor: '#bfaa3a',
+                                textAlign: 'center',
+                                fontSize: 25,
+                                border: '1px solid #000000',
+                              }}
+                              colSpan={60}
+                          >
+                            Type of clothes
+                          </TableCell>
+                          <TableCell
+                              style={{
+                                fontFamily: 'BebasNeue-Bold',
+                                //backgroundColor: '#9bbf36',
+                                textAlign: 'center',
+                                fontSize: 25,
+                                border: '1px solid #000000',
+                              }}
+                              colSpan={15}
+                          >
+                            Dominant colors
+                          </TableCell>
+                          <TableCell
+                              style={{
+                                fontFamily: 'BebasNeue-Bold',
+                                //backgroundColor: '#50bf60',
+                                textAlign: 'center',
+                                fontSize: 25,
+                                border: '1px solid #000000',
+                              }}
+                              colSpan={27}
+                          >
+                            Garments parts
+                          </TableCell>
+                          <TableCell
+                              style={{
+                                fontFamily: 'BebasNeue-Bold',
+                                //backgroundColor: '#51b9bf',
+                                textAlign: 'center',
+                                fontSize: 25,
+                                border: '1px solid #000000',
+                              }}
+                              colSpan={21}
+                          >
+                            Textile pattern
+                          </TableCell>
+                          <TableCell
+                              style={{
+                                fontFamily: 'BebasNeue-Bold',
+                                //backgroundColor: '#bf5861',
+                                textAlign: 'center',
+                                fontSize: 25,
+                                border: '1px solid #000000',
+                              }}
+                              colSpan={15}
+                          >
+                            Decorations
+                          </TableCell>
+                          <TableCell
+                              style={{
+                                fontFamily: 'BebasNeue-Bold',
+                                //backgroundColor: '#9673bf',
+                                textAlign: 'center',
+                                fontSize: 25,
+                                border: '1px solid #000000',
+                              }}
+                              colSpan={9}
+                          >
+                            Finishing
+                          </TableCell>
+                        </TableRow>
+                        <TableRow id={'yourLookAttrs'} style={{width: '80%'}}>
+                        </TableRow>
+                        {/*<TableRow id={'AttrsCompare'} style={{width: '80%'}}>*/}
+                        {/*</TableRow>*/}
+                      </TableBody>
+                    </Table>
+                    <br/>
+                  </GridItem>
+                </GridContainer>
+              </Card>
+            </GridItem>
+            <GridItem xs={20} sm={20}>
+              <Card>
+                <CardHeader color="rose">
+                <span style={{
+                  color: '#FFFFFF', fontFamily: 'BebasNeue-Bold', fontSize: '30px'
+                }} id={'quantitative'} className={classes.cardCategory}>
+                  QUANTITATIVE{' '}
+                </span>
+                  {/*<Popup*/}
+                  {/*    modal*/}
+                  {/*    trigger={<Button type={'primary'}>?</Button>}*/}
+                  {/*    position="right center"*/}
+                  {/*>*/}
+                  {/*    {close => <QuantitativeContent close={close}/>}*/}
+                  {/*</Popup>*/}
+                </CardHeader>
+
+                <GridContainer
+                    justify="center"
+                    direction="row">
+                  <GridItem xs={2} sm={2}>
+                    <div
+                        style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
+                      STYLE MAP
+                    </div>
+                    <CardBody id={'scatterChart'}/>
+                  </GridItem>
+                  <GridItem xs={17} sm={17}>
+                    <div style={{textAlign: 'left', marginBottom: '20px'}} id={'button_groups'}>
+                      <button id={'firstStyleButton'}></button>
+                      <button id={'secondStyleButton'}></button>
+                      <button id={'thirdStyleButton'}></button>
+                    </div>
+                    <Table
+                        alignItems="center"
+                        justify="center"
+                        style={{textAlign: 'center', width: '70%'}}
+                        className={classes.table}
+                    >
+                      <TableBody>
+                        <TableRow>
+                          <TableCell
+                              style={{
+                                fontFamily: 'BebasNeue-Bold',
+                                //backgroundColor: '#bfaa3a',
+                                textAlign: 'center',
+                                fontSize: 25,
+                                border: '1px solid #000000',
+                              }}
+                              colSpan={60}
+                          >
+                            Type of clothes
+                          </TableCell>
+                          <TableCell
+                              style={{
+                                fontFamily: 'BebasNeue-Bold',
+                                //backgroundColor: '#9bbf36',
+                                textAlign: 'center',
+                                fontSize: 25,
+                                border: '1px solid #000000',
+                              }}
+                              colSpan={15}
+                          >
+                            Dominant colors
+                          </TableCell>
+                          <TableCell
+                              style={{
+                                fontFamily: 'BebasNeue-Bold',
+                                //backgroundColor: '#50bf60',
+                                textAlign: 'center',
+                                fontSize: 25,
+                                border: '1px solid #000000',
+                              }}
+                              colSpan={27}
+                          >
+                            Garments parts
+                          </TableCell>
+                          <TableCell
+                              style={{
+                                fontFamily: 'BebasNeue-Bold',
+                                //backgroundColor: '#51b9bf',
+                                textAlign: 'center',
+                                fontSize: 25,
+                                border: '1px solid #000000',
+                              }}
+                              colSpan={21}
+                          >
+                            Textile pattern
+                          </TableCell>
+                          <TableCell
+                              style={{
+                                fontFamily: 'BebasNeue-Bold',
+                                //backgroundColor: '#bf5861',
+                                textAlign: 'center',
+                                fontSize: 25,
+                                border: '1px solid #000000',
+                              }}
+                              colSpan={15}
+                          >
+                            Decorations
+                          </TableCell>
+                          <TableCell
+                              style={{
+                                fontFamily: 'BebasNeue-Bold',
+                                //backgroundColor: '#9673bf',
+                                textAlign: 'center',
+                                fontSize: 25,
+                                border: '1px solid #000000',
+                              }}
+                              colSpan={9}
+                          >
+                            Finishing
+                          </TableCell>
+                        </TableRow>
+                        <TableRow id={'AttrsCompare'} style={{width: '80%'}}>
+                        </TableRow>
+                      </TableBody>
+                    </Table>
+                    <GridItem xs={17} sm={17}>
+                      <br/>
+                      <div
+                          style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
+                        REPRESENTATIVE LOOKS
+                      </div>
+                      <div id={'representativeLooks'}></div>
+                    </GridItem>
+                  </GridItem>
+                </GridContainer>
+              </Card>
+            </GridItem>
+          </GridItem>
+        </GridContainer>
+        <GridContainer>
+          <GridItem xs={12}>
+            <GridItem xs={12} sm={12}>
+              <Card>
+                <CardHeader color="rose">
+                            <span style={{
+                              color: '#FFFFFF', fontFamily: 'BebasNeue-Bold', fontSize: '30px'
+                            }} className={classes.cardCategory}>TrendQ</span>
+
+                </CardHeader>
+                <GridContainer
+                    justify="center"
+                    direction="row">
+                  <GridItem xs={12} sm={2} style={{float: 'left', marginRight: '20px'}}>
+                    <div
+                        style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
+                      STYLE MAP
+                    </div>
+                    {/*<span id="scatterChart" className={classes.stats}></span>*/}
+                    <Chart
+                        height={500}
+                        options={apexChartScatterOptions.options}
+                        series={scatter_group_data_array.series}
+                        type="scatter"
+                    />
+                  </GridItem>
+                  <GridItem xs={12} sm={9}>
+                    <GridContainer>
+                      <GridItem xs={12}>
+                        <div
+                            style={{
+                              textAlign: 'left',
+                              fontSize: '40px',
+                              fontFamily: 'BebasNeue-Bold'
+                            }}>
+                          TREND GROUP
+                        </div>
+                      </GridItem>
+                      <GridItem xs={12}>
+                        <GridContainer>
+                          <GridItem xs={12} sm={4}>
+                            <Chart width={550} height={200}
+                                   options={apexChartLineOptions.options}
+                                   series={apexChartLineOptions.series} type={'line'}/>
+                            <div id={'images1'}/>
+                          </GridItem>
+                          <GridItem xs={12} sm={4}>
+                            <Chart width={550} height={200}
+                                   options={apexChartLineOptions.options}
+                                   series={apexChartLineOptions.series} type={'line'}/>
+                            <div id={'images2'}/>
+                          </GridItem>
+                          <GridItem xs={12} sm={4}>
+                            <Chart width={550} height={200}
+                                   options={apexChartLineOptions.options}
+                                   series={apexChartLineOptions.series} type={'line'}/>
+                            <div id={'images3'}/>
+                          </GridItem>
+                        </GridContainer>
+                      </GridItem>
+                    </GridContainer>
+                  </GridItem>
+                </GridContainer>
+              </Card>
+            </GridItem>
+            <GridItem xs={12} sm={12}>
+              <Card>
+                <CardHeader color="rose">
+                                <span style={{
+                                  color: '#FFFFFF', fontFamily: 'BebasNeue-Bold', fontSize: '30px'
+                                }} id={'quantitative'} className={classes.cardCategory}>
+                                  FashionQ{' '}
+                                </span>
+
+                </CardHeader>
+                {/*<GridContainer>*/}
+                <GridContainer
+                    justify="center"
+                    direction="row">
+                  <GridItem xs={12} sm={3}>
+                    <div
+                        style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
+                      INTERSECTION ATTRIBUTES
+                    </div>
+                    <br/>
+                    <br/>
+                    <div style={{textAlign: 'left'}} id={'attributes'}/>
+                    <br/>
+                  </GridItem>
+                  <GridItem xs={12} sm={6}>
+                    <GridItem>
+                      <div
+                          style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
+                        INTERSECTION LOOK
+                      </div>
+                      <div id={'intersectionLook'}></div>
+                    </GridItem>
+                  </GridItem>
+                  <GridItem xs={12} sm={3}>
+                    <GridItem>
+                      <div
+                          style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
+                        INTERSECTION SHOW
+                      </div>
+                      <div id={'intersectionShow'}></div>
+                    </GridItem>
+                  </GridItem>
+                </GridContainer>
+              </Card>
+            </GridItem>
+          </GridItem>
+        </GridContainer>
+      </div>
   );
 }

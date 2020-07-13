@@ -1,9 +1,17 @@
-/* eslint-disable no-unused-vars,no-console */
+/* eslint-disable no-unused-vars,no-console,prettier/prettier,jsx-a11y/alt-text */
 import React, { Component, PureComponent } from 'react';
 import axios from 'axios';
 
+import Popup from 'reactjs-popup';
+import LookContent from './views/Dashboard/lookContent.js';
+import { Router, Route, Switch, Redirect } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
 import Csrftoken from './csrftoken';
 import ReactDOM from 'react-dom';
+import { Tag, Divider, Button } from 'antd';
+import 'antd/dist/antd.css';
+import { Upload, message } from 'antd';
+import { LoadingOutlined, PlusOutlined } from '@ant-design/icons';
 // import "billboard.js/dist/theme/insight.css";
 // import bb from "billboard.js";
 import ReactHtmlParser from 'react-html-parser';
@@ -17,7 +25,46 @@ import {
 import scatterJson from './datas_json/group_top_new_100.json';
 import linechartJson from './datas_json/trend_by_city';
 import flagshipBrandJson from './datas_json/flagship_Brands';
-import flagshipImage from './flagshipImagesJson';
+import flagshipImage from './datas_json/flagshipImagesJson';
+import Admin from './layouts/Admin';
+
+import Card from 'components/Card/Card.js';
+import CardHeader from 'components/Card/CardHeader.js';
+import classNames from 'classnames';
+import PropTypes from 'prop-types';
+// @material-ui/core components
+import { makeStyles } from '@material-ui/core/styles';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Hidden from '@material-ui/core/Hidden';
+// @material-ui/icons
+import Menu from '@material-ui/icons/Menu';
+// core components
+
+// import styles from 'assets/jss/material-dashboard-react/components/headerStyle.js';
+import { Steps } from 'antd';
+const { Step } = Steps;
+// const styles = {
+//   cardCategoryWhite: {
+//     color: 'rgba(255,255,255,.62)',
+//     margin: '0',
+//     fontSize: '14px',
+//     marginTop: '0',
+//     marginBottom: '0',
+//   },
+//   cardTitleWhite: {
+//     color: '#FFFFFF',
+//     marginTop: '0px',
+//     minHeight: 'auto',
+//     fontWeight: '300',
+//     fontFamily: "'Roboto', 'Helvetica', 'Arial', sans-serif",
+//     marginBottom: '3px',
+//     textDecoration: 'none',
+//   },
+// };
+// const useStyles = makeStyles(styles);
+// const classes = useStyles();
+
 // import flagshipImageFiles from "./flagship_Images"
 // const scatterJson = getJSON("groups.json", function(json){
 // });
@@ -37,10 +84,13 @@ function importAll(r) {
   return r.keys().map(r);
 }
 
+const hist = createBrowserHistory();
 var flagstaticImages = {};
+
 // const images =
 
 class App extends React.Component {
+
   constructor(props) {
     super(props);
 
@@ -66,6 +116,46 @@ class App extends React.Component {
 
   handleSubmit = e => {
     ReactDOM.render(
+        <div style={{ width:'50%', padding:'20px', alignContent:'center', justifyContent:'center', height:'50%', position:'absolute',
+          overflow:'auto', top:'0', bottom:'0', margin:'auto', left:'0', right:'0'}}>
+          <span style={{
+            color: '#000000', fontFamily: 'BebasNeue-Bold', fontSize: '60px'
+          }}>LOADING</span>
+      <ReactLoading type="bars" color="#0000ff" /></div>,
+      document.getElementById('root'),
+    );
+
+    e.preventDefault();
+    let form_data = new FormData();
+    form_data.append('file', this.state.file);
+    let url = 'fashionq/posts/';
+    console.log(form_data);
+    axios
+      .post(url, form_data, {
+        headers: {
+          'content-type': 'multipart/form-data',
+        },
+      })
+      .then(res => {
+        console.log(this.file);
+        ReactDOM.render(
+          <Router history={hist}>
+            <Switch>
+              <Route path="/" component={Admin} />
+              <Redirect from="/" to="/stylecheck" />
+            </Switch>
+          </Router>,
+          document.getElementById('root'),
+        );
+      })
+      .catch(err => console.log(err));
+    // ReactDOM.render(
+    //     <Route path="/result" component={Admin}/>
+    // );
+  };
+
+  handleSubmit2 = e => {
+    ReactDOM.render(
       <ReactLoading type="bars" color="#0000ff" />,
       document.getElementById('root'),
     );
@@ -84,6 +174,7 @@ class App extends React.Component {
         },
       })
       .then(res => {
+        console.log(form_data);
         // let temp = escapeHtml(res.datas_json);
 
         // ReactDOM.render(res.datas_json.split('\n').map(line=> {
@@ -227,22 +318,6 @@ class App extends React.Component {
           ReactHtmlParser(groupName_html),
           document.getElementById('root'),
         );
-
-        // ReactDOM.render(<BarChart
-        //     width={1000}
-        //     height={300}
-        //     datas_json={res.datas_json}
-        //     margin={{
-        //         top: 5, right: 30, left: 20, bottom: 5,
-        //     }}
-        // >
-        //     <CartesianGrid strokeDasharray="3 3"/>
-        //     <XAxis font-size="2px" dataKey="name"/>
-        //     <YAxis/>
-        //     <Tooltip/>
-        //     <Legend/>
-        //     <Bar dataKey="attribute" fill="#8884d8"/>
-        // </BarChart>, document.getElementById("root"));
       })
       .catch(err => console.log(err));
   };
@@ -275,6 +350,18 @@ class App extends React.Component {
     console.log('changeCheckedLegendschartBase');
   };
 
+  testRender = e => {
+    ReactDOM.render(
+      <Router history={hist}>
+        <Switch>
+          <Route path="/" component={Admin} />
+          <Redirect from="/" to="/stylecheck" />
+        </Switch>
+      </Router>,
+      document.getElementById('root'),
+    );
+  };
+
   static jsfiddleUrl = 'https://jsfiddle.net/alidingling/xqjtetw0/';
 
   toggleDataSeries(e) {
@@ -286,27 +373,56 @@ class App extends React.Component {
     this.chart.render();
   }
 
-  render() {
-    return (
-      <div className="App">
-        <form onSubmit={this.handleSubmit}>
-          <Csrftoken />
-          <p>
-            <input
-              type="file"
-              id="image"
-              accept="image/png, image/jpeg"
-              onChange={this.handleImageChange}
-              required
-            />
-          </p>
-          <input type="submit" />
-        </form>
-        <div id="dataframe" />
-        <div>{this.testee()}</div>
-      </div>
-    );
+  render(){
+      return(<Router history={hist}>
+              <Switch>
+                  <Route path="/" component={Admin} />
+                  <Redirect from="/" to="/stylecheck"/>
+              </Switch>
+          </Router>)
   }
+  // render() {
+  //   return (
+  //     <div style={{ width: '600px', padding:'20px', alignContent:'center', justifyContent:'center', height:'50%', position:'absolute',
+  //     overflow:'auto', top:'0', bottom:'0', margin:'auto', left:'0', right:'0'}} className="App">
+  //       <div style={{textAlign:'center'}}>
+  //         {/*<CardHeader color="rose">*/}
+  //
+  //         {/*</CardHeader>*/}
+  //         {/*<Steps current={0}>*/}
+  //         {/*  <Step*/}
+  //         {/*    title="Upload File"*/}
+  //         {/*    description="You can upload your own image"*/}
+  //         {/*  />*/}
+  //         {/*  <Step title="Style Check" description="This is a description." />*/}
+  //         {/*  <Step title="Style Result" description="This is a description." />*/}
+  //         {/*</Steps>*/}
+  //         <span style={{textAlign:'center',
+  //           color: '#000000', fontFamily: 'BebasNeue-Bold', fontSize: '60px'
+  //         }}>FashionQ Project</span>
+  //
+  //         <div style={{
+  //           color: '#000000', fontFamily: 'BebasNeue-Bold', fontSize: '30px'
+  //         }}>you can upload your own image </div>
+  //       </div>
+  //       <div>
+  //         <form onSubmit={this.handleSubmit}>
+  //           <Csrftoken />
+  //           <p >
+  //             <input
+  //               type="file"
+  //               id="image"
+  //               accept="image/png, image/jpeg"
+  //               onChange={this.handleImageChange}
+  //               required
+  //             />
+  //           </p>
+  //           <input style={{backgroundColor:'#1979fe',color:'#ffffff', width:'200px'}} type="submit" />
+  //         </form>
+  //       </div>
+  //     </div>
+  //   );
+  // }
 }
 
 const scatter_options = {

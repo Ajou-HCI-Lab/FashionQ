@@ -13,7 +13,7 @@ from keras_retinanet import models
 from keras_retinanet.utils.image import read_image_bgr, preprocess_image, resize_image
 from keras_retinanet.utils.visualization import draw_box, draw_caption
 from keras_retinanet.utils.colors import label_color
-
+import matplotlib
 # import miscellaneous modules
 import matplotlib.pyplot as plt
 import cv2
@@ -23,15 +23,15 @@ import time
 import pandas as pd
 import ast
 import os
-
 # set tf backend to allow memory to grow, instead of claiming everything
 import tensorflow as tf
 
-
+matplotlib.use('Agg')
 class SingletonRetinaNet:
 	_instance = None
 	model = None
 	nmf_path = None
+	labels_to_names = None
 
 	@classmethod
 	def _getInstance(cls):
@@ -46,14 +46,19 @@ class SingletonRetinaNet:
 
 
 	def get_session(self):
-		config = tf.ConfigProto()
+		config = tf.ConfigProto(
+			device_count={'GPU':1},
+			intra_op_parallelism_threads=1,
+			allow_soft_placement=True
+		)
 		config.gpu_options.allow_growth = True
+		config.gpu_options.per_process_gpu_memory_fraction = 0.6
 		return tf.Session(config=config)
 
 
 
 	def __init__(self):
-		global model, nmf_path
+		global model, nmf_path,labels_to_names
 		# use this environment flag to change which GPU to use
 		os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 		os.environ["CUDA_VISIBLE_DEVICES"] = '6'
@@ -95,7 +100,7 @@ class SingletonRetinaNet:
 		return test_list
 
 	def run_detection(self, current_filename):
-		global model, nmf_path
+		global model, nmf_path,labels_to_names
 		# load image
 
 		path = os.path.join(nmf_path)
@@ -105,11 +110,15 @@ class SingletonRetinaNet:
 		image_name = []
 		prediction = []
 		confidence = []
+		box_coordinates = []
 		error = []
 
 		image = read_image_bgr(os.path.join(path, current_filename))
 		draw = image.copy()
 		draw = cv2.cvtColor(draw, cv2.COLOR_BGR2RGB)
+
+		image = preprocess_image(image)
+		image, scale = resize_image(image)
 
 		start = time.time()
 		boxes, scores, labels = model.predict_on_batch(np.expand_dims(image, axis=0))
@@ -121,6 +130,23 @@ class SingletonRetinaNet:
 		confidence.append(scores[0])
 		prediction_new = []
 
+		for box, score, label in zip(boxes[0], scores[0], labels[0]):
+			# scores are sorted so we can break
+			if score < 0.7:
+				break
+
+			color = label_color(label)
+
+			b = box.astype(int)
+			draw_box(draw, b, color=color)
+			box_coordinates.append(b)
+
+			caption = "{} {:.3f}".format(labels_to_names[label], score)
+			draw_caption(draw, b, caption)
+		plt.figure(figsize=(15,15))
+		plt.axis('off')
+		plt.savefig('qwdqdw.png', dpi=300)
+		plt.close()
 
 		# for i, num in zip(self.get_list(), range(0, len(self.get_list()))):
 		# 	try:
@@ -180,12 +206,17 @@ class SingletonRetinaNet:
 		for i in confidence:
 			new_i = list(i)
 			confidence_new.append(new_i)
+		print("-----------------qweqwe----------------")
+		print(image_name)
+		print(prediction_new)
+		print(confidence_new)
+		print(box_coordinates)
 
 		df = pd.DataFrame({"image_name": image_name, "prediction": prediction_new, "confidence": confidence_new})
-		# df.to_csv("./test_result/test_result_resnet101-e20_2014.csv", index=False)
+		# df.to_csv("./test_result/test_result_resnet101-e20_2014.csv", index=False)25
 
 		print(df)
-		return df
+		return df, box_coordinates
 
 
 	def columns_from_attribute_detector(self, dataFrame):

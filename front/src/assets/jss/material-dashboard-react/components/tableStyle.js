@@ -39,6 +39,16 @@ const tableStyle = theme => ({
     borderSpacing: '0',
     borderCollapse: 'collapse',
   },
+  cardCategory: {
+    color: '#000000',
+    margin: '0',
+    fontSize: '25px',
+    fontFamily: 'Helvetica',
+    fontWeight: 'bold',
+    marginTop: '0',
+    paddingTop: '3px',
+    marginBottom: '0',
+  },
   tableHeadCell: {
     color: 'inherit',
     ...defaultFont,

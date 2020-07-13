@@ -2,426 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96267530-8930-4c6b-8fee-c8a886d925d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../backend/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group1/FW2010_fendi_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group1/FW2010_ralph-rucci_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group1/FW2012_jeremy-laing_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group1/FW2015_6397_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group1/FW2015_nili-lotan_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group1/FW2015_pamella-roland_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group10/FW2011_joseph_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group10/FW2012_duro-olowu_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group10/FW2013_gryphon_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group10/FW2013_paco-rabanne_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group10/FW2014_martin-grant_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group10/FW2014_tom-ford_30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group11/FW2015_marchesa_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group11/FW2015_nicole-miller_29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group11/FW2016_antonio-berardi_45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group11/FW2016_calvin-klein-collection_35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group11/FW2016_jason-wu_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group11/FW2016_oscar-de-la-renta_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group12/FW2014_bibhu-mohapatra_35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group12/FW2015_clover-canyon_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group12/FW2015_clover-canyon_36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group12/FW2016_juan-carlos-obando_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group12/FW2017_giorgio-armani_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group12/SS2015_sea_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group13/FW2013_dimitri_28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group13/FW2013_dimitri_32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group13/FW2015_alice-olivia_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group13/SS2017_sportmax_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group13/SS2017_versace_42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group13/SS2019_dries-van-noten_55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group14/FW2010_catherine-malandrino_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group14/FW2010_sonia-rykiel_34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group14/FW2014_francesco-scognamiglio_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group14/FW2018_ann-demeulemeester_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group14/FW2018_ann-demeulemeester_38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group14/FW2018_fendi_40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group15/FW2010_cynthia-steffe_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group15/FW2010_lanvin_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group15/FW2010_marni_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group15/FW2010_neil-barrett_18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group15/FW2010_ruffian_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group15/FW2010_vivienne-tam_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group16/FW2010_balenciaga_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group16/FW2010_bcbg-max-azria_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group16/FW2010_bcbg-max-azria_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group16/FW2010_costello-tagliapietra_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group16/FW2010_luisa-beccaria_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group16/FW2011_l-wren-scott_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group17/FW2011_carolina-herrera_28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group17/FW2011_david-koma_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group17/FW2011_imitation-of-christ_50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group17/FW2011_marc-by-marc-jacobs_32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group17/FW2012_alexis-mabille_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group17/FW2013_co_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group18/FW2012_tadashi-shoji_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group18/FW2016_bottega-veneta_42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group18/SS2017_tsumori-chisato_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group18/SS2018_agnona_26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group18/SS2018_marco-de-vincenzo_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group18/SS2019_marco-de-vincenzo_30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group19/FW2016_derek-lam_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group19/FW2016_giamba_33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group19/FW2016_marissa-webb_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group19/FW2016_prabal-gurung_28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group19/FW2016_vanessa-seward_27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group19/FW2019_simone-rocha_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group2/FW2010_sharon-wauchob_28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group2/FW2011_altuzarra_33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group2/FW2011_michael-van-der-ham_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group2/FW2013_dries-van-noten_47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group2/FW2014_alexander-mcqueen_29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group2/FW2014_andreas-kronthaler-for-vivienne-westwood_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group20/FW2011_bcbg-max-azria_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group20/FW2011_narciso-rodriguez_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group20/FW2012_wayne_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group20/FW2014_fashion-east_31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group20/FW2015_barbara-bui_33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group20/FW2016_antonio-berardi_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group21/FW2010_etro_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group21/FW2011_custo-barcelona_37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group21/FW2011_saint-laurent_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group21/FW2011_thomas-tait_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group21/FW2012_pringle-of-scotland_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group21/FW2013_assembly_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group22/FW2010_gianfranco-ferre_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group22/FW2010_gucci_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group22/FW2010_jen-kao_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group22/FW2010_jenni-kayne_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group22/FW2010_karl-lagerfeld_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group22/FW2010_l-a-m-b-_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group23/FW2011_julian-louie_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group23/FW2012_alice-olivia_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group23/FW2012_clements-ribeiro_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group23/FW2012_sharon-wauchob_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group23/FW2013_emporio-armani_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group23/FW2014_a-w-a-k-e-_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group24/FW2011_gianfranco-ferre_29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group24/FW2013_nicholas-k_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group24/FW2013_nina-ricci_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group24/FW2014_lanvin_42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group24/FW2016_adam-selman_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group24/FW2016_aquilano-rimondi_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group25/FW2010_altuzarra_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group25/FW2010_bottega-veneta_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group25/FW2010_charlotte-ronson_30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group25/SS2015_marques-almeida_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group25/SS2017_max-mara_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group25/SS2017_nicholas-k_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group3/FW2013_emporio-armani_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group3/FW2014_steven-alan_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group3/FW2014_vivienne-tam_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group3/FW2015_alice-olivia_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group3/FW2015_antonio-marras_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group3/FW2015_manish-arora_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group4/FW2013_emporio-armani_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group4/FW2013_luisa-beccaria_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group4/FW2013_marco-de-vincenzo_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group4/FW2015_chanel_43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group4/FW2016_jil-sander-navy_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group4/FW2016_mother-of-pearl_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group5/FW2010_gianfranco-ferre_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group5/FW2011_chadwick-bell_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group5/FW2011_diane-von-furstenberg_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group5/FW2011_erin-fetherston_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group5/FW2011_milly_31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group5/FW2017_chloe_40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group6/FW2019_coach_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group6/FW2019_collina-strada_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group6/FW2019_comme-des-garcons_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group6/FW2019_elie-tahari_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group6/FW2019_hermes_44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group6/SS2018_balmain_57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group7/FW2010_vera-wang_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group7/FW2013_alexander-wang_37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group7/FW2013_dkny_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group7/FW2013_dries-van-noten_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group7/FW2013_j-mendel_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group7/FW2013_joy-cioci_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group8/FW2010_aquascutum_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group8/FW2010_costello-tagliapietra_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group8/FW2010_maurizio-pecoraro_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group8/FW2010_proenza-schouler_27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group8/FW2011_araks_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group8/FW2012_jeremy-laing_27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group9/FW2010_michael-angel_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group9/FW2013_derek-lam-10-crosby_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group9/FW2013_emanuel-ungaro_31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group9/FW2013_erdem_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group9/FW2013_herve-leger-by-max-azria_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flagship_Images/group9/FW2013_jonathan-saunders_26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/material-dashboard-react.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/angular.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/chrome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/dashboard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/edge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/firefox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/html.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/map.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/md-react.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/notifications.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/opera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/opt_md_angular_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/opt_md_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/opt_md_vue_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/opt_mdr_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/safari.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/tables.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/userprofile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/github/vuejs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/cover.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/faces/marc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/new_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/reactlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/sidebar-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/sidebar-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/sidebar-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/sidebar-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/tim_80x80.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/cardImagesStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/checkboxAdnRadioStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/buttonStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardAvatarStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardBodyStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardFooterStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardHeaderStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardIconStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/customInputStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/customTabsStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/footerStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/headerLinksStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/headerStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/rtlHeaderLinksStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/sidebarStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/snackbarContentStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/tableStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/tasksStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/typographyStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/dropdownStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/layouts/adminStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/layouts/rtlStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/tooltipStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/views/dashboardStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/views/iconsStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/views/rtlStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Card/Card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Card/CardAvatar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Card/CardBody.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Card/CardFooter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Card/CardHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Card/CardIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CustomButtons/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CustomInput/CustomInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CustomTabs/CustomTabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FixedPlugin/FixedPlugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Grid/GridContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Grid/GridItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbars/AdminNavbarLinks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbars/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbars/RTLNavbarLinks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Snackbar/Snackbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Snackbar/SnackbarContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/Table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tasks/Tasks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Typography/Danger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Typography/Info.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Typography/Muted.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Typography/Primary.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Typography/Quote.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Typography/Success.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Typography/Warning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagshipImagesJson.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group1/FW2010_fendi_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group1/FW2010_ralph-rucci_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group1/FW2012_jeremy-laing_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group1/FW2015_6397_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group1/FW2015_nili-lotan_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group1/FW2015_pamella-roland_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group10/FW2011_joseph_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group10/FW2012_duro-olowu_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group10/FW2013_gryphon_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group10/FW2013_paco-rabanne_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group10/FW2014_martin-grant_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group10/FW2014_tom-ford_30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group11/FW2015_marchesa_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group11/FW2015_nicole-miller_29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group11/FW2016_antonio-berardi_45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group11/FW2016_calvin-klein-collection_35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group11/FW2016_jason-wu_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group11/FW2016_oscar-de-la-renta_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group12/FW2014_bibhu-mohapatra_35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group12/FW2015_clover-canyon_24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group12/FW2015_clover-canyon_36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group12/FW2016_juan-carlos-obando_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group12/FW2017_giorgio-armani_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group12/SS2015_sea_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group13/FW2013_dimitri_28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group13/FW2013_dimitri_32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group13/FW2015_alice-olivia_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group13/SS2017_sportmax_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group13/SS2017_versace_42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group13/SS2019_dries-van-noten_55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group14/FW2010_catherine-malandrino_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group14/FW2010_sonia-rykiel_34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group14/FW2014_francesco-scognamiglio_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group14/FW2018_ann-demeulemeester_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group14/FW2018_ann-demeulemeester_38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group14/FW2018_fendi_40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group15/FW2010_cynthia-steffe_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group15/FW2010_lanvin_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group15/FW2010_marni_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group15/FW2010_neil-barrett_18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group15/FW2010_ruffian_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group15/FW2010_vivienne-tam_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group16/FW2010_balenciaga_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group16/FW2010_bcbg-max-azria_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group16/FW2010_bcbg-max-azria_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group16/FW2010_costello-tagliapietra_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group16/FW2010_luisa-beccaria_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group16/FW2011_l-wren-scott_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group17/FW2011_carolina-herrera_28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group17/FW2011_david-koma_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group17/FW2011_imitation-of-christ_50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group17/FW2011_marc-by-marc-jacobs_32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group17/FW2012_alexis-mabille_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group17/FW2013_co_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group18/FW2012_tadashi-shoji_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group18/FW2016_bottega-veneta_42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group18/SS2017_tsumori-chisato_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group18/SS2018_agnona_26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group18/SS2018_marco-de-vincenzo_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group18/SS2019_marco-de-vincenzo_30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group19/FW2016_derek-lam_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group19/FW2016_giamba_33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group19/FW2016_marissa-webb_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group19/FW2016_prabal-gurung_28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group19/FW2016_vanessa-seward_27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group19/FW2019_simone-rocha_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group2/FW2010_sharon-wauchob_28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group2/FW2011_altuzarra_33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group2/FW2011_michael-van-der-ham_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group2/FW2013_dries-van-noten_47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group2/FW2014_alexander-mcqueen_29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group2/FW2014_andreas-kronthaler-for-vivienne-westwood_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group20/FW2011_bcbg-max-azria_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group20/FW2011_narciso-rodriguez_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group20/FW2012_wayne_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group20/FW2014_fashion-east_31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group20/FW2015_barbara-bui_33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group20/FW2016_antonio-berardi_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group21/FW2010_etro_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group21/FW2011_custo-barcelona_37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group21/FW2011_saint-laurent_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group21/FW2011_thomas-tait_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group21/FW2012_pringle-of-scotland_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group21/FW2013_assembly_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group22/FW2010_gianfranco-ferre_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group22/FW2010_gucci_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group22/FW2010_jen-kao_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group22/FW2010_jenni-kayne_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group22/FW2010_karl-lagerfeld_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group22/FW2010_l-a-m-b-_22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group23/FW2011_julian-louie_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group23/FW2012_alice-olivia_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group23/FW2012_clements-ribeiro_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group23/FW2012_sharon-wauchob_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group23/FW2013_emporio-armani_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group23/FW2014_a-w-a-k-e-_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group24/FW2011_gianfranco-ferre_29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group24/FW2013_nicholas-k_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group24/FW2013_nina-ricci_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group24/FW2014_lanvin_42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group24/FW2016_adam-selman_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group24/FW2016_aquilano-rimondi_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group25/FW2010_altuzarra_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group25/FW2010_bottega-veneta_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group25/FW2010_charlotte-ronson_30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group25/SS2015_marques-almeida_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group25/SS2017_max-mara_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group25/SS2017_nicholas-k_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group3/FW2013_emporio-armani_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group3/FW2014_steven-alan_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group3/FW2014_vivienne-tam_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group3/FW2015_alice-olivia_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group3/FW2015_antonio-marras_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group3/FW2015_manish-arora_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group4/FW2013_emporio-armani_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group4/FW2013_luisa-beccaria_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group4/FW2013_marco-de-vincenzo_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group4/FW2015_chanel_43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group4/FW2016_jil-sander-navy_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group4/FW2016_mother-of-pearl_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group5/FW2010_gianfranco-ferre_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group5/FW2011_chadwick-bell_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group5/FW2011_diane-von-furstenberg_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group5/FW2011_erin-fetherston_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group5/FW2011_milly_31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group5/FW2017_chloe_40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group6/FW2019_coach_25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group6/FW2019_collina-strada_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group6/FW2019_comme-des-garcons_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group6/FW2019_elie-tahari_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group6/FW2019_hermes_44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group6/SS2018_balmain_57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group7/FW2010_vera-wang_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group7/FW2013_alexander-wang_37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group7/FW2013_dkny_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group7/FW2013_dries-van-noten_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group7/FW2013_j-mendel_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group7/FW2013_joy-cioci_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group8/FW2010_aquascutum_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group8/FW2010_costello-tagliapietra_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group8/FW2010_maurizio-pecoraro_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group8/FW2010_proenza-schouler_27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group8/FW2011_araks_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group8/FW2012_jeremy-laing_27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group9/FW2010_michael-angel_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group9/FW2013_derek-lam-10-crosby_14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group9/FW2013_emanuel-ungaro_31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group9/FW2013_erdem_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group9/FW2013_herve-leger-by-max-azria_21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/flagship_Images/group9/FW2013_jonathan-saunders_26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/Admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/RTL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/general.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/back/back/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/back/back/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/BebasNeue-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/BebasNeue-Book.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/BebasNeue-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/BebasNeue-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/BebasNeue-Thin.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.idea/backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/back/back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/back/back/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/back/back/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/back/back/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/back/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/back/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/back/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/back/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/back/fashionq/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/back/fashionq/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/back/webpack-stats.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/back/webpack-stats.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/load_model/singleton_retinanet.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/load_model/singleton_retinanet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFrame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFrame.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/csrftoken.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/csrftoken.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardHeaderStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardHeaderStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/tableStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/tableStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/layouts/adminStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/layouts/adminStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/views/dashboardStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/views/dashboardStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FixedPlugin/FixedPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FixedPlugin/FixedPlugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbars/AdminNavbarLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbars/AdminNavbarLinks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbars/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbars/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbars/RTLNavbarLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbars/RTLNavbarLinks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flagshipImagesJson.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/RTL.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/RTL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Dashboard/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Maps/Maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Maps/Maps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/TableList/TableList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/TableList/TableList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Typography/Typography.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Typography/Typography.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/UserProfile/UserProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/UserProfile/UserProfile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -429,299 +54,49 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1902401267">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="babelrc" value="2" />
-          <entry key="css" value="2" />
-          <entry key="eslintignore" value="2" />
-          <entry key="gitignore" value="1" />
-          <entry key="html" value="2" />
-          <entry key="js" value="28" />
-          <entry key="json" value="3" />
-          <entry key="png" value="1" />
-          <entry key="prettierrc" value="2" />
-          <entry key="py" value="1" />
-          <entry key="qwifjoqiwfj" value="1" />
-          <entry key="svg" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CSS" value="2" />
-          <entry key="HTML" value="2" />
-          <entry key="Image" value="1" />
-          <entry key="JSON" value="5" />
-          <entry key="JavaScript" value="28" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="1" />
-          <entry key="SVG" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="babelrc" value="9" />
-          <entry key="html" value="20" />
-          <entry key="js" value="376" />
-          <entry key="json" value="114" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="20" />
-          <entry key="JSON" value="123" />
-          <entry key="JavaScript" value="376" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts">
-        <counts>
-          <entry key="ESLintLanguageService" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-319">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#0#56#0" expanded="true" />
-                <element signature="e#239#287#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" lean-forward="true" selection-start-line="12" selection-end-line="22" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#54#80#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/layouts/Admin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#65#91#0" expanded="true" />
-                <element signature="e#185#234#0" expanded="true" />
-                <element signature="e#395#445#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="86" column="22" lean-forward="true" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Navbars/AdminNavbarLinks.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/build.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/UserProfile/UserProfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="103" column="49" lean-forward="true" selection-start-line="103" selection-start-column="49" selection-end-line="103" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>esli</find>
-      <find>module</find>
-      <find>eslint</find>
-      <find>enforce</find>
-      <find>eslint-loa</find>
-      <find>loader</find>
-      <find>deve</find>
-      <find>plug</find>
-      <find>webpack.loder</find>
-      <find>prettier</find>
-      <find>react-sc</find>
-      <find>material-dashboard-react.css</find>
-      <find>plugins</find>
-      <find>reactlogo</find>
-      <find>babel</find>
-      <find>admin</find>
-      <find>upgrade to pr</find>
-      <find>Search</find>
-    </findStrings>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/.prettierrc" />
-        <option value="$PROJECT_DIR$/.eslintrc.js" />
-        <option value="$PROJECT_DIR$/src/serviceWorker.js" />
-        <option value="$PROJECT_DIR$/src/csrftoken.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/layouts/RTL.js" />
-        <option value="$PROJECT_DIR$/config/webpack.config.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/src/views/RTLPage/RTLPage.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/layouts/Admin.js" />
-        <option value="$PROJECT_DIR$/src/routes.js" />
-        <option value="$PROJECT_DIR$/scripts/build.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1246" />
-    <option name="height" value="1440" />
-  </component>
+  <component name="ProjectId" id="1cQ9sjPZWAAm4YWZh5zzLzjl5xe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="buttonstyle.js&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/src/assets/jss/material-dashboard-react/components/buttonStyle.js&#10;buttonSty&#9;null&#9;null&#10;prettierrc&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/node_modules/@toast-ui/react-chart/.prettierrc&#10;webpack&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/config/webpack.config.js" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="material-dash&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/src/assets/jss/material-dashboard-react.js&#10;cardhe&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/src/assets/jss/material-dashboard-react/components/cardHeaderStyle.js&#10;cardheader&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/src/components/Card/CardHeader.js&#10;dashboards&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/src/assets/jss/material-dashboard-react/views/dashboardStyle.js&#10;attributeG&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/src/datas_json/attribute_groups.csv&#10;dashbo&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/src/assets/jss/material-dashboard-react/views/dashboardStyle.js&#10;brand&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/src/datas_json/flagship_Brands.json&#10;tablestyle&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/src/assets/jss/material-dashboard-react/components/tableStyle.js&#10;CardHeaders&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/src/assets/jss/material-dashboard-react/components/cardHeaderStyle.js&#10;CardHeader&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/src/components/Card/CardHeader.js&#10;CardIcon&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/src/assets/jss/material-dashboard-react/components/cardIconStyle.js&#10;sid&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/src/assets/jss/material-dashboard-react/components/sidebarStyle.js&#10;Sidebar&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/src/components/Sidebar/Sidebar.js&#10;cardStyle.js&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/src/assets/jss/material-dashboard-react/components/cardStyle.js&#10;card.js&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/src/components/Card/Card.js&#10;buttonstyle.js&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/src/assets/jss/material-dashboard-react/components/buttonStyle.js&#10;buttonSty&#9;null&#9;null&#10;prettierrc&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/node_modules/@toast-ui/react-chart/.prettierrc&#10;webpack&#9;FILE&#9;file:///Users/kante/FashionQ_Project/front/config/webpack.config.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/fonts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
-    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/fonts" />
+      <recent name="$PROJECT_DIR$/src/views/Dashboard" />
+      <recent name="$PROJECT_DIR$/src/datas_json" />
+      <recent name="$PROJECT_DIR$/src/views/TableList" />
+      <recent name="$PROJECT_DIR$/src/assets/img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/datas_json" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public/flagship_Images" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -746,279 +121,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585463366340</updated>
+      <workItem from="1590450161843" duration="4410000" />
+      <workItem from="1591022860479" duration="17266000" />
+      <workItem from="1591266486615" duration="50046000" />
+      <workItem from="1591786575379" duration="603000" />
+      <workItem from="1591787201498" duration="24202000" />
+      <workItem from="1592536142272" duration="276000" />
+      <workItem from="1592640772175" duration="1180000" />
+      <workItem from="1594126156226" duration="10981000" />
+      <workItem from="1594623132369" duration="5734000" />
     </task>
     <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1246" height="1440" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24086379" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29927006" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Card/Card.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@toast-ui/react-chart/.prettierrc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/flagshipImagesJson.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/variables/charts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.prettierrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/csrftoken.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/css/material-dashboard-react.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="88" column="64" lean-forward="true" selection-start-line="88" selection-start-column="64" selection-end-line="88" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/img/reactlogo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="391" column="23" selection-start-line="391" selection-start-column="23" selection-end-line="391" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/ipywidgets/widgets/widget_button.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/buttonStyle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/RTL.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#120#169#0" expanded="true" />
-            <element signature="e#330#380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/RTLPage/RTLPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="56" column="54" lean-forward="true" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#175#229#0" expanded="true" />
-            <element signature="e#295#340#0" expanded="true" />
-            <element signature="e#888#944#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2610">
-          <caret line="174" column="5" lean-forward="true" selection-start-line="174" selection-start-column="5" selection-end-line="174" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navbars/AdminNavbarLinks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/build.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/UserProfile/UserProfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="103" column="49" lean-forward="true" selection-start-line="103" selection-start-column="49" selection-end-line="103" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-319">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#0#56#0" expanded="true" />
-            <element signature="e#239#287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="86" column="22" lean-forward="true" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/Admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#65#91#0" expanded="true" />
-            <element signature="e#185#234#0" expanded="true" />
-            <element signature="e#395#445#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="12" selection-end-line="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#54#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/views/TableList/TableList.js</url>
+          <line>181</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/views/TableList/TableList.js</url>
+          <line>182</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

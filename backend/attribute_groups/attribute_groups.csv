@@ -1,0 +1,148 @@
+﻿Attribute,Group
+01-1_Top_Blause_Boxy,Type of clothes
+01-1_Top_Blause_Regualr,Type of clothes
+01-1_Top_Cardigan_Boxy,Type of clothes
+01-1_Top_Cardigan_Regualr,Type of clothes
+01-1_Top_Crop_Boxy,Type of clothes
+01-1_Top_Crop_Regualr,Type of clothes
+01-1_Top_Sweater_Boxy,Type of clothes
+01-1_Top_Sweater_Regualr,Type of clothes
+01-1_Top_Sweatshirts_Boxy,Type of clothes
+01-1_Top_Sweatshirts_Regualr,Type of clothes
+01-1_Top_T-shirt_Boxy,Type of clothes
+01-1_Top_T-shirt_Regualr,Type of clothes
+01-2_Jacket_Biker,Type of clothes
+01-2_Jacket_Blazer,Type of clothes
+01-2_Jacket_Blouson,Type of clothes
+02_Pants_Bootscut,Type of clothes
+02_Pants_Harem,Type of clothes
+02_Pants_Shorts,Type of clothes
+02_Pants_Skinny,Type of clothes
+02_Pants_Straight,Type of clothes
+02_Pants_Wide,Type of clothes
+03-1_Skirt_A-line_Maxi,Type of clothes
+03-1_Skirt_A-line_Midi,Type of clothes
+03-1_Skirt_A-line_Mini,Type of clothes
+03-1_Skirt_H-line_Maxi,Type of clothes
+03-1_Skirt_H-line_Midi,Type of clothes
+03-1_Skirt_H-line_Mini,Type of clothes
+03-1_Skirt_HighandLow,Type of clothes
+03-1_Skirt_Mermaid_Maxi,Type of clothes
+03-1_Skirt_Mermaid_Midi,Type of clothes
+03-1_Skirt_Mermaid_Mini,Type of clothes
+03-1_Skirt_Peplum_Maxi,Type of clothes
+03-1_Skirt_Peplum_Midi,Type of clothes
+03-1_Skirt_Peplum_Mini,Type of clothes
+04-1_Dress_A-line_Maxi,Type of clothes
+04-1_Dress_A-line_Midi,Type of clothes
+04-1_Dress_A-line_Mini,Type of clothes
+04-1_Dress_Basic_Maxi,Type of clothes
+04-1_Dress_Basic_Midi,Type of clothes
+04-1_Dress_Basic_Mini,Type of clothes
+04-1_Dress_HighandLow,Type of clothes
+04-1_Dress_Mermaid_Maxi,Type of clothes
+04-1_Dress_Mermaid_Midi,Type of clothes
+04-1_Dress_Mermaid_Mini,Type of clothes
+04-1_Dress_Peplum_Maxi,Type of clothes
+04-1_Dress_Peplum_Midi,Type of clothes
+04-1_Dress_Peplum_Mini,Type of clothes
+04-1_Dress_Sheath_Maxi,Type of clothes
+04-1_Dress_Sheath_Midi,Type of clothes
+04-1_Dress_Sheath_Mini,Type of clothes
+04-1_Dress_Shift_Maxi,Type of clothes
+04-1_Dress_Shift_Midi,Type of clothes
+04-1_Dress_Shift_Mini,Type of clothes
+05-1_Outer_BasicCoat,Type of clothes
+05-1_Outer_Cape,Type of clothes
+05-1_Outer_Parka,Type of clothes
+05-1_Outer_PeaCoat,Type of clothes
+05-1_Outer_Puffer,Type of clothes
+05-1_Outer_TrenchCoat,Type of clothes
+06_Jumpsuit,Type of clothes
+91_U_neck,Garments parts
+91_V_neck,Garments parts
+91_boat_neck,Garments parts
+91_collar,Garments parts
+91_cowl_neck,Garments parts
+91_deep_U_neck,Garments parts
+91_deep_V_neck,Garments parts
+91_halter,Garments parts
+91_illusion_neckline,Garments parts
+91_keyhole,Garments parts
+91_off_the_shoulder,Garments parts
+91_one_shoulder,Garments parts
+91_squared_neck,Garments parts
+91_turtle_neck,Garments parts
+92_bell_sleeve,Garments parts
+92_cap_sleeve,Garments parts
+92_long_sleeve,Garments parts
+92_puff_sleeve,Garments parts
+92_short_sleeve,Garments parts
+92_sleeveless,Garments parts
+93_Double-breated,Garments parts
+93_Draped-open,Garments parts
+93_Single-breasted,Garments parts
+93_Zip-up,Garments parts
+94_Normal_waist,Garments parts
+94_high_waist,Garments parts
+94_low_waist,Garments parts
+95_applique,Decorations
+95_belted,Decorations
+95_bow,Decorations
+95_crochet,Decorations
+95_embellished,Decorations
+95_fringe,Decorations
+95_fur,Decorations
+95_glitter,Decorations
+95_hood,Decorations
+95_lace,Decorations
+95_lapel,Decorations
+95_pocket,Decorations
+95_rivet,Decorations
+95_ruffle,Decorations
+95_tassel,Decorations
+96_Argyle,Textile pattern
+96_Baroque,Textile pattern
+96_Brushstroke,Textile pattern
+96_Camouflage,Textile pattern
+96_Checked,Textile pattern
+96_Chevron,Textile pattern
+96_Dot,Textile pattern
+96_Floral,Textile pattern
+96_Geometric,Textile pattern
+96_Grid,Textile pattern
+96_Hearts,Textile pattern
+96_Houndstooth,Textile pattern
+96_Leopard,Textile pattern
+96_Lettering,Textile pattern
+96_Marble,Textile pattern
+96_Paisley,Textile pattern
+96_Stripe,Textile pattern
+96_Tie_dye,Textile pattern
+96_Zebra,Textile pattern
+97_distressed,Finishing
+97_frayed,Finishing
+97_gathering,Finishing
+97_pleat,Finishing
+97_quilted,Finishing
+97_slit,Finishing
+97_smocking,Finishing
+97_tiered,Finishing
+97_washed,Finishing
+96_Solid,Textile pattern
+96_multi_pattern,Textile pattern
+black,Dominant colors
+blue,Dominant colors
+brown,Dominant colors
+complex,Dominant colors
+gray,Dominant colors
+green,Dominant colors
+maroon,Dominant colors
+mustard,Dominant colors
+orange,Dominant colors
+pink,Dominant colors
+purple,Dominant colors
+red,Dominant colors
+white,Dominant colors
+yellow,Dominant colors
+multi_color,Dominant colors

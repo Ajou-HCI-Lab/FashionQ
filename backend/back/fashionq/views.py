@@ -210,14 +210,15 @@ class PhotoView(APIView):
 			# result_json['attribute_names']=attribute_names
 
 			# TODO : 여기 지울 것
-			attribute_names = ['Top_Cardigan_Regular', 'Top_Sweater_Regular', 'Top_Blouse_Regular', 'Pants_Skinny',
-							   'Top_Sweatshirts_Regular', 'U_neck', 'quilted','Jacket_Blazer','crochet','Dot','gray']
-			result_json['attribute_names'] = attribute_names
-			result_json['filename'] = 'FW2010_etro_11.jpg'
-			result_json['prediction_df_NMF'] = 'group7'
+			# attribute_names = ['Top_Cardigan_Regular', 'Top_Sweater_Regular', 'Top_Blause_Regular', 'Pants_Skinny',
+			# 				   'Top_Sweatshirts_Regular', 'U_neck', 'quilted','Jacket_Blazer','crochet','Dot','gray']
+			# result_json['attribute_names'] = attribute_names
+			# result_json['filename'] = 'FW2010_etro_11.jpg'
+			# result_json['prediction_df_NMF'] = 'group7'
 
+			print(result_json)
 			# TODO : 여기 주석 해제
-			# attribute_names = result_json['attribute_names']
+			attribute_names = result_json['attribute_names']
 
 			jaccard_result ={}
 			for group in json_data:
@@ -267,11 +268,13 @@ class PhotoView(APIView):
 			# dataFrame으로 얻음
 			print(temp_file)
 			print(current_filename)
-			df = pd.DataFrame(model.run_detection(temp_file[0]+"_bgfall."+temp_file[1]))
+			df_temp , box_coordinates = model.run_detection(temp_file[0]+"_bgfall."+temp_file[1])
+			df = pd.DataFrame(df_temp)
 
 			class_map_arr = pd.read_csv("./mydataset_classmapping.csv")["Class"]
 			prediction_array = df["prediction"][0]
 			confidence_array = df["confidence"][0]
+			# box_coordinates = df["box_coordinates"][0]
 
 			prediction_array = prediction_array[:12]
 			confidence_array = confidence_array[:12]
@@ -331,7 +334,7 @@ class PhotoView(APIView):
 			attributes.append(df2['colors'][0])
 
 
-
+			# result_json["box_coordinates"]= box_coordinates
 			result_json["attribute_names"] = attributes
 			result_json["datas_json"] = data
 			print(result_json)
