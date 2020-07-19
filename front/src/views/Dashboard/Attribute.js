@@ -14,7 +14,7 @@ import Popup from 'reactjs-popup';
 // var list = ['collar',
 //     'Top_Sweater_Boxy',
 //     'Pants_Straight',
-//     'Top_Cardigan_Regualr',
+//     'Top_Cardigan_Regular',
 //     'crochet',
 //     'Argyle',
 //     'pink',

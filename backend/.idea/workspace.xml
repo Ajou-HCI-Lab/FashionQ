@@ -2,53 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20f49525-45a0-40b2-af02-33a77a0f4784" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../front/src/fonts/BebasNeue-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../front/src/fonts/BebasNeue-Book.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../front/src/fonts/BebasNeue-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../front/src/fonts/BebasNeue-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../front/src/fonts/BebasNeue-Thin.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/back/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/back/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/back/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/back/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/fashionq/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/fashionq/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attribute_groups/attributeGroupsJson.json" beforeDir="false" afterPath="$PROJECT_DIR$/attribute_groups/attributeGroupsJson.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attribute_groups/attribute_groups.csv" beforeDir="false" afterPath="$PROJECT_DIR$/attribute_groups/attribute_groups.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attribute_groups/attributesByGroups.json" beforeDir="false" afterPath="$PROJECT_DIR$/attribute_groups/attributesByGroups.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attribute_groups/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/attribute_groups/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/mydataset_classmapping_tmp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/back/mydataset_classmapping_tmp.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/representative_attributes.json" beforeDir="false" afterPath="$PROJECT_DIR$/back/representative_attributes.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/webpack-stats.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/back/webpack-stats.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/background/Mask_RCNN/images/25691390_f9944f61b5_z.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/background/Mask_RCNN/mrcnn/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/background/Mask_RCNN/mrcnn/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/background/Mask_RCNN/mrcnn/visualize.py" beforeDir="false" afterPath="$PROJECT_DIR$/background/Mask_RCNN/mrcnn/visualize.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/background/Mask_RCNN/samples/coco/coco.py" beforeDir="false" afterPath="$PROJECT_DIR$/background/Mask_RCNN/samples/coco/coco.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/load_model/singleton_retinanet.py" beforeDir="false" afterPath="$PROJECT_DIR$/load_model/singleton_retinanet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../front/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../front/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/assets/jss/material-dashboard-react.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/assets/jss/material-dashboard-react.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/assets/jss/material-dashboard-react/components/cardHeaderStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/assets/jss/material-dashboard-react/components/cardHeaderStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/assets/jss/material-dashboard-react/components/cardStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/assets/jss/material-dashboard-react/components/cardStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/assets/jss/material-dashboard-react/components/tableStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/assets/jss/material-dashboard-react/components/tableStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/assets/jss/material-dashboard-react/views/dashboardStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/assets/jss/material-dashboard-react/views/dashboardStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/components/Navbars/AdminNavbarLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/components/Navbars/AdminNavbarLinks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/components/Navbars/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/components/Navbars/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/components/Navbars/RTLNavbarLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/components/Navbars/RTLNavbarLinks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/flagshipImagesJson.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/layouts/Admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/layouts/Admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/layouts/RTL.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/layouts/RTL.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/views/Dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/views/Dashboard/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/views/Maps/Maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/views/Maps/Maps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/views/TableList/TableList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/views/TableList/TableList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/views/Typography/Typography.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/views/Typography/Typography.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/views/UserProfile/UserProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/views/UserProfile/UserProfile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +70,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="15" />
+          <entry key="csv" value="18" />
           <entry key="ipynb" value="1" />
           <entry key="jpg" value="46" />
           <entry key="json" value="22" />
@@ -117,7 +81,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="15" />
+          <entry key="CSV" value="18" />
           <entry key="IPNB" value="1" />
           <entry key="Image" value="54" />
           <entry key="JSON" value="22" />
@@ -142,19 +106,31 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.56796116">
+    <splitter split-orientation="horizontal" split-proportion="0.49673203">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/back/fashionq/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2355">
-                  <caret line="177" column="26" selection-start-line="177" selection-start-column="26" selection-end-line="177" selection-end-column="26" />
+                <state relative-caret-position="2195">
+                  <caret line="273" column="65" selection-start-line="273" selection-start-column="43" selection-end-line="273" selection-end-column="65" />
                   <folding>
                     <element signature="e#0#40#0" expanded="true" />
                     <marker date="1592666883284" expanded="true" signature="3540:3543" ph="..." />
                   </folding>
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/back/mydataset_classmapping.csv">
+              <provider selected="true" editor-type-id="csv-text-editor">
+                <state relative-caret-position="390">
+                  <caret line="88" column="16" lean-forward="true" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+                </state>
+              </provider>
+              <provider editor-type-id="csv-table-editor">
+                <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
               </provider>
             </entry>
           </file>
@@ -167,11 +143,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tSNE_data/flagshipImagesJson.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+                <state relative-caret-position="281">
+                  <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -216,8 +192,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/back/fashionq/urls.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="12" selection-start-line="12" selection-end-line="12" />
+                <state relative-caret-position="135">
+                  <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -248,10 +224,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>attribute_names</find>
-      <find>open</find>
-      <find>dir</find>
-      <find>os.path</find>
       <find>os.path.dir</find>
       <find>BASE</find>
       <find>json</find>
@@ -278,7 +250,14 @@
       <find>session</find>
       <find>plt</find>
       <find>flagship</find>
+      <find>regualr</find>
+      <find>Regular</find>
+      <find>Regualr</find>
+      <find>regua</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Regular</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -397,7 +376,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="plt.&#9;FILE&#9;file:///Users/kante/FashionQ_Project/backend/back/FW2010_etro_11_bgfall.jpgplt.png&#10;url&#9;FILE&#9;file:///Users/kante/FashionQ_Project/backend/back/fashionq/urls.py&#10;attribu&#9;FILE&#9;file:///Users/kante/FashionQ_Project/backend/attribute_groups/attribute_groups.csv" />
+    <property name="SearchEverywhereHistoryKey" value="mydataset_classmapping&#9;FILE&#9;file:///Users/kante/FashionQ_Project/backend/back/mydataset_classmapping.csv&#10;plt.&#9;FILE&#9;file:///Users/kante/FashionQ_Project/backend/back/FW2010_etro_11_bgfall.jpgplt.png&#10;url&#9;FILE&#9;file:///Users/kante/FashionQ_Project/backend/back/fashionq/urls.py&#10;attribu&#9;FILE&#9;file:///Users/kante/FashionQ_Project/backend/attribute_groups/attribute_groups.csv" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -583,6 +562,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -598,7 +578,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.22142857" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22142857" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -625,23 +605,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/back/representative_attributes.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7905">
-          <caret line="527" column="23" selection-start-line="527" selection-start-column="23" selection-end-line="527" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/background/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/media/FW2010_etro_11_d4Uxunh.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/back/media/FW2010_etro_11_Bh11Onl.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -758,7 +721,13 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/back/fashionq/serializers.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/back/back/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -813,13 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tSNE_data/flagshipImagesJson.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/load_model/singleton_retinanet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2700">
@@ -830,10 +792,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/back/fashionq/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tSNE_data/flagshipImagesJson.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/back/fashionq/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4245">
-          <caret line="283" selection-start-line="283" selection-end-line="283" />
+        <state relative-caret-position="2195">
+          <caret line="273" column="65" selection-start-line="273" selection-start-column="43" selection-end-line="273" selection-end-column="65" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
             <marker date="1592666883284" expanded="true" signature="3540:3543" ph="..." />
@@ -841,11 +817,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back/fashionq/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+    <entry file="file://$PROJECT_DIR$/back/mydataset_classmapping_tmp.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="212">
+          <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
         </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/Annotation_Stylegroup.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/mydataset_classmapping.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="390">
+          <caret line="88" column="16" lean-forward="true" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
   </component>

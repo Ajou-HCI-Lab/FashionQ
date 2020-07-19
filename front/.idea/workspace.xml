@@ -42,6 +42,7 @@
       <change beforePath="$PROJECT_DIR$/src/layouts/Admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/RTL.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/RTL.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Dashboard/Attribute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Dashboard/Attribute.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Dashboard/Dashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Maps/Maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Maps/Maps.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/TableList/TableList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/TableList/TableList.js" afterDir="false" />
@@ -129,7 +130,7 @@
       <workItem from="1592536142272" duration="276000" />
       <workItem from="1592640772175" duration="1180000" />
       <workItem from="1594126156226" duration="10981000" />
-      <workItem from="1594623132369" duration="5734000" />
+      <workItem from="1594623132369" duration="11165000" />
     </task>
     <servers />
   </component>
