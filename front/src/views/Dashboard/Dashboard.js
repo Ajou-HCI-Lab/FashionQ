@@ -372,6 +372,7 @@ export default function Dashboard() {
     const [isStyleButtonClicked, setIsStyleButtonClickedState] = React.useState(false);
 
     const [attributeList, setAttributeList ]= React.useState(null);
+    const [attributeListFull, setAttributeFullList ]= React.useState(null);
 
     function toggleModal() {
         setState(!modalIsOpen);
@@ -398,16 +399,16 @@ export default function Dashboard() {
 
     axios.get('http://localhost:8000/fashionq/posts/').then(res => {
         console.log(res.data)
-
-        let attributeList = [];
-        attributeList = res.data['attribute_names'];
-        if(checkDataPulled){
+        if(!checkDataPulled){
             setcheckDataPulledState(true);
             setAttributeList(res.data['attribute_names']);
+            setAttributeFullList(res.data['attribute_names']);
         }
-        let unique = attributeList.filter(onlyUnique);
 
+        let unique = attributeListFull.filter(onlyUnique);
         console.log(attributeList);
+        console.log(attributeListFull);
+        console.log(unique);
         // const newAttributeList = [...attributeList, "qweqwe"];
         // setAttributeList(newAttributeList);
         //
@@ -443,52 +444,81 @@ export default function Dashboard() {
             document.getElementById('lookImage'),
         );
 
-        ReactDOM.render(
-            <>
-                {unique.map(index => {
-                    return (
-                        <span key={index}>
-                            <Tag color="white">
-                                <h1 style={{color: '#000000', fontFamily: 'BebasNeue-Bold'}}>{index}</h1>
-                            </Tag>
+
+        function onClickButton(key){
+            let temp = Object.assign([], attributeList);
+            console.log(temp);
+            if(temp.includes(key)){
+                const idx = temp.indexOf(key);
+                if (idx > -1) temp.splice(idx, 1);
+                setAttributeList(temp);
+            }else {
+                temp.push(key);
+                setAttributeList(temp);
+            }
+            attrGo();
+        }
+        attrGo();
+        function attrGo(){
+            ReactDOM.render(
+                <>
+                    {unique.map(index => {
+                        if(attributeList.includes(index)){
+                            return (
+                                <span key={index}>
+                            <Button onClick={() => { onClickButton(index) }} style={{ height:'100%', backgroundColor: '#000000'}}>
+                                <h2 style={{color: '#ffffff', fontFamily: 'BebasNeue-Bold'}}>{index}</h2>
+                            </Button>
                         </span>
-                    );
-                })}
-            </>,
-            document.getElementById('attributes'),
-        );
+                            );
+                        }else{
+                            return (
+                                <span key={index}>
+                            <Button onClick={() => { onClickButton(index) }} style={{ height:'100%', backgroundColor: '#ffffff'}}>
+                                <h2 style={{ color: '#000000', fontFamily: 'BebasNeue-Bold'}}>{index}</h2>
+                            </Button>
+                        </span>
+                            );
+                        }
+                    })}
+                </>,
+                document.getElementById('attributes'),
+            );
+            ReactDOM.render(
+                <>
+                    {attributeGroupJson['Type of clothes'].map(a => {
+                        return (
+                            <Attribute
+                                key={a}
+                                attr={a}
+                                list={attributeList}
+                                group={'Type of clothes'}
+                            />
+                        );
+                    })}
+                    {attributeGroupJson['Dominant colors'].map(a => {
+                        return <Attribute key={a} attr={a} list={attributeList}/>;
+                    })}
+                    {attributeGroupJson['Garments parts'].map(a => {
+                        return <Attribute key={a} attr={a} list={attributeList}/>;
+                    })}
+                    {attributeGroupJson['Textile pattern'].map(a => {
+                        return <Attribute key={a} attr={a} list={attributeList}/>;
+                    })}
+                    {attributeGroupJson['Decorations'].map(a => {
+                        return <Attribute key={a} attr={a} list={attributeList}/>;
+                    })}
+                    {attributeGroupJson['Finishing'].map(a => {
+                        return <Attribute key={a} attr={a} list={attributeList}/>;
+                    })}
+                </>,
+                document.getElementById('yourLookAttrs'),
+            );
+        }
 
 
-        ReactDOM.render(
-            <>
-                {attributeGroupJson['Type of clothes'].map(a => {
-                    return (
-                        <Attribute
-                            key={a}
-                            attr={a}
-                            list={attributeList}
-                            group={'Type of clothes'}
-                        />
-                    );
-                })}
-                {attributeGroupJson['Dominant colors'].map(a => {
-                    return <Attribute key={a} attr={a} list={attributeList}/>;
-                })}
-                {attributeGroupJson['Garments parts'].map(a => {
-                    return <Attribute key={a} attr={a} list={attributeList}/>;
-                })}
-                {attributeGroupJson['Textile pattern'].map(a => {
-                    return <Attribute key={a} attr={a} list={attributeList}/>;
-                })}
-                {attributeGroupJson['Decorations'].map(a => {
-                    return <Attribute key={a} attr={a} list={attributeList}/>;
-                })}
-                {attributeGroupJson['Finishing'].map(a => {
-                    return <Attribute key={a} attr={a} list={attributeList}/>;
-                })}
-            </>,
-            document.getElementById('yourLookAttrs'),
-        );
+
+
 
         ReactDOM.render(<>
             <button onClick={() => {
@@ -757,7 +787,7 @@ export default function Dashboard() {
 
             ReactDOM.render(
                 <>
-                    {unique.map(index => {
+                    {attributeList.map(index => {
                         return (
                             <span key={index}>
                             <Tag color="white">
@@ -1016,7 +1046,7 @@ export default function Dashboard() {
                                         </div>
                                         <Card style={{width: '100%'}}>
                                             <br/>
-                                            <div style={{textAlign: 'left'}} id={'attributes'}/></Card>
+                                            <div style={{textAlign: 'left', padding:'10px' }} id={'attributes'}/></Card>
                                     </span>
                                     <Table
                                         alignItems="center"
