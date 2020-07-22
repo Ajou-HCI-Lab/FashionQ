@@ -55,7 +55,7 @@ class Attribute extends React.Component {
             <TableCell
                 style={{
                     width: '0.1%',
-                    padding: '0.1%', margin: '0',
+                    padding: '3.5px', margin: '0',
                     border: '1px solid #000000',
                     backgroundColor: this.returnColor(),
                 }}
@@ -64,7 +64,7 @@ class Attribute extends React.Component {
                     trigger={open => (
                         <button style={{
                             backgroundColor: this.returnColor(),
-                            padding: '1px',
+                            padding: '0px',
                             height: '150px',
                             width: '150%',
                         }}

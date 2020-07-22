@@ -266,6 +266,7 @@ class PhotoView(APIView):
 			# print("file 경로 : "+os.path.dirname(file))
 
 			# dataFrame으로 얻음
+			print("@@@@@@@@@qweqwe")
 			print(temp_file)
 			print(current_filename)
 			df_temp , box_coordinates = model.run_detection(temp_file[0]+"_bgfall."+temp_file[1])

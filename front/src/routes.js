@@ -18,25 +18,9 @@
 */
 // @material-ui/icons
 import Dashboard from '@material-ui/icons/Dashboard';
-import Person from '@material-ui/icons/Person';
 import LibraryBooks from '@material-ui/icons/LibraryBooks';
-import BubbleChart from '@material-ui/icons/BubbleChart';
-import LocationOn from '@material-ui/icons/LocationOn';
-import Notifications from '@material-ui/icons/Notifications';
-import Unarchive from '@material-ui/icons/Unarchive';
-import Language from '@material-ui/icons/Language';
-// core components/views for Admin layout
 import DashboardPage from '../../../FashionQ_Project/front/src/views/Dashboard/Dashboard.js';
-import UserProfile from '../../../FashionQ_Project/front/src/views/UserProfile/UserProfile.js';
 import TableList from '../../../FashionQ_Project/front/src/views/TableList/TableList.js';
-import UploadFile from '../../../FashionQ_Project/front/src/views/uploadFile/uploadFile.js';
-import Typography from '../../../FashionQ_Project/front/src/views/Typography/Typography.js';
-import Icons from '../../../FashionQ_Project/front/src/views/Icons/Icons.js';
-import Maps from '../../../FashionQ_Project/front/src/views/Maps/Maps.js';
-import NotificationsPage from '../../../FashionQ_Project/front/src/views/Notifications/Notifications.js';
-import UpgradeToPro from '../../../FashionQ_Project/front/src/views/UpgradeToPro/UpgradeToPro.js';
-// core components/views for RTL layout
-import RTLPage from '../../../FashionQ_Project/front/src/views/RTLPage/RTLPage.js';
 
 const dashboardRoutes = [
   {
@@ -48,22 +32,6 @@ const dashboardRoutes = [
     layout: '',
   },
   {
-    path: '/user',
-    name: 'User Profile',
-    rtlName: 'ملف تعريفي للمستخدم',
-    icon: Person,
-    component: UserProfile,
-    layout: '',
-  },
-  // {
-  //   path: '/table',
-  //   name: 'Table List',
-  //   rtlName: 'قائمة الجدول',
-  //   icon: 'content_paste',
-  //   component: TableList,
-  //   layout: '',
-  // },
-  {
     path: '/table',
     name: 'Style Result',
     rtlName: 'طباعة',
@@ -71,46 +39,6 @@ const dashboardRoutes = [
     component: TableList,
     layout: '',
   },
-  // {
-  //   path: '/uploads',
-  //   name: 'Uploads',
-  //   rtlName: 'الرموز',
-  //   icon: BubbleChart,
-  //   component: UploadFile,
-  //   layout: '',
-  // },
-  // {
-  //   path: '/maps',
-  //   name: 'FashionQ Map',
-  //   rtlName: 'خرائط',
-  //   icon: LocationOn,
-  //   component: Maps,
-  //   layout: '',
-  // },
-  // {
-  //   path: "/notifications",
-  //   name: "Notifications",
-  //   rtlName: "إخطارات",
-  //   icon: Notifications,
-  //   component: NotificationsPage,
-  //   layout: "/admin"
-  // },
-  // {
-  //   path: "/rtl-page",
-  //   name: "RTL Support",
-  //   rtlName: "پشتیبانی از راست به چپ",
-  //   icon: Language,
-  //   component: RTLPage,
-  //   layout: "/rtl"
-  // },
-  // {
-  //   path: '/upgrade-to-pro',
-  //   name: 'Upgrade To PRO',
-  //   rtlName: 'التطور للاحترافية',
-  //   icon: Unarchive,
-  //   component: UpgradeToPro,
-  //   layout: '/admin',
-  // },
 ];
 
 export default dashboardRoutes;

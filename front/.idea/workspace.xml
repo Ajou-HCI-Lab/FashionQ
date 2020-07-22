@@ -2,52 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96267530-8930-4c6b-8fee-c8a886d925d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../backend/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/BebasNeue-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/BebasNeue-Book.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/BebasNeue-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/BebasNeue-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/BebasNeue-Thin.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.idea/backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/back/back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/back/back/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/back/back/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/back/back/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/back/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/back/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/back/fashionq/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/back/fashionq/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/back/webpack-stats.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/back/webpack-stats.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/load_model/singleton_retinanet.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/load_model/singleton_retinanet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardHeaderStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardHeaderStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/cardStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/tableStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/components/tableStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/layouts/adminStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/layouts/adminStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/views/dashboardStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-dashboard-react/views/dashboardStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FixedPlugin/FixedPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FixedPlugin/FixedPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbars/AdminNavbarLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbars/AdminNavbarLinks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbars/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbars/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbars/RTLNavbarLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbars/RTLNavbarLinks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/flagshipImagesJson.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/RTL.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/RTL.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Dashboard/Attribute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Dashboard/Attribute.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Dashboard/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Maps/Maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Maps/Maps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/TableList/TableList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/TableList/TableList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Typography/Typography.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Typography/Typography.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/UserProfile/UserProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/UserProfile/UserProfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Icons/Icons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Maps/Maps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Notifications/Notifications.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/RTLPage/RTLPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Typography/Typography.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/UpgradeToPro/UpgradeToPro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/UserProfile/UserProfile.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +97,8 @@
       <workItem from="1592536142272" duration="276000" />
       <workItem from="1592640772175" duration="1180000" />
       <workItem from="1594126156226" duration="10981000" />
-      <workItem from="1594623132369" duration="11165000" />
+      <workItem from="1594623132369" duration="12466000" />
+      <workItem from="1595227554222" duration="12919000" />
     </task>
     <servers />
   </component>

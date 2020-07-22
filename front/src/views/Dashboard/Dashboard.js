@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom'
 // @material-ui/core components
 import {makeStyles} from '@material-ui/core/styles';
-import InputLabel from '@material-ui/core/InputLabel';
+
 // core components
 import GridItem from 'components/Grid/GridItem.js';
 import GridContainer from 'components/Grid/GridContainer.js';
@@ -24,13 +24,14 @@ import TableRow from "@material-ui/core/TableRow";
 import TableCell from "@material-ui/core/TableCell/TableCell";
 import QuantitativeContent from "../Dashboard/quantitativeContent";
 import scatterJsonarray from "../../datas_json/group_top_new_25_array";
+import RepresentativeAttributes from "../../datas_json/representative_attributes";
 import Chart from "react-apexcharts";
 import linechartJson from "../../datas_json/trend_by_city_ver2";
 import linechartForecastingJson from "../../datas_json/trend_by_city_ver2_forcasting";
 import axios from "axios";
 import 'antd/dist/antd.css';
-import {Steps, Tag,Menu } from "antd";
-import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
+import {Steps, Tag, Menu} from "antd";
+import {MailOutlined, AppstoreOutlined, SettingOutlined} from '@ant-design/icons';
 import Carousel, {Modal, ModalGateway} from "react-images";
 import flagshipImagesJson from "../../datas_json/flagshipImagesJson";
 import attributeGroupJson from "../../datas_json/attributeGroupsJson";
@@ -38,7 +39,7 @@ import Attribute from "../Dashboard/Attribute";
 import AttributeCompares from "../Dashboard/AttributeCompares";
 
 const {Step} = Steps;
-const { SubMenu } = Menu;
+const {SubMenu} = Menu;
 
 const styles = {
     cardCategoryWhite: {
@@ -312,8 +313,8 @@ var apexChartLineOptions = {
                 fintSize: '22px',
             }
         },
-        annotations:{
-            xaxis:[{
+        annotations: {
+            xaxis: [{
                 x: 2019,
                 x2: 2020,
                 fillColor: '#96baf7',
@@ -331,9 +332,9 @@ var apexChartLineOptions = {
             }]
         },
         xaxis: {
-            categories: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019,2020],
+            categories: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020],
         },
-        yaxis:{
+        yaxis: {
             seriesName: '%',
             forceNiceScale: false,
             floating: false,
@@ -368,11 +369,13 @@ export default function Dashboard() {
     const [trend1, setTrend1State] = React.useState('group1');
     const [trend2, setTrend2State] = React.useState('group3');
     const [trend3, setTrend3State] = React.useState('group4');
+    const [selectedTrend, setSelectState] = React.useState(null);
 
     const [isStyleButtonClicked, setIsStyleButtonClickedState] = React.useState(false);
+    const [isTrendButtonClicked, setIsTrendButtonClickedState] = React.useState(false);
 
-    const [attributeList, setAttributeList ]= React.useState(null);
-    const [attributeListFull, setAttributeFullList ]= React.useState(null);
+    const [attributeList, setAttributeList] = React.useState(null);
+    const [attributeListFull, setAttributeFullList] = React.useState(null);
 
     function toggleModal() {
         setState(!modalIsOpen);
@@ -387,47 +390,112 @@ export default function Dashboard() {
         return self.indexOf(value) === index;
     }
 
-    function randomNumberArray(number, length){
+    function randomNumberArray(number, length) {
         var arr = [];
-        while(arr.length < number){
-            var r = Math.floor(Math.random() * length) - 1;
-            if(arr.indexOf(r) === -1) arr.push(r);
+        while (arr.length < number) {
+            var r = Math.floor(Math.random() * length);
+            if (arr.indexOf(r) === -1) arr.push(r);
         }
         return arr;
     }
 
 
+    function jaccardSim(list1, list2) {
+        let s1 = new Set(list1);
+        let s2 = new Set(list2);
+        let intersect = new Set([...s1].filter(i => s2.has(i)));
+        var union = [...new Set([...s1, ...s2])];
+        return parseFloat(intersect.size) / parseFloat(union.length)
+    }
+
+    function onClickTrendButton(trendValue){
+        setIsTrendButtonClickedState(true);
+        setSelectState(trendValue);
+        console.log(trendValue);
+
+    }
+
+    function intersectLists(list1, list2){
+        let s1 = new Set(list1);
+        let s2 = new Set(list2);
+        let intersect = [...new Set([...s1].filter(i => s2.has(i)))];
+        return intersect;
+    }
+
+    function sortByValue(a, b) {
+        if (a.value == b.value) {
+            return 0
+        }
+        return a.value < b.value ? 1 : -1;
+    }
+
+    function stringTonumber(str) {
+        var res;
+        res = str.replace(/[^0-9]/g, "");
+        return res;
+    }
+
+    function onClickTrendMenu(e) {
+        console.log('click ', e);
+        setTrendMenuState(e.key);
+        if (e.key === 'trending') {
+            setTrend1State('group1');
+            setTrend2State('group3');
+            setTrend3State('group4');
+        } else if (e.key === 'declining') {
+            setTrend1State('group16');
+            setTrend2State('group6');
+            setTrend3State('group17');
+        } else if (e.key === 'upcoming') {
+            setTrend1State('group5');
+            setTrend2State('group18');
+            setTrend3State('group13');
+        } else {
+            setTrend1State('group9');
+            setTrend2State('group22');
+            setTrend3State('group24');
+        }
+    }
+
     axios.get('http://localhost:8000/fashionq/posts/').then(res => {
         console.log(res.data)
-        if(!checkDataPulled){
+        if (!checkDataPulled) {
             setcheckDataPulledState(true);
             setAttributeList(res.data['attribute_names']);
             setAttributeFullList(res.data['attribute_names']);
         }
 
-        let unique = attributeListFull.filter(onlyUnique);
-        console.log(attributeList);
-        console.log(attributeListFull);
-        console.log(unique);
-        // const newAttributeList = [...attributeList, "qweqwe"];
-        // setAttributeList(newAttributeList);
-        //
-        // console.log(attributeList);
-        let jaccard_result = res.data['jaccard_result'];
-        colors[stringTonumber(jaccard_result[0][0]) - 1] = '#5fa038';
-        colors[stringTonumber(jaccard_result[1][0]) - 1] = '#fb4c3d';
-        colors[stringTonumber(jaccard_result[2][0]) - 1] = '#fdb40b';
 
+
+        let jaccard_result = [];
+        let unique = attributeListFull.filter(onlyUnique);
+
+        for (let representativeAttribute in RepresentativeAttributes) {
+            let temp = jaccardSim(attributeList, RepresentativeAttributes[representativeAttribute]);
+            let temp_json = {};
+            temp_json['name'] = representativeAttribute
+            temp_json['value'] = temp;
+            jaccard_result.push(temp_json);
+        }
+        jaccard_result.sort(sortByValue);
+        
+        colors[stringTonumber(jaccard_result[0].name) - 1] = '#5fa038';
+        colors[stringTonumber(jaccard_result[1].name) - 1] = '#fb4c3d';
+        colors[stringTonumber(jaccard_result[2].name) - 1] = '#fdb40b';
         let position;
         if (groupNumState !== null) {
-            if (groupNumState === jaccard_result[0][0]) {
+            if (groupNumState === jaccard_result[0].name) {
                 position = 0;
-            } else if (groupNumState === jaccard_result[1][0]) {
+            } else if (groupNumState === jaccard_result[1].name) {
                 position = 1;
             } else {
                 position = 2
             }
         }
+        console.log(groupNumState);
+
+
+
 
         /*
         *  처음 보이는 이미지
@@ -445,37 +513,44 @@ export default function Dashboard() {
         );
 
 
-        function onClickButton(key){
+
+        function onClickButton(key) {
             let temp = Object.assign([], attributeList);
             console.log(temp);
-            if(temp.includes(key)){
+            if (temp.includes(key)) {
                 const idx = temp.indexOf(key);
                 if (idx > -1) temp.splice(idx, 1);
                 setAttributeList(temp);
-            }else {
+            } else {
                 temp.push(key);
                 setAttributeList(temp);
             }
             attrGo();
         }
+
         attrGo();
-        function attrGo(){
+
+        function attrGo() {
             ReactDOM.render(
                 <>
                     {unique.map(index => {
-                        if(attributeList.includes(index)){
+                        if (attributeList.includes(index)) {
                             return (
                                 <span key={index}>
-                            <Button onClick={() => { onClickButton(index) }} style={{ height:'100%', backgroundColor: '#000000'}}>
+                            <Button onClick={() => {
+                                onClickButton(index)
+                            }} style={{height: '100%', backgroundColor: '#000000'}}>
                                 <h2 style={{color: '#ffffff', fontFamily: 'BebasNeue-Bold'}}>{index}</h2>
                             </Button>
                         </span>
                             );
-                        }else{
+                        } else {
                             return (
                                 <span key={index}>
-                            <Button onClick={() => { onClickButton(index) }} style={{ height:'100%', backgroundColor: '#ffffff'}}>
-                                <h2 style={{ color: '#000000', fontFamily: 'BebasNeue-Bold'}}>{index}</h2>
+                            <Button onClick={() => {
+                                onClickButton(index)
+                            }} style={{height: '100%', backgroundColor: '#ffffff'}}>
+                                <h2 style={{color: '#000000', fontFamily: 'BebasNeue-Bold'}}>{index}</h2>
                             </Button>
                         </span>
                             );
@@ -514,41 +589,42 @@ export default function Dashboard() {
                 </>,
                 document.getElementById('yourLookAttrs'),
             );
-        }
 
 
 
 
 
-        ReactDOM.render(<>
-            <button onClick={() => {
-                onClickAttributeBoxButton(0);
-                setGroupState(jaccard_result[0][0])
-            }} style={{height: '10%', width: '15%', backgroundColor: '#5fa038'}} id={'firstStyleButton'}>
+
+            ReactDOM.render(<>
+                <Button onClick={() => {
+                    onClickAttributeBoxButton(0);
+                    setGroupState(jaccard_result[0].name)
+                }} style={{height: '10%', width: '15%', backgroundColor: '#5fa038'}} id={'firstStyleButton'}>
                 <span style={{
                     fontSize: '23px',
                     fontFamily: 'BebasNeue-Bold',
-                }}>STYLE {stringTonumber(jaccard_result[0][0])} - {roundNumber(jaccard_result[0][1].toFixed(6) * 100, 6)}%</span>
-            </button>
-            <button onClick={() => {
-                onClickAttributeBoxButton(1);
-                setGroupState(jaccard_result[1][0])
-            }} style={{height: '10%', width: '15%', backgroundColor: '#fb4c3d'}} id={'seconStyleButton'}>
+                }}>STYLE {stringTonumber(jaccard_result[0].name)} - {roundNumber(jaccard_result[0].value.toFixed(6) * 100, 6)}%</span>
+                </Button>
+                <Button onClick={() => {
+                    onClickAttributeBoxButton(1);
+                    setGroupState(jaccard_result[1].name)
+                }} style={{height: '10%', width: '15%', backgroundColor: '#fb4c3d'}} id={'seconStyleButton'}>
                 <span style={{
                     fontSize: '23px',
                     fontFamily: 'BebasNeue-Bold'
-                }}>STYLE {stringTonumber(jaccard_result[1][0])} - {roundNumber(jaccard_result[1][1].toFixed(6) * 100, 6)}%</span>
-            </button>
-            <button onClick={() => {
-                onClickAttributeBoxButton(2);
-                setGroupState(jaccard_result[2][0])
-            }} style={{height: '10%', width: '15%', backgroundColor: '#fdb40b'}} id={'thirdStyleButton'}>
+                }}>STYLE {stringTonumber(jaccard_result[1].name)} - {roundNumber(jaccard_result[1].value.toFixed(6) * 100, 6)}%</span>
+                </Button>
+                <Button onClick={() => {
+                    onClickAttributeBoxButton(2);
+                    setGroupState(jaccard_result[2].name)
+                }} style={{height: '10%', width: '15%', backgroundColor: '#fdb40b'}} id={'thirdStyleButton'}>
                 <span style={{
                     fontSize: '23px',
                     fontFamily: 'BebasNeue-Bold'
-                }}>STYLE {stringTonumber(jaccard_result[2][0])} - {roundNumber(jaccard_result[2][1].toFixed(6) * 100, 6)}%</span>
-            </button>
-        </>, document.getElementById('button_groups'))
+                }}>STYLE {stringTonumber(jaccard_result[2].name)} - {roundNumber(jaccard_result[2].value.toFixed(6) * 100, 6)}%</span>
+                </Button>
+            </>, document.getElementById('button_groups'));
+        }
 
 
         ReactDOM.render(
@@ -575,17 +651,6 @@ export default function Dashboard() {
             document.getElementById('AttrsCompare'),
         );
 
-
-        let lineData = {
-            categories: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
-            series: linechartJson[groupNumState],
-        };
-
-        function stringTonumber(str) {
-            var res;
-            res = str.replace(/[^0-9]/g, "");
-            return res;
-        }
 
         apexChartScatterOptions['options']['colors'] = colors;
         ReactDOM.render(<Chart
@@ -625,22 +690,13 @@ export default function Dashboard() {
                             />{' '}</div>
                     );
                 })}
-            {/*    {imagesList.map(img => {*/}
-            {/*    return (<div style={{padding: '10'}} key={img}>*/}
-            {/*            <img*/}
-            {/*                style={{width: '6%', float: 'left'}}*/}
-            {/*                src={'/static/Representative_Images_top15/' + groupNumState + '/' + img}*/}
-            {/*                onClick={toggleModal}*/}
-            {/*            />{' '}</div>*/}
-            {/*    );*/}
-            {/*})}*/}
-            <ModalGateway>
-                {modalIsOpen ? (
-                    <Modal onClose={toggleModal}>
-                        <Carousel views={carouselList}/>
-                    </Modal>
-                ) : null}
-            </ModalGateway></div>,
+                <ModalGateway>
+                    {modalIsOpen ? (
+                        <Modal onClose={toggleModal}>
+                            <Carousel views={carouselList}/>
+                        </Modal>
+                    ) : null}
+                </ModalGateway></div>,
             document.getElementById('representativeLooks'),
         );
 
@@ -655,12 +711,12 @@ export default function Dashboard() {
 
 
         if (isStyleButtonClicked) {
-            for(let i=0; i<trendcolors.length; i++){
+            for (let i = 0; i < trendcolors.length; i++) {
                 trendcolors[i] = '#665f5f';
             }
-            trendcolors[stringTonumber(trend1)-1] = '#ff0000';
-            trendcolors[stringTonumber(trend2)-1] = '#000aff';
-            trendcolors[stringTonumber(trend3)-1] = '#00ff1d';
+            trendcolors[stringTonumber(trend1) - 1] = '#ff0000';
+            trendcolors[stringTonumber(trend2) - 1] = '#000aff';
+            trendcolors[stringTonumber(trend3) - 1] = '#00ff1d';
             apexTrendChartScatterOptions['options']['colors'] = trendcolors;
 
             ReactDOM.render(<Chart
@@ -672,21 +728,18 @@ export default function Dashboard() {
             />, document.getElementById('trendScatter'));
 
             apexChartLineOptions['options']['colors'] = ['#ff0000'];
-            apexChartLineOptions['options']['title']['text'] = trend1;
             ReactDOM.render(<Chart width={'100%'} height={300}
                                    options={apexChartLineOptions.options}
                                    series={[linechartForecastingJson[trend1][0]]}
                                    type={'line'}/>, document.getElementById('trend_chart1'));
 
             apexChartLineOptions['options']['colors'] = ['#000aff'];
-            apexChartLineOptions['options']['title']['text'] = trend2;
             ReactDOM.render(<Chart width={'100%'} height={300}
                                    options={apexChartLineOptions.options}
                                    series={[linechartForecastingJson[trend2][0]]}
                                    type={'line'}/>, document.getElementById('trend_chart2'));
 
             apexChartLineOptions['options']['colors'] = ['#00ff1d'];
-            apexChartLineOptions['options']['title']['text'] = trend3;
             ReactDOM.render(<Chart width={'100%'} height={300}
                                    options={apexChartLineOptions.options}
                                    series={[linechartForecastingJson[trend3][0]]}
@@ -694,8 +747,9 @@ export default function Dashboard() {
 
 
             let trendImageArray = randomNumberArray(6, 15);
+            console.log(trendImageArray);
             let imagesList_trend1 = [];
-            for(let i =0; i<6; i++){
+            for (let i = 0; i < 6; i++) {
                 imagesList_trend1.push(flagshipImagesJson[trend1][trendImageArray[i]]);
             }
             console.log(imagesList_trend1);
@@ -720,7 +774,7 @@ export default function Dashboard() {
 
 
             let imagesList_trend2 = [];
-            for(let i =0; i<6; i++){
+            for (let i = 0; i < 6; i++) {
                 imagesList_trend2.push(flagshipImagesJson[trend2][trendImageArray[i]]);
             }
             console.log(imagesList_trend2);
@@ -744,7 +798,7 @@ export default function Dashboard() {
             );
 
             let imagesList_trend3 = [];
-            for(let i =0; i<6; i++){
+            for (let i = 0; i < 6; i++) {
                 imagesList_trend3.push(flagshipImagesJson[trend3][trendImageArray[i]]);
             }
             console.log(imagesList_trend3);
@@ -785,9 +839,13 @@ export default function Dashboard() {
                 result = result + unique[j] + '<br/>';
             }
 
+            let select1List = RepresentativeAttributes[groupNumState];
+            let select2List = RepresentativeAttributes[selectedTrend];
+            let intersectList = intersectLists(select1List,select2List);
+
             ReactDOM.render(
                 <>
-                    {attributeList.map(index => {
+                    {intersectList.map(index => {
                         return (
                             <span key={index}>
                             <Tag color="white">
@@ -849,29 +907,11 @@ export default function Dashboard() {
             document.getElementById('AttrsCompare'),
         );
     }
-    function onClickTrendMenu (e) {
-        console.log('click ', e);
-        setTrendMenuState(e.key);
-        if(e.key === 'trending'){
-            setTrend1State('group1');
-            setTrend2State('group3');
-            setTrend3State('group4');
-        }else if(e.key === 'declining'){
-            setTrend1State('group16');
-            setTrend2State('group6');
-            setTrend3State('group17');
-        }else if(e.key === 'upcoming'){
-            setTrend1State('group5');
-            setTrend2State('group18');
-            setTrend3State('group13');
-        }else{
-            setTrend1State('group9');
-            setTrend2State('group22');
-            setTrend3State('group24');
-        }
-    };
+
+
     const menuItems = (
-        <Menu style={{float: 'left', textAlign: 'left', fontSize: 30}} onClick={onClickTrendMenu} selectedKeys={[trendMenu]} mode="horizontal">
+        <Menu style={{float: 'left', textAlign: 'left', fontSize: 30}} onClick={onClickTrendMenu}
+              selectedKeys={[trendMenu]} mode="horizontal">
             <Menu.Item key="trending">
                 TRENDING STYLE
             </Menu.Item>
@@ -886,7 +926,7 @@ export default function Dashboard() {
             </Menu.Item>
         </Menu>
     );
-    const TrendQ = () =>(
+    const TrendQ = () => (
         <div id={'trendQ'} disabled={true}>
             <GridContainer>
                 <GridItem xs={12}>
@@ -906,13 +946,6 @@ export default function Dashboard() {
                                         style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
                                         STYLE MAP
                                     </div>
-                                    {/*<span id="scatterChart" className={classes.stats}></span>*/}
-                                    {/*<Chart*/}
-                                    {/*    height={500}*/}
-                                    {/*    options={apexChartScatterOptions.options}*/}
-                                    {/*    series={scatter_group_data_array.series}*/}
-                                    {/*    type="trendScatter"*/}
-                                    {/*/>*/}
                                     <div id={'trendScatter'}/>
                                 </GridItem>
                                 <GridItem xs={12} sm={9}>
@@ -925,26 +958,26 @@ export default function Dashboard() {
                                                     fontFamily: 'BebasNeue-Bold'
                                                 }}>
                                                 {menuItems}
-                                            {/*    <Dropdown  style={{float: 'left',*/}
-                                            {/*    textAlign: 'left',}} overlay={menuItems}>*/}
-                                            {/*    <a id={'trendMenu'} className="ant-dropdown-link" onClick={e => e.preventDefault()}>*/}
-                                            {/*        Trending <DownOutlined />*/}
-                                            {/*    </a>*/}
-                                            {/*</Dropdown>*/}
                                             </div>
 
                                         </GridItem>
                                         <GridItem xs={12}>
                                             <GridContainer>
                                                 <GridItem xs={12} sm={4}>
+                                                    <Button onClick={() =>{onClickTrendButton(trend1)}} style={{fontSize:'25px', fontFamily:'BebasNeue-Bold' ,width: '40%', backgroundColor: '#ff0000'}}>
+                                                        STYLE {stringTonumber(trend1)}</Button>
                                                     <div id={'trend_chart1'}/>
                                                     <div id={'images1'}/>
                                                 </GridItem>
                                                 <GridItem xs={12} sm={4}>
+                                                    <Button onClick={() =>{onClickTrendButton(trend2)}} style={{fontSize:'25px', fontFamily:'BebasNeue-Bold' ,width: '40%', backgroundColor: '#0000ff'}}>
+                                                        STYLE {stringTonumber(trend2)}</Button>
                                                     <div id={'trend_chart2'}/>
                                                     <div id={'images2'}/>
                                                 </GridItem>
                                                 <GridItem xs={12} sm={4}>
+                                                    <Button onClick={() =>{onClickTrendButton(trend3)}} style={{fontSize:'25px', fontFamily:'BebasNeue-Bold' ,width: '40%', backgroundColor: '#00ff00'}}>
+                                                        STYLE {stringTonumber(trend3)}</Button>
                                                     <div id={'trend_chart3'}/>
                                                     <div id={'images3'}/>
                                                 </GridItem>
@@ -955,63 +988,70 @@ export default function Dashboard() {
                             </GridContainer>
                         </Card>
                     </GridItem>
-                    <GridItem xs={12} sm={12}>
-                        <Card>
-                            <CardHeader color="rose">
+                </GridItem>
+            </GridContainer>
+        </div>
+    );
+
+    const FashionQ = () => (
+    <GridItem xs={12} sm={12}>
+        <Card>
+            <CardHeader color="rose">
                                 <span style={{
                                     color: '#FFFFFF', fontFamily: 'BebasNeue-Bold', fontSize: '30px'
                                 }} id={'quantitative'} className={classes.cardCategory}>
                                   FashionQ{' '}
                                 </span>
 
-                            </CardHeader>
-                            {/*<GridContainer>*/}
-                            <GridContainer
-                                justify="center"
-                                direction="row">
-                                <GridItem xs={12} sm={3}>
-                                    <div
-                                        style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
-                                        INTERSECTION ATTRIBUTES
-                                    </div>
-                                    <br/>
-                                    <br/>
-                                    <div style={{textAlign: 'left'}} id={'intersectionAttributes'}/>
-                                    <br/>
-                                </GridItem>
-                                <GridItem xs={12} sm={6}>
-                                    <GridItem>
-                                        <div
-                                            style={{
-                                                textAlign: 'left',
-                                                fontSize: '40px',
-                                                fontFamily: 'BebasNeue-Bold'
-                                            }}>
-                                            INTERSECTION LOOK
-                                        </div>
-                                        <div id={'intersectionLook'}></div>
-                                    </GridItem>
-                                </GridItem>
-                                <GridItem xs={12} sm={3}>
-                                    <GridItem>
-                                        <div
-                                            style={{
-                                                textAlign: 'left',
-                                                fontSize: '40px',
-                                                fontFamily: 'BebasNeue-Bold'
-                                            }}>
-                                            INTERSECTION SHOW
-                                        </div>
-                                        <div id={'intersectionShow'}></div>
-                                    </GridItem>
-                                </GridItem>
-                            </GridContainer>
-                        </Card>
+            </CardHeader>
+            {/*<GridContainer>*/}
+            <GridContainer
+                justify="center"
+                direction="row">
+                <GridItem xs={12} sm={3}>
+                    <div
+                        style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
+                        INTERSECTION ATTRIBUTES
+                    </div><font
+                    style={{textAlign: 'center', fontSize: '35px', fontFamily: 'BebasNeue-Bold'}}>
+                    {groupNumState} <font style={{textAlign: 'center', fontSize: '25px', fontFamily: 'BebasNeue-Bold'}}>and </font> {selectedTrend}
+                </font>
+                    <br/>
+                    <br/>
+
+                    <div style={{textAlign: 'left'}} id={'intersectionAttributes'}/>
+                    <br/>
+                </GridItem>
+                <GridItem xs={12} sm={6}>
+                    <GridItem>
+                        <div
+                            style={{
+                                textAlign: 'left',
+                                fontSize: '40px',
+                                fontFamily: 'BebasNeue-Bold'
+                            }}>
+                            INTERSECTION LOOK
+                        </div>
+                        <div id={'intersectionLook'}></div>
+                    </GridItem>
+                </GridItem>
+                <GridItem xs={12} sm={3}>
+                    <GridItem>
+                        <div
+                            style={{
+                                textAlign: 'left',
+                                fontSize: '40px',
+                                fontFamily: 'BebasNeue-Bold'
+                            }}>
+                            INTERSECTION SHOW
+                        </div>
+                        <div id={'intersectionShow'}></div>
                     </GridItem>
                 </GridItem>
             </GridContainer>
-        </div>
-    )
+        </Card>
+    </GridItem>
+    );
 
 
     return (
@@ -1024,13 +1064,6 @@ export default function Dashboard() {
                                 <span style={{
                                     color: '#FFFFFF', fontFamily: 'BebasNeue-Bold', fontSize: '30px'
                                 }} className={classes.cardCategory}>AttributeQ</span>
-                                {/*<Popup*/}
-                                {/*    modal*/}
-                                {/*    trigger={<Button color={'#ff0000'} type={'primary'}>?</Button>}*/}
-                                {/*    position="right center"*/}
-                                {/*>*/}
-                                {/*    {close => <AttributeBoxContent close={close}/>}*/}
-                                {/*</Popup>*/}
                             </CardHeader>
                             <GridContainer
                                 justify="center"
@@ -1046,7 +1079,7 @@ export default function Dashboard() {
                                         </div>
                                         <Card style={{width: '100%'}}>
                                             <br/>
-                                            <div style={{textAlign: 'left', padding:'10px' }} id={'attributes'}/></Card>
+                                            <div style={{textAlign: 'left', padding: '10px'}} id={'attributes'}/></Card>
                                     </span>
                                     <Table
                                         alignItems="center"
@@ -1148,13 +1181,6 @@ export default function Dashboard() {
                 }} id={'quantitative'} className={classes.cardCategory}>
                   STYLEQ{' '}
                 </span>
-                                {/*<Popup*/}
-                                {/*    modal*/}
-                                {/*    trigger={<Button type={'primary'}>?</Button>}*/}
-                                {/*    position="right center"*/}
-                                {/*>*/}
-                                {/*    {close => <QuantitativeContent close={close}/>}*/}
-                                {/*</Popup>*/}
                             </CardHeader>
 
                             <GridContainer
@@ -1169,9 +1195,9 @@ export default function Dashboard() {
                                 </GridItem>
                                 <GridItem xs={12} sm={9}>
                                     <div style={{textAlign: 'left', marginBottom: '20px'}} id={'button_groups'}>
-                                        <button id={'firstStyleButton'}></button>
-                                        <button id={'seconStyleButton'}></button>
-                                        <button id={'thirdStyleButton'}></button>
+                                        <Button id={'firstStyleButton'}></Button>
+                                        <Button id={'seconStyleButton'}></Button>
+                                        <Button id={'thirdStyleButton'}></Button>
                                     </div>
                                     <Table
                                         alignItems="center"
@@ -1274,6 +1300,9 @@ export default function Dashboard() {
             </GridContainer>
             <div id={'trendQQ'}>
                 {isStyleButtonClicked ? <TrendQ/> : null}
+            </div>
+            <div id={'fashionQ'}>
+                {isTrendButtonClicked ? <FashionQ/> : null}
             </div>
         </div>
     );
