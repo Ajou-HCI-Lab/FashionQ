@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20f49525-45a0-40b2-af02-33a77a0f4784" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../front/src/views/Dashboard/FashionQComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/back/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/fashionq/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/fashionq/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/webpack-stats.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/back/webpack-stats.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/background/Mask_RCNN/images/25691390_f9944f61b5_z.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/background/Mask_RCNN/mrcnn/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/background/Mask_RCNN/mrcnn/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/background/Mask_RCNN/mrcnn/visualize.py" beforeDir="false" afterPath="$PROJECT_DIR$/background/Mask_RCNN/mrcnn/visualize.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/background/Mask_RCNN/samples/coco/coco.py" beforeDir="false" afterPath="$PROJECT_DIR$/background/Mask_RCNN/samples/coco/coco.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../front/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../front/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/views/Dashboard/Attribute.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/views/Dashboard/Attribute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../front/src/views/Dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/views/Dashboard/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/views/Icons/Icons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/views/Maps/Maps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/views/Notifications/Notifications.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/views/RTLPage/RTLPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/views/Typography/Typography.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/views/UpgradeToPro/UpgradeToPro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front/src/views/UserProfile/UserProfile.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,8 +114,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/back/fashionq/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="827">
-                  <caret line="352" column="43" lean-forward="true" selection-start-line="352" selection-start-column="43" selection-end-line="352" selection-end-column="43" />
+                <state relative-caret-position="392">
+                  <caret line="323" column="55" selection-start-line="323" selection-start-column="55" selection-end-line="323" selection-end-column="55" />
                   <folding>
                     <element signature="e#0#40#0" expanded="true" />
                     <marker date="1595331807424" expanded="true" signature="3540:3543" ph="..." />
@@ -211,8 +203,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/back/fashionq/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="295">
-                  <caret line="271" selection-start-line="271" selection-end-line="271" />
+                <state relative-caret-position="190">
+                  <caret line="264" selection-start-line="264" selection-end-line="264" />
                   <folding>
                     <element signature="e#0#40#0" expanded="true" />
                     <marker date="1595331807424" expanded="true" signature="3540:3543" ph="..." />
@@ -234,8 +226,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>os.path.dir</find>
-      <find>BASE</find>
       <find>json</find>
       <find>cv2</find>
       <find>webpa</find>
@@ -264,6 +254,8 @@
       <find>Regular</find>
       <find>regua</find>
       <find>Regualr</find>
+      <find>http</find>
+      <find>vogue</find>
     </findStrings>
     <replaceStrings>
       <replace>Regular</replace>
@@ -394,18 +386,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/back/media" />
+      <recent name="$PROJECT_DIR$/back" />
+      <recent name="$PROJECT_DIR$/attribute_groups" />
+      <recent name="$PROJECT_DIR$/trend_data" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/background/Mask_RCNN/images/test" />
       <recent name="$PROJECT_DIR$/background/Mask_RCNN" />
       <recent name="$PROJECT_DIR$/background" />
       <recent name="$PROJECT_DIR$/back" />
       <recent name="$PROJECT_DIR$/back/fashionq" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/back" />
-      <recent name="$PROJECT_DIR$/attribute_groups" />
-      <recent name="$PROJECT_DIR$/trend_data" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -572,8 +565,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -587,7 +581,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22244897" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22244897" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -777,16 +771,6 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back/mydataset_classmapping.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="1320">
-          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tSNE_data/makefilelists.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -842,10 +826,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/back/mydataset_classmapping.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/back/fashionq/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="352" column="43" lean-forward="true" selection-start-line="352" selection-start-column="43" selection-end-line="352" selection-end-column="43" />
+        <state relative-caret-position="392">
+          <caret line="323" column="55" selection-start-line="323" selection-start-column="55" selection-end-line="323" selection-end-column="55" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
             <marker date="1595331807424" expanded="true" signature="3540:3543" ph="..." />

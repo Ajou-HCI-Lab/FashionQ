@@ -35,7 +35,9 @@ import {MailOutlined, AppstoreOutlined, SettingOutlined} from '@ant-design/icons
 import Carousel, {Modal, ModalGateway} from "react-images";
 import flagshipImagesJson from "../../datas_json/flagshipImagesJson";
 import attributeGroupJson from "../../datas_json/attributeGroupsJson";
+import intersectionInformation from "../../datas_json/intersection_information";
 import Attribute from "../Dashboard/Attribute";
+import FashionQComponent from "../Dashboard/FashionQComponent";
 import AttributeCompares from "../Dashboard/AttributeCompares";
 
 const {Step} = Steps;
@@ -65,103 +67,103 @@ const useStyles = makeStyles(styles);
 const scatter_group_data_array = {
     series: [
         {
-            name: 'group1',
+            name: 'S1',
             data: scatterJsonarray['group1'],
         },
         {
-            name: 'group2',
+            name: 'S2',
             data: scatterJsonarray['group2'],
         },
         {
-            name: 'group3',
+            name: 'S3',
             data: scatterJsonarray['group3'],
         },
         {
-            name: 'group4',
+            name: 'S4',
             data: scatterJsonarray['group4'],
         },
         {
-            name: 'group5',
+            name: 'S5',
             data: scatterJsonarray['group5'],
         },
         {
-            name: 'group6',
+            name: 'S6',
             data: scatterJsonarray['group6'],
         },
         {
-            name: 'group7',
+            name: 'S7',
             data: scatterJsonarray['group7'],
         },
         {
-            name: 'group8',
+            name: 'S8',
             data: scatterJsonarray['group8'],
         },
         {
-            name: 'group9',
+            name: 'S9',
             data: scatterJsonarray['group9'],
         },
         {
-            name: 'group10',
+            name: 'S10',
             data: scatterJsonarray['group10'],
         },
         {
-            name: 'group11',
+            name: 'S11',
             data: scatterJsonarray['group11'],
         },
         {
-            name: 'group12',
+            name: 'S12',
             data: scatterJsonarray['group12'],
         },
         {
-            name: 'group13',
+            name: 'S13',
             data: scatterJsonarray['group13'],
         },
         {
-            name: 'group14',
+            name: 'S14',
             data: scatterJsonarray['group14'],
         },
         {
-            name: 'group15',
+            name: 'S15',
             data: scatterJsonarray['group15'],
         },
         {
-            name: 'group16',
+            name: 'S16',
             data: scatterJsonarray['group16'],
         },
         {
-            name: 'group17',
+            name: 'S17',
             data: scatterJsonarray['group17'],
         },
         {
-            name: 'group18',
+            name: 'S18',
             data: scatterJsonarray['group18'],
         },
         {
-            name: 'group19',
+            name: 'S19',
             data: scatterJsonarray['group19'],
         },
         {
-            name: 'group20',
+            name: 'S20',
             data: scatterJsonarray['group20'],
         },
         {
-            name: 'group21',
+            name: 'S21',
             data: scatterJsonarray['group21'],
         },
         {
-            name: 'group22',
+            name: 'S22',
             data: scatterJsonarray['group22'],
         },
         {
-            name: 'group23',
+            name: 'S23',
             data: scatterJsonarray['group23'],
         },
         {
-            name: 'group24',
+            name: 'S24',
             data: scatterJsonarray['group24'],
         },
         {
-            name: 'group25',
+            name: 'S25',
             data: scatterJsonarray['group25'],
         },
     ],
@@ -220,6 +222,10 @@ let trendcolors = [
     '#665f5f',
     '#665f5f',
 ];
+
+const trend1Color = '#a50000';
+const trend2Color = '#6dc365';
+const trend3Color = '#1979fe';
 
 let apexChartScatterOptions = {
     options: {
@@ -322,12 +328,12 @@ var apexChartLineOptions = {
                 label: {
                     borderColor: '#96baf7',
                     style: {
-                        fontSize: '10px',
+                        fontSize: '20px',
                         color: '#fff',
                         background: '#78a0f7',
                     },
                     offsetY: -10,
-                    text: 'Forecasting Value',
+                    text: 'Forecasting Vaalue',
                 }
             }]
         },
@@ -362,6 +368,9 @@ export default function Dashboard() {
 
     const [groupNumState, setGroupState] = React.useState(null);
     const [modalIsOpen, setState] = React.useState(false);
+    const [trend1ModalIsOpen, setTrend1ModalState] = React.useState(false);
+    const [trend2ModalIsOpen, setTrend2ModalState] = React.useState(false);
+    const [trend3ModalIsOpen, setTrend3ModalState] = React.useState(false);
     const [checkDataPulled, setcheckDataPulledState] = React.useState(false);
     const [trendMenu, setTrendMenuState] = React.useState('trending');
     const [stepState, setStepState] = React.useState(1);
@@ -377,8 +386,23 @@ export default function Dashboard() {
     const [attributeList, setAttributeList] = React.useState(null);
     const [attributeListFull, setAttributeFullList] = React.useState(null);
 
+    let jaccard_result;
+    let unique;
+    let position;
+
+
     function toggleModal() {
         setState(!modalIsOpen);
+    }
+
+    function toggleTrend1Modal() {
+        setTrend1ModalState(!trend1ModalIsOpen);
+    }
+    function toggleTrend2Modal() {
+        setTrend2ModalState(!trend2ModalIsOpen);
+    }
+    function toggleTrend3Modal() {
+        setTrend3ModalState(!trend3ModalIsOpen);
     }
 
     function roundNumber(number, decimals) {
@@ -408,14 +432,14 @@ export default function Dashboard() {
         return parseFloat(intersect.size) / parseFloat(union.length)
     }
 
-    function onClickTrendButton(trendValue){
+    function onClickTrendButton(trendValue) {
         setIsTrendButtonClickedState(true);
         setSelectState(trendValue);
         console.log(trendValue);
 
     }
 
-    function intersectLists(list1, list2){
+    function intersectLists(list1, list2) {
         let s1 = new Set(list1);
         let s2 = new Set(list2);
         let intersect = [...new Set([...s1].filter(i => s2.has(i)))];
@@ -457,176 +481,100 @@ export default function Dashboard() {
         }
     }
 
-    axios.get('http://localhost:8000/fashionq/posts/').then(res => {
-        console.log(res.data)
-        if (!checkDataPulled) {
-            setcheckDataPulledState(true);
-            setAttributeList(res.data['attribute_names']);
-            setAttributeFullList(res.data['attribute_names']);
-        }
 
-
-
-        let jaccard_result = [];
-        let unique = attributeListFull.filter(onlyUnique);
-
-        for (let representativeAttribute in RepresentativeAttributes) {
-            let temp = jaccardSim(attributeList, RepresentativeAttributes[representativeAttribute]);
-            let temp_json = {};
-            temp_json['name'] = representativeAttribute
-            temp_json['value'] = temp;
-            jaccard_result.push(temp_json);
-        }
-        jaccard_result.sort(sortByValue);
-        
-        colors[stringTonumber(jaccard_result[0].name) - 1] = '#5fa038';
-        colors[stringTonumber(jaccard_result[1].name) - 1] = '#fb4c3d';
-        colors[stringTonumber(jaccard_result[2].name) - 1] = '#fdb40b';
-        let position;
-        if (groupNumState !== null) {
-            if (groupNumState === jaccard_result[0].name) {
-                position = 0;
-            } else if (groupNumState === jaccard_result[1].name) {
-                position = 1;
-            } else {
-                position = 2
-            }
-        }
-        console.log(groupNumState);
-
-
-
-
-        /*
-        *  처음 보이는 이미지
-        *                 */
-
+    function attrGo() {
         ReactDOM.render(
-            <img
-                style={{textAlign: 'center', maxWidth: '100%'}}
-                width="100%"
-                height={'auto'}
-                // src={'/static/' + this.state.file.name}
-                src={'/static/' + res.data['filename']}
-            />,
-            document.getElementById('lookImage'),
-        );
-
-
-
-        function onClickButton(key) {
-            let temp = Object.assign([], attributeList);
-            console.log(temp);
-            if (temp.includes(key)) {
-                const idx = temp.indexOf(key);
-                if (idx > -1) temp.splice(idx, 1);
-                setAttributeList(temp);
-            } else {
-                temp.push(key);
-                setAttributeList(temp);
-            }
-            attrGo();
-        }
-
-        attrGo();
-
-        function attrGo() {
-            ReactDOM.render(
-                <>
-                    {unique.map(index => {
-                        if (attributeList.includes(index)) {
-                            return (
-                                <span key={index}>
+            <>
+                {unique.map(index => {
+                    if (attributeList.includes(index)) {
+                        return (
+                            <span key={index}>
                             <Button onClick={() => {
                                 onClickButton(index)
                             }} style={{height: '100%', backgroundColor: '#000000'}}>
                                 <h2 style={{color: '#ffffff', fontFamily: 'BebasNeue-Bold'}}>{index}</h2>
                             </Button>
                         </span>
-                            );
-                        } else {
-                            return (
-                                <span key={index}>
+                        );
+                    } else {
+                        return (
+                            <span key={index}>
                             <Button onClick={() => {
                                 onClickButton(index)
                             }} style={{height: '100%', backgroundColor: '#ffffff'}}>
                                 <h2 style={{color: '#000000', fontFamily: 'BebasNeue-Bold'}}>{index}</h2>
                             </Button>
                         </span>
-                            );
-                        }
-                    })}
-                </>,
-                document.getElementById('attributes'),
-            );
-            ReactDOM.render(
-                <>
-                    {attributeGroupJson['Type of clothes'].map(a => {
-                        return (
-                            <Attribute
-                                key={a}
-                                attr={a}
-                                list={attributeList}
-                                group={'Type of clothes'}
-                            />
                         );
-                    })}
-                    {attributeGroupJson['Dominant colors'].map(a => {
-                        return <Attribute key={a} attr={a} list={attributeList}/>;
-                    })}
-                    {attributeGroupJson['Garments parts'].map(a => {
-                        return <Attribute key={a} attr={a} list={attributeList}/>;
-                    })}
-                    {attributeGroupJson['Textile pattern'].map(a => {
-                        return <Attribute key={a} attr={a} list={attributeList}/>;
-                    })}
-                    {attributeGroupJson['Decorations'].map(a => {
-                        return <Attribute key={a} attr={a} list={attributeList}/>;
-                    })}
-                    {attributeGroupJson['Finishing'].map(a => {
-                        return <Attribute key={a} attr={a} list={attributeList}/>;
-                    })}
-                </>,
-                document.getElementById('yourLookAttrs'),
-            );
+                    }
+                })}
+            </>,
+            document.getElementById('attributes'),
+        );
+        ReactDOM.render(
+            <>
+                {attributeGroupJson['Type of clothes'].map(a => {
+                    return (
+                        <Attribute
+                            key={a}
+                            attr={a}
+                            list={attributeList}
+                            group={'Type of clothes'}
+                        />
+                    );
+                })}
+                {attributeGroupJson['Dominant colors'].map(a => {
+                    return <Attribute key={a} attr={a} list={attributeList}/>;
+                })}
+                {attributeGroupJson['Garments parts'].map(a => {
+                    return <Attribute key={a} attr={a} list={attributeList}/>;
+                })}
+                {attributeGroupJson['Textile pattern'].map(a => {
+                    return <Attribute key={a} attr={a} list={attributeList}/>;
+                })}
+                {attributeGroupJson['Decorations'].map(a => {
+                    return <Attribute key={a} attr={a} list={attributeList}/>;
+                })}
+                {attributeGroupJson['Finishing'].map(a => {
+                    return <Attribute key={a} attr={a} list={attributeList}/>;
+                })}
+            </>,
+            document.getElementById('yourLookAttrs'),
+        );
 
 
-
-
-
-
-            ReactDOM.render(<>
-                <Button onClick={() => {
-                    onClickAttributeBoxButton(0);
-                    setGroupState(jaccard_result[0].name)
-                }} style={{height: '10%', width: '15%', backgroundColor: '#5fa038'}} id={'firstStyleButton'}>
+        ReactDOM.render(<>
+            <Button onClick={() => {
+                onClickAttributeBoxButton(0);
+                setGroupState(jaccard_result[0].name)
+            }} style={{height: '10%', width: '15%', backgroundColor: '#5fa038'}} id={'firstStyleButton'}>
                 <span style={{
                     fontSize: '23px',
                     fontFamily: 'BebasNeue-Bold',
                 }}>STYLE {stringTonumber(jaccard_result[0].name)} - {roundNumber(jaccard_result[0].value.toFixed(6) * 100, 6)}%</span>
-                </Button>
-                <Button onClick={() => {
-                    onClickAttributeBoxButton(1);
-                    setGroupState(jaccard_result[1].name)
-                }} style={{height: '10%', width: '15%', backgroundColor: '#fb4c3d'}} id={'seconStyleButton'}>
+            </Button>
+            <Button onClick={() => {
+                onClickAttributeBoxButton(1);
+                setGroupState(jaccard_result[1].name)
+            }} style={{height: '10%', width: '15%', backgroundColor: '#fb4c3d'}} id={'seconStyleButton'}>
                 <span style={{
                     fontSize: '23px',
                     fontFamily: 'BebasNeue-Bold'
                 }}>STYLE {stringTonumber(jaccard_result[1].name)} - {roundNumber(jaccard_result[1].value.toFixed(6) * 100, 6)}%</span>
-                </Button>
-                <Button onClick={() => {
-                    onClickAttributeBoxButton(2);
-                    setGroupState(jaccard_result[2].name)
-                }} style={{height: '10%', width: '15%', backgroundColor: '#fdb40b'}} id={'thirdStyleButton'}>
+            </Button>
+            <Button onClick={() => {
+                onClickAttributeBoxButton(2);
+                setGroupState(jaccard_result[2].name)
+            }} style={{height: '10%', width: '15%', backgroundColor: '#fdb40b'}} id={'thirdStyleButton'}>
                 <span style={{
                     fontSize: '23px',
                     fontFamily: 'BebasNeue-Bold'
                 }}>STYLE {stringTonumber(jaccard_result[2].name)} - {roundNumber(jaccard_result[2].value.toFixed(6) * 100, 6)}%</span>
-                </Button>
-            </>, document.getElementById('button_groups'));
-        }
+            </Button>
+        </>, document.getElementById('button_groups'));
+    }
 
-
+    function attrCompareGo() {
         ReactDOM.render(
             <>
                 {attributeGroupJson['Type of clothes'].map(a => {
@@ -650,17 +598,23 @@ export default function Dashboard() {
             </>,
             document.getElementById('AttrsCompare'),
         );
+    }
 
+    function onClickButton(key) {
+        let temp = Object.assign([], attributeList);
+        console.log(temp);
+        if (temp.includes(key)) {
+            const idx = temp.indexOf(key);
+            if (idx > -1) temp.splice(idx, 1);
+            setAttributeList(temp);
+        } else {
+            temp.push(key);
+            setAttributeList(temp);
+        }
+        attrGo();
+    }
 
-        apexChartScatterOptions['options']['colors'] = colors;
-        ReactDOM.render(<Chart
-            height={500}
-            options={apexChartScatterOptions.options}
-            series={scatter_group_data_array.series}
-            type="scatter"
-        />, document.getElementById('scatterChart'))
-
-        //
+    function stepGo(){
         ReactDOM.render(<Steps current={stepState}>
             <Step title="Upload File" description="Upload your own image file"/>
             <Step title="Style Check"
@@ -668,6 +622,134 @@ export default function Dashboard() {
             />
             <Step title="Style Result" description="FashionQ!!"/>
         </Steps>, document.getElementById('fashionqStep'));
+    }
+
+    function onClickAttributeBoxButton(jaccard_position) {
+        setIsStyleButtonClickedState(true);
+        setStepState(2);
+
+        ReactDOM.render(
+            <>
+                {attributeGroupJson['Type of clothes'].map(a => {
+                    return <AttributeCompares key={a} attr={a} jaccard_position={jaccard_position}
+                                              groupNum={groupNumState}/>;
+                })}
+                {attributeGroupJson['Dominant colors'].map(a => {
+                    return <AttributeCompares key={a} attr={a} jaccard_position={jaccard_position}
+                                              groupNum={groupNumState}/>;
+                })}
+                {attributeGroupJson['Garments parts'].map(a => {
+                    return <AttributeCompares key={a} attr={a} jaccard_position={jaccard_position}
+                                              groupNum={groupNumState}/>;
+                })}
+                {attributeGroupJson['Textile pattern'].map(a => {
+                    return <AttributeCompares key={a} attr={a} jaccard_position={jaccard_position}
+                                              groupNum={groupNumState}/>;
+                })}
+                {attributeGroupJson['Decorations'].map(a => {
+                    return <AttributeCompares key={a} attr={a} jaccard_position={jaccard_position}
+                                              groupNum={groupNumState}/>;
+                })}
+                {attributeGroupJson['Finishing'].map(a => {
+                    return <AttributeCompares key={a} attr={a} jaccard_position={jaccard_position}
+                                              groupNum={groupNumState}/>;
+                })}
+            </>,
+            document.getElementById('AttrsCompare'),
+        );
+    }
+
+    function firstImagerender(filename){
+        ReactDOM.render(
+            <img
+                style={{textAlign: 'center', maxWidth: '100%'}}
+                width="100%"
+                height={'auto'}
+                // src={'/static/' + this.state.file.name}
+                src={'/static/' + filename}
+            />,
+            document.getElementById('lookImage'),
+        );
+    }
+
+    function scatterChartGo(){
+        apexChartScatterOptions['options']['colors'] = colors;
+        ReactDOM.render(<Chart
+            width={'100%'}
+            height={500}
+            options={apexChartScatterOptions.options}
+            series={scatter_group_data_array.series}
+            type="scatter"
+        />, document.getElementById('scatterChart'));
+    }
+
+    function trendScatterGo(){
+        trendcolors[stringTonumber(trend1) - 1] = trend1Color;
+        trendcolors[stringTonumber(trend2) - 1] = trend2Color;
+        trendcolors[stringTonumber(trend3) - 1] = trend3Color;
+        apexTrendChartScatterOptions['options']['colors'] = trendcolors;
+
+        ReactDOM.render(<Chart
+            width={'100%'}
+            height={500}
+            options={apexTrendChartScatterOptions.options}
+            series={scatter_group_data_array.series}
+            type="scatter"
+        />, document.getElementById('trendScatter'));
+    }
+
+    axios.get('http://localhost:8000/fashionq/posts/').then(res => {
+        console.log(res.data);
+
+        // 맨 처음만 State 초기화
+        if (!checkDataPulled) {
+            setcheckDataPulledState(true);
+            setAttributeList(res.data['attribute_names']);
+            setAttributeFullList(res.data['attribute_names']);
+        }
+
+
+        jaccard_result = [];
+        unique = attributeListFull.filter(onlyUnique);
+
+        for (let representativeAttribute in RepresentativeAttributes) {
+            let temp = jaccardSim(attributeList, RepresentativeAttributes[representativeAttribute]);
+            let temp_json = {};
+            temp_json['name'] = representativeAttribute
+            temp_json['value'] = temp;
+            jaccard_result.push(temp_json);
+        }
+        jaccard_result.sort(sortByValue);
+
+        colors[stringTonumber(jaccard_result[0].name) - 1] = '#5fa038';
+        colors[stringTonumber(jaccard_result[1].name) - 1] = '#fb4c3d';
+        colors[stringTonumber(jaccard_result[2].name) - 1] = '#fdb40b';
+
+        if (groupNumState !== null) {
+            if (groupNumState === jaccard_result[0].name) {
+                position = 0;
+            } else if (groupNumState === jaccard_result[1].name) {
+                position = 1;
+            } else {
+                position = 2
+            }
+        }
+
+
+        /*
+        *  처음 보이는 이미지
+        *                 */
+
+        firstImagerender(res.data['filename']);
+        attrGo();
+        attrCompareGo();
+        scatterChartGo();
+
+
+
+        stepGo();
+
+
 
 
         let imagesList = flagshipImagesJson[groupNumState];
@@ -682,12 +764,12 @@ export default function Dashboard() {
 
         ReactDOM.render(<div style={{float: 'left'}}>
                 {imagesList.map(img => {
-                    return (<div style={{padding: '10'}} key={img}>
+                    return (<span style={{padding: '10'}} key={img}>
                             <img
-                                style={{width: '6%', float: 'left'}}
+                                style={{width:'auto',maxWidth:'110px', float: 'left'}}
                                 src={'/static/Representative_Images_top15/' + groupNumState + '/' + img}
                                 onClick={toggleModal}
-                            />{' '}</div>
+                            />{' '}</span>
                     );
                 })}
                 <ModalGateway>
@@ -714,32 +796,21 @@ export default function Dashboard() {
             for (let i = 0; i < trendcolors.length; i++) {
                 trendcolors[i] = '#665f5f';
             }
-            trendcolors[stringTonumber(trend1) - 1] = '#ff0000';
-            trendcolors[stringTonumber(trend2) - 1] = '#000aff';
-            trendcolors[stringTonumber(trend3) - 1] = '#00ff1d';
-            apexTrendChartScatterOptions['options']['colors'] = trendcolors;
+            trendScatterGo();
 
-            ReactDOM.render(<Chart
-                width={'100%'}
-                height={500}
-                options={apexTrendChartScatterOptions.options}
-                series={scatter_group_data_array.series}
-                type="scatter"
-            />, document.getElementById('trendScatter'));
-
-            apexChartLineOptions['options']['colors'] = ['#ff0000'];
+            apexChartLineOptions['options']['colors'] = [trend1Color];
             ReactDOM.render(<Chart width={'100%'} height={300}
                                    options={apexChartLineOptions.options}
                                    series={[linechartForecastingJson[trend1][0]]}
                                    type={'line'}/>, document.getElementById('trend_chart1'));
 
-            apexChartLineOptions['options']['colors'] = ['#000aff'];
+            apexChartLineOptions['options']['colors'] = [trend2Color];
             ReactDOM.render(<Chart width={'100%'} height={300}
                                    options={apexChartLineOptions.options}
                                    series={[linechartForecastingJson[trend2][0]]}
                                    type={'line'}/>, document.getElementById('trend_chart2'));
 
-            apexChartLineOptions['options']['colors'] = ['#00ff1d'];
+            apexChartLineOptions['options']['colors'] = [trend3Color];
             ReactDOM.render(<Chart width={'100%'} height={300}
                                    options={apexChartLineOptions.options}
                                    series={[linechartForecastingJson[trend3][0]]}
@@ -757,18 +828,26 @@ export default function Dashboard() {
             for (let i = 0; i < imagesList_trend1.length; i++) {
                 let temp = {};
                 temp['source'] =
-                    '/static/Representative_Images_top15/' + trend1 + '/' + imagesList_trend1[trendImageArray[i]];
+                    '/static/Representative_Images_top15/' + trend1 + '/' + imagesList_trend1[i];
                 carouselList_trend1.push(temp);
             }
+            console.log(carouselList_trend1);
             ReactDOM.render(<div>
                     {imagesList_trend1.map(img => {
                         return (<div style={{padding: '10'}} key={img}>
                                 <img
-                                    style={{width: '15%', float: 'left', padding: '10'}}
+                                    onClick={toggleTrend1Modal}
+                                    style={{ width:'15%', float: 'left', padding: '10'}}
                                     src={'/static/Representative_Images_top15/' + trend1 + '/' + img}
                                 />{' '}</div>
                         );
-                    })} </div>,
+                    })}<ModalGateway>
+                    {trend1ModalIsOpen ? (
+                        <Modal onClose={toggleTrend1Modal}>
+                            <Carousel views={carouselList_trend1}/>
+                        </Modal>
+                    ) : null}
+                </ModalGateway> </div>,
                 document.getElementById('images1'),
             );
 
@@ -777,7 +856,6 @@ export default function Dashboard() {
             for (let i = 0; i < 6; i++) {
                 imagesList_trend2.push(flagshipImagesJson[trend2][trendImageArray[i]]);
             }
-            console.log(imagesList_trend2);
             let carouselList_trend2 = [];
             for (let i = 0; i < imagesList_trend2.length; i++) {
                 let temp = {};
@@ -821,17 +899,17 @@ export default function Dashboard() {
                 document.getElementById('images3'),
             );
 
-            ReactDOM.render(<div>
-                    {imagesList.map(img => {
-                        return (<div style={{padding: '10'}} key={img}>
-                                <img
-                                    style={{width: '16%', float: 'left', padding: '10'}}
-                                    src={'/static/Representative_Images_top15/' + groupNumState + '/' + img}
-                                />{' '}</div>
-                        );
-                    })} </div>,
-                document.getElementById('intersectionLook'),
-            );
+            // ReactDOM.render(<div>
+            //         {imagesList.map(img => {
+            //             return (<div style={{padding: '10'}} key={img}>
+            //                     <img
+            //                         style={{width: '16%', float: 'left', padding: '10'}}
+            //                         src={'/static/Representative_Images_top15/' + groupNumState + '/' + img}
+            //                     />{' '}</div>
+            //             );
+            //         })} </div>,
+            //     document.getElementById('intersectionLook'),
+            // );
 
 
             let result = '';
@@ -841,72 +919,39 @@ export default function Dashboard() {
 
             let select1List = RepresentativeAttributes[groupNumState];
             let select2List = RepresentativeAttributes[selectedTrend];
-            let intersectList = intersectLists(select1List,select2List);
+            let intersectList = intersectLists(select1List, select2List);
 
-            ReactDOM.render(
-                <>
-                    {intersectList.map(index => {
-                        return (
-                            <span key={index}>
-                            <Tag color="white">
-                                <h1 style={{color: '#000000', fontFamily: 'BebasNeue-Bold'}}>{index}</h1>
-                            </Tag>
-                        </span>
-                        );
-                    })}
-                </>,
-                document.getElementById('intersectionAttributes'),
-            );
+            // ReactDOM.render(
+            //     <>
+            //         {intersectList.map(index => {
+            //             return (
+            //                 <span key={index}>
+            //                 <Tag color="white">
+            //                     <h1 style={{color: '#000000', fontFamily: 'BebasNeue-Bold'}}>{index}</h1>
+            //                 </Tag>
+            //             </span>
+            //             );
+            //         })}
+            //     </>,
+            //     document.getElementById('intersectionAttributes'),
+            // );
 
-            ReactDOM.render(
-                <div>
-                    <img width="200" src={'/static/Brand_Images/chanel.png'}/>
-                    <a href={'https://www.vogue.com/fashion-shows/fall-2010-ready-to-wear/chanel'} target={'_blank'}>
-                        <div
-                            style={{textAlign: 'center', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
-                            2010 FW
-                        </div>
-                    </a>
-                </div>
-                , document.getElementById('intersectionShow'));
+        //     ReactDOM.render(
+        //         <div>
+        //             <img width="200" src={'/static/Brand_Images/chanel.png'}/>
+        //             <a href={'https://www.vogue.com/fashion-shows/fall-2010-ready-to-wear/chanel'} target={'_blank'}>
+        //                 <div
+        //                     style={{textAlign: 'center', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
+        //                     2010 FW
+        //                 </div>
+        //             </a>
+        //         </div>
+        //         , document.getElementById('intersectionShow'));
         }
 
     });
 
-    function onClickAttributeBoxButton(jaccard_position) {
-        setIsStyleButtonClickedState(true);
-        setStepState(2);
 
-        ReactDOM.render(
-            <>
-                {attributeGroupJson['Type of clothes'].map(a => {
-                    return <AttributeCompares key={a} attr={a} jaccard_position={jaccard_position}
-                                              groupNum={groupNumState}/>;
-                })}
-                {attributeGroupJson['Dominant colors'].map(a => {
-                    return <AttributeCompares key={a} attr={a} jaccard_position={jaccard_position}
-                                              groupNum={groupNumState}/>;
-                })}
-                {attributeGroupJson['Garments parts'].map(a => {
-                    return <AttributeCompares key={a} attr={a} jaccard_position={jaccard_position}
-                                              groupNum={groupNumState}/>;
-                })}
-                {attributeGroupJson['Textile pattern'].map(a => {
-                    return <AttributeCompares key={a} attr={a} jaccard_position={jaccard_position}
-                                              groupNum={groupNumState}/>;
-                })}
-                {attributeGroupJson['Decorations'].map(a => {
-                    return <AttributeCompares key={a} attr={a} jaccard_position={jaccard_position}
-                                              groupNum={groupNumState}/>;
-                })}
-                {attributeGroupJson['Finishing'].map(a => {
-                    return <AttributeCompares key={a} attr={a} jaccard_position={jaccard_position}
-                                              groupNum={groupNumState}/>;
-                })}
-            </>,
-            document.getElementById('AttrsCompare'),
-        );
-    }
 
 
     const menuItems = (
@@ -935,7 +980,7 @@ export default function Dashboard() {
                             <CardHeader color="rose">
                             <span style={{
                                 color: '#FFFFFF', fontFamily: 'BebasNeue-Bold', fontSize: '30px'
-                            }} className={classes.cardCategory}>TrendQ</span>
+                            }} className={classes.cardCategory}>Trend-Q</span>
 
                             </CardHeader>
                             <GridContainer
@@ -964,19 +1009,40 @@ export default function Dashboard() {
                                         <GridItem xs={12}>
                                             <GridContainer>
                                                 <GridItem xs={12} sm={4}>
-                                                    <Button onClick={() =>{onClickTrendButton(trend1)}} style={{fontSize:'25px', fontFamily:'BebasNeue-Bold' ,width: '40%', backgroundColor: '#ff0000'}}>
+                                                    <Button onClick={() => {
+                                                        onClickTrendButton(trend1)
+                                                    }} style={{
+                                                        fontSize: '25px',
+                                                        fontFamily: 'BebasNeue-Bold',
+                                                        width: '40%',
+                                                        backgroundColor: trend1Color
+                                                    }}>
                                                         STYLE {stringTonumber(trend1)}</Button>
                                                     <div id={'trend_chart1'}/>
                                                     <div id={'images1'}/>
                                                 </GridItem>
                                                 <GridItem xs={12} sm={4}>
-                                                    <Button onClick={() =>{onClickTrendButton(trend2)}} style={{fontSize:'25px', fontFamily:'BebasNeue-Bold' ,width: '40%', backgroundColor: '#0000ff'}}>
+                                                    <Button onClick={() => {
+                                                        onClickTrendButton(trend2)
+                                                    }} style={{
+                                                        fontSize: '25px',
+                                                        fontFamily: 'BebasNeue-Bold',
+                                                        width: '40%',
+                                                        backgroundColor: trend2Color
+                                                    }}>
                                                         STYLE {stringTonumber(trend2)}</Button>
                                                     <div id={'trend_chart2'}/>
                                                     <div id={'images2'}/>
                                                 </GridItem>
                                                 <GridItem xs={12} sm={4}>
-                                                    <Button onClick={() =>{onClickTrendButton(trend3)}} style={{fontSize:'25px', fontFamily:'BebasNeue-Bold' ,width: '40%', backgroundColor: '#00ff00'}}>
+                                                    <Button onClick={() => {
+                                                        onClickTrendButton(trend3)
+                                                    }} style={{
+                                                        fontSize: '25px',
+                                                        fontFamily: 'BebasNeue-Bold',
+                                                        width: '40%',
+                                                        backgroundColor: trend3Color
+                                                    }}>
                                                         STYLE {stringTonumber(trend3)}</Button>
                                                     <div id={'trend_chart3'}/>
                                                     <div id={'images3'}/>
@@ -994,63 +1060,69 @@ export default function Dashboard() {
     );
 
     const FashionQ = () => (
-    <GridItem xs={12} sm={12}>
-        <Card>
-            <CardHeader color="rose">
+        <GridItem xs={12} sm={12}>
+            <Card>
+                <CardHeader color="rose">
                                 <span style={{
                                     color: '#FFFFFF', fontFamily: 'BebasNeue-Bold', fontSize: '30px'
                                 }} id={'quantitative'} className={classes.cardCategory}>
-                                  FashionQ{' '}
+                                  Fashion-Q{' '}
                                 </span>
 
-            </CardHeader>
-            {/*<GridContainer>*/}
-            <GridContainer
-                justify="center"
-                direction="row">
-                <GridItem xs={12} sm={3}>
-                    <div
-                        style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
-                        INTERSECTION ATTRIBUTES
-                    </div><font
-                    style={{textAlign: 'center', fontSize: '35px', fontFamily: 'BebasNeue-Bold'}}>
-                    {groupNumState} <font style={{textAlign: 'center', fontSize: '25px', fontFamily: 'BebasNeue-Bold'}}>and </font> {selectedTrend}
-                </font>
-                    <br/>
-                    <br/>
+                </CardHeader>
+                {/*<GridContainer>*/}
+                <GridContainer
+                    justify="center"
+                    direction="row">
+                    <GridItem xs={12} sm={3}>
+                        <div
+                            style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
+                               INTERSECTION ATTRIBUTES
+                        </div>
+                        {/*<font*/}
+                        {/*    style={{textAlign: 'center', fontSize: '35px', fontFamily: 'BebasNeue-Bold'}}>*/}
+                        {/*    {groupNumState} <font style={{*/}
+                        {/*    textAlign: 'center',*/}
+                        {/*    fontSize: '25px',*/}
+                        {/*    fontFamily: 'BebasNeue-Bold'*/}
+                        {/*}}>and </font> {selectedTrend}*/}
+                        {/*</font>*/}
+                        {/*<br/>*/}
+                        {/*<br/>*/}
 
-                    <div style={{textAlign: 'left'}} id={'intersectionAttributes'}/>
-                    <br/>
-                </GridItem>
-                <GridItem xs={12} sm={6}>
-                    <GridItem>
-                        <div
-                            style={{
-                                textAlign: 'left',
-                                fontSize: '40px',
-                                fontFamily: 'BebasNeue-Bold'
-                            }}>
-                            INTERSECTION LOOK
-                        </div>
-                        <div id={'intersectionLook'}></div>
+                        {/*<div style={{textAlign: 'left'}} id={'intersectionAttributes'}/>*/}
+                        {/*<br/>*/}
                     </GridItem>
-                </GridItem>
-                <GridItem xs={12} sm={3}>
-                    <GridItem>
-                        <div
-                            style={{
-                                textAlign: 'left',
-                                fontSize: '40px',
-                                fontFamily: 'BebasNeue-Bold'
-                            }}>
-                            INTERSECTION SHOW
-                        </div>
-                        <div id={'intersectionShow'}></div>
+                    <GridItem xs={12} sm={6}>
+                        <GridItem>
+                            <div
+                                style={{
+                                    textAlign: 'left',
+                                    fontSize: '40px',
+                                    fontFamily: 'BebasNeue-Bold'
+                                }}>
+                                INTERSECTION LOOK
+                            </div>
+                            {/*<div id={'intersectionLook'}></div>*/}
+                        </GridItem>
                     </GridItem>
-                </GridItem>
-            </GridContainer>
-        </Card>
-    </GridItem>
+                    <GridItem xs={12} sm={3}>
+                        <GridItem>
+                            <div
+                                style={{
+                                    textAlign: 'left',
+                                    fontSize: '40px',
+                                    fontFamily: 'BebasNeue-Bold'
+                                }}>
+                                INTERSECTION SHOW
+                            </div>
+                            {/*<div id={'intersectionShow'}></div>*/}
+                        </GridItem>
+                    </GridItem>
+                </GridContainer>
+                <FashionQComponent first={groupNumState} second={selectedTrend}/>
+            </Card>
+        </GridItem>
     );
 
 
@@ -1063,7 +1135,7 @@ export default function Dashboard() {
                             <CardHeader color="rose">
                                 <span style={{
                                     color: '#FFFFFF', fontFamily: 'BebasNeue-Bold', fontSize: '30px'
-                                }} className={classes.cardCategory}>AttributeQ</span>
+                                }} className={classes.cardCategory}>Attribute-Q</span>
                             </CardHeader>
                             <GridContainer
                                 justify="center"
@@ -1179,7 +1251,7 @@ export default function Dashboard() {
                 <span style={{
                     color: '#FFFFFF', fontFamily: 'BebasNeue-Bold', fontSize: '30px'
                 }} id={'quantitative'} className={classes.cardCategory}>
-                  STYLEQ{' '}
+                  STYLE-Q{' '}
                 </span>
                             </CardHeader>
 
@@ -1284,7 +1356,7 @@ export default function Dashboard() {
                                             </TableRow>
                                         </TableBody>
                                     </Table>
-                                    <GridItem xs={12} sm={9}>
+                                    <GridItem xs={12} sm={12}>
                                         <br/>
                                         <div
                                             style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
