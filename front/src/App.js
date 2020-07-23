@@ -189,7 +189,7 @@ class App extends React.Component {
           chart: {
             width: 400,
             height: 400,
-            title: 'FashionQ Style',
+            title: 'FashionQComponent Style',
           },
           yAxis: {
             title: 'Attributes',
@@ -208,7 +208,7 @@ class App extends React.Component {
           chart: {
             width: 700,
             height: 400,
-            title: 'FashionQ Trend',
+            title: 'FashionQComponent Trend',
           },
           yAxis: {
             title: 'Temperature (Celsius)',
@@ -399,7 +399,7 @@ class App extends React.Component {
   //         {/*</Steps>*/}
   //         <span style={{textAlign:'center',
   //           color: '#000000', fontFamily: 'BebasNeue-Bold', fontSize: '60px'
-  //         }}>FashionQ Project</span>
+  //         }}>FashionQComponent Project</span>
   //
   //         <div style={{
   //           color: '#000000', fontFamily: 'BebasNeue-Bold', fontSize: '30px'
@@ -430,7 +430,7 @@ const scatter_options = {
     width: 1200,
     height: 500,
     title: {
-      text: 'FashionQ Map',
+      text: 'FashionQComponent Map',
       align: 'center',
     },
     format: '1,000',
