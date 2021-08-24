@@ -19,6 +19,7 @@ import avatar from 'assets/img/faces/marc.jpg';
 import Popup from "reactjs-popup";
 import AttributeBoxContent from "../Dashboard/attributeBoxContent";
 import Table from "@material-ui/core/Table";
+import ModalImage from "react-modal-image";
 import TableBody from "@material-ui/core/TableBody";
 import TableRow from "@material-ui/core/TableRow";
 import TableCell from "@material-ui/core/TableCell/TableCell";
@@ -230,7 +231,10 @@ const trend3Color = '#1979fe';
 let apexChartScatterOptions = {
     options: {
         chart: {
-            height: '300',
+            toolbar:{
+                show:false
+            },
+            height: '320',
             type: 'scatter',
             zoom: {
                 enabled: false,
@@ -345,6 +349,9 @@ var apexChartLineOptions = {
             forceNiceScale: false,
             floating: false,
             decimalsInFloat: 2,
+//             min: 0,
+//             max: 12,
+            tickAmount:2,
             title: {
                 text: '%',
                 rotate: -90,
@@ -367,13 +374,13 @@ export default function Dashboard() {
     const classes = useStyles();
 
     const [groupNumState, setGroupState] = React.useState(null);
-    const [modalIsOpen, setState] = React.useState(false);
-    const [trend1ModalIsOpen, setTrend1ModalState] = React.useState(false);
-    const [trend2ModalIsOpen, setTrend2ModalState] = React.useState(false);
-    const [trend3ModalIsOpen, setTrend3ModalState] = React.useState(false);
     const [checkDataPulled, setcheckDataPulledState] = React.useState(false);
     const [trendMenu, setTrendMenuState] = React.useState('trending');
     const [stepState, setStepState] = React.useState(1);
+
+
+    const [firstColorPosition, setFirstColorPositionState] = React.useState(0);
+    const [secondColorPosition, setSecondColorPositionState] = React.useState(0);
 
     const [trend1, setTrend1State] = React.useState('group1');
     const [trend2, setTrend2State] = React.useState('group3');
@@ -390,20 +397,6 @@ export default function Dashboard() {
     let unique;
     let position;
 
-
-    function toggleModal() {
-        setState(!modalIsOpen);
-    }
-
-    function toggleTrend1Modal() {
-        setTrend1ModalState(!trend1ModalIsOpen);
-    }
-    function toggleTrend2Modal() {
-        setTrend2ModalState(!trend2ModalIsOpen);
-    }
-    function toggleTrend3Modal() {
-        setTrend3ModalState(!trend3ModalIsOpen);
-    }
 
     function roundNumber(number, decimals) {
         var newnumber = new Number(number + '').toFixed(parseInt(decimals));
@@ -432,10 +425,11 @@ export default function Dashboard() {
         return parseFloat(intersect.size) / parseFloat(union.length)
     }
 
-    function onClickTrendButton(trendValue) {
+    function onClickTrendButton(trendValue, pos) {
         setIsTrendButtonClickedState(true);
+        setSecondColorPositionState(pos);
         setSelectState(trendValue);
-        console.log(trendValue);
+//         console.log(trendValue);
 
     }
 
@@ -460,27 +454,77 @@ export default function Dashboard() {
     }
 
     function onClickTrendMenu(e) {
-        console.log('click ', e);
+//         console.log('click ', e);
         setTrendMenuState(e.key);
+
+        let trendTreStateArray = ['group1','group3','group4'];
+        let trendDecStateArray = ['group16','group6','group17'];
+        let trendUpcStateArray = ['group5','group18','group13'];
+        let trendSteStateArray = ['group9','group22','group24'];
+
+//         console.log(groupNumState);
+        if(trendTreStateArray.includes(groupNumState)){
+            for(let i=0; i<trendTreStateArray.length; i++){
+                if(trendTreStateArray[i] === groupNumState){
+                    trendTreStateArray[i] = 'group2';
+                    break;
+                }
+            }
+        }else if(trendDecStateArray.includes(groupNumState)){
+            for(let i=0; i<trendDecStateArray.length; i++){
+                if(trendDecStateArray[i] === groupNumState){
+                    trendDecStateArray[i] = 'group14';
+                    break;
+                }
+            }
+        }else if(trendUpcStateArray.includes(groupNumState)){
+            for(let i=0; i<trendUpcStateArray.length; i++){
+                if(trendUpcStateArray[i] === groupNumState){
+                    trendUpcStateArray[i] = 'group15';
+                    break;
+                }
+            }
+        }else if(trendSteStateArray.includes(groupNumState)){
+            for(let i=0; i<trendSteStateArray.length; i++){
+                if(trendSteStateArray[i] === groupNumState){
+                    trendSteStateArray[i] = 'group19';
+                    break;
+                }
+            }
+        }
+
         if (e.key === 'trending') {
-            setTrend1State('group1');
-            setTrend2State('group3');
-            setTrend3State('group4');
+            delete apexChartLineOptions["options"]["yaxis"]["min"]
+            delete apexChartLineOptions["options"]["yaxis"]["max"]
+            setTrend1State(trendTreStateArray[0]);
+            setTrend2State(trendTreStateArray[1]);
+            setTrend3State(trendTreStateArray[2]);
         } else if (e.key === 'declining') {
-            setTrend1State('group16');
-            setTrend2State('group6');
-            setTrend3State('group17');
+            delete apexChartLineOptions["options"]["yaxis"]["min"]
+            delete apexChartLineOptions["options"]["yaxis"]["max"]
+            setTrend1State(trendDecStateArray[0]);
+            setTrend2State(trendDecStateArray[1]);
+            setTrend3State(trendDecStateArray[2]);
         } else if (e.key === 'upcoming') {
-            setTrend1State('group5');
-            setTrend2State('group18');
-            setTrend3State('group13');
+            delete apexChartLineOptions["options"]["yaxis"]["min"]
+            delete apexChartLineOptions["options"]["yaxis"]["max"]
+            setTrend1State(trendUpcStateArray[0]);
+            setTrend2State(trendUpcStateArray[1]);
+            setTrend3State(trendUpcStateArray[2]);
         } else {
-            setTrend1State('group9');
-            setTrend2State('group22');
-            setTrend3State('group24');
+            apexChartLineOptions["options"]["yaxis"]["min"] = 0
+            apexChartLineOptions["options"]["yaxis"]["max"] = 10
+            setTrend1State(trendSteStateArray[0]);
+            setTrend2State(trendSteStateArray[1]);
+            setTrend3State(trendSteStateArray[2]);
         }
     }
 
+    function erasenumAndUnderbar(str) {
+        var res;
+        res = str.replace(/[^a-zA-Z_]/g, "").replace(/_/g, ' ');
+        return res;
+    }
 
     function attrGo() {
         ReactDOM.render(
@@ -491,8 +535,11 @@ export default function Dashboard() {
                             <span key={index}>
                             <Button onClick={() => {
                                 onClickButton(index)
-                            }} style={{height: '100%', backgroundColor: '#000000'}}>
-                                <h2 style={{color: '#ffffff', fontFamily: 'BebasNeue-Bold'}}>{index}</h2>
+                            }} style={{height: '100%', backgroundColor: '#159fec'}}>
+                                <h2 style={{
+                                    color: '#ffffff',
+                                    fontFamily: 'BebasNeue-Bold'
+                                }}>{erasenumAndUnderbar(index)}</h2>
                             </Button>
                         </span>
                         );
@@ -502,7 +549,10 @@ export default function Dashboard() {
                             <Button onClick={() => {
                                 onClickButton(index)
                             }} style={{height: '100%', backgroundColor: '#ffffff'}}>
-                                <h2 style={{color: '#000000', fontFamily: 'BebasNeue-Bold'}}>{index}</h2>
+                                <h2 style={{
+                                    color: '#159fec',
+                                    fontFamily: 'BebasNeue-Bold'
+                                }}>{erasenumAndUnderbar(index)}</h2>
                             </Button>
                         </span>
                         );
@@ -551,7 +601,7 @@ export default function Dashboard() {
                 <span style={{
                     fontSize: '23px',
                     fontFamily: 'BebasNeue-Bold',
-                }}>STYLE {stringTonumber(jaccard_result[0].name)} - {roundNumber(jaccard_result[0].value.toFixed(6) * 100, 6)}%</span>
+                }}>STYLE {stringTonumber(jaccard_result[0].name)} - {roundNumber(jaccard_result[0].value.toFixed(6) * 100, 1)}%</span>
             </Button>
             <Button onClick={() => {
                 onClickAttributeBoxButton(1);
@@ -560,7 +610,7 @@ export default function Dashboard() {
                 <span style={{
                     fontSize: '23px',
                     fontFamily: 'BebasNeue-Bold'
-                }}>STYLE {stringTonumber(jaccard_result[1].name)} - {roundNumber(jaccard_result[1].value.toFixed(6) * 100, 6)}%</span>
+                }}>STYLE {stringTonumber(jaccard_result[1].name)} - {roundNumber(jaccard_result[1].value.toFixed(6) * 100, 1)}%</span>
             </Button>
             <Button onClick={() => {
                 onClickAttributeBoxButton(2);
@@ -569,7 +619,7 @@ export default function Dashboard() {
                 <span style={{
                     fontSize: '23px',
                     fontFamily: 'BebasNeue-Bold'
-                }}>STYLE {stringTonumber(jaccard_result[2].name)} - {roundNumber(jaccard_result[2].value.toFixed(6) * 100, 6)}%</span>
+                }}>STYLE {stringTonumber(jaccard_result[2].name)} - {roundNumber(jaccard_result[2].value.toFixed(6) * 100, 1)}%</span>
             </Button>
         </>, document.getElementById('button_groups'));
     }
@@ -602,7 +652,7 @@ export default function Dashboard() {
 
     function onClickButton(key) {
         let temp = Object.assign([], attributeList);
-        console.log(temp);
+//         console.log(temp);
         if (temp.includes(key)) {
             const idx = temp.indexOf(key);
             if (idx > -1) temp.splice(idx, 1);
@@ -614,7 +664,7 @@ export default function Dashboard() {
         attrGo();
     }
 
-    function stepGo(){
+    function stepGo() {
         ReactDOM.render(<Steps current={stepState}>
             <Step title="Upload File" description="Upload your own image file"/>
             <Step title="Style Check"
@@ -626,6 +676,7 @@ export default function Dashboard() {
 
     function onClickAttributeBoxButton(jaccard_position) {
         setIsStyleButtonClickedState(true);
+        setFirstColorPositionState(jaccard_position);
         setStepState(2);
 
         ReactDOM.render(
@@ -659,7 +710,7 @@ export default function Dashboard() {
         );
     }
 
-    function firstImagerender(filename){
+    function firstImagerender(filename) {
         ReactDOM.render(
             <img
                 style={{textAlign: 'center', maxWidth: '100%'}}
@@ -672,7 +723,7 @@ export default function Dashboard() {
         );
     }
 
-    function scatterChartGo(){
+    function scatterChartGo() {
         apexChartScatterOptions['options']['colors'] = colors;
         ReactDOM.render(<Chart
             width={'100%'}
@@ -683,7 +734,7 @@ export default function Dashboard() {
         />, document.getElementById('scatterChart'));
     }
 
-    function trendScatterGo(){
+    function trendScatterGo() {
         trendcolors[stringTonumber(trend1) - 1] = trend1Color;
         trendcolors[stringTonumber(trend2) - 1] = trend2Color;
         trendcolors[stringTonumber(trend3) - 1] = trend3Color;
@@ -698,8 +749,8 @@ export default function Dashboard() {
         />, document.getElementById('trendScatter'));
     }
 
-    axios.get('http://localhost:8000/fashionq/posts/').then(res => {
-        console.log(res.data);
+    axios.get('http://210.107.206.210:8000/fashionq/posts/99').then(res => {
+//         console.log(res.data);
 
         // 맨 처음만 State 초기화
         if (!checkDataPulled) {
@@ -746,10 +797,7 @@ export default function Dashboard() {
         scatterChartGo();
 
 
-
         stepGo();
-
-
 
 
         let imagesList = flagshipImagesJson[groupNumState];
@@ -762,23 +810,19 @@ export default function Dashboard() {
         }
 
 
-        ReactDOM.render(<div style={{float: 'left'}}>
+        ReactDOM.render(
+            <div style={{textAlign: 'left'}}>
                 {imagesList.map(img => {
-                    return (<span style={{padding: '10'}} key={img}>
-                            <img
-                                style={{width:'auto',maxWidth:'110px', float: 'left'}}
-                                src={'/static/Representative_Images_top15/' + groupNumState + '/' + img}
-                                onClick={toggleModal}
-                            />{' '}</span>
+                    return (
+                        <div key={img} style={{maxWidth: '110px', width: '20%', display: 'inline-block',}}>
+                            <ModalImage
+                                small={'/static/Representative_Images_top15/' + groupNumState + '/' + img}
+                                midium={'/static/Representative_Images_top15/' + groupNumState + '/' + img}
+                                large={'/static/Representative_Images_top15/' + groupNumState + '/' + img}
+                            /></div>
                     );
                 })}
-                <ModalGateway>
-                    {modalIsOpen ? (
-                        <Modal onClose={toggleModal}>
-                            <Carousel views={carouselList}/>
-                        </Modal>
-                    ) : null}
-                </ModalGateway></div>,
+            </div>,
             document.getElementById('representativeLooks'),
         );
 
@@ -797,6 +841,13 @@ export default function Dashboard() {
                 trendcolors[i] = '#665f5f';
             }
             trendScatterGo();
+             if(trend1 === groupNumState){
+                setTrend1State('group2')
+            }else if(trend2 === groupNumState){
+                setTrend2State('group2')
+            }else if(trend3 === groupNumState){
+                setTrend3State('group2')
+            }
 
             apexChartLineOptions['options']['colors'] = [trend1Color];
             ReactDOM.render(<Chart width={'100%'} height={300}
@@ -818,36 +869,24 @@ export default function Dashboard() {
 
 
             let trendImageArray = randomNumberArray(6, 15);
-            console.log(trendImageArray);
+//             console.log(trendImageArray);
             let imagesList_trend1 = [];
             for (let i = 0; i < 6; i++) {
                 imagesList_trend1.push(flagshipImagesJson[trend1][trendImageArray[i]]);
             }
-            console.log(imagesList_trend1);
-            let carouselList_trend1 = [];
-            for (let i = 0; i < imagesList_trend1.length; i++) {
-                let temp = {};
-                temp['source'] =
-                    '/static/Representative_Images_top15/' + trend1 + '/' + imagesList_trend1[i];
-                carouselList_trend1.push(temp);
-            }
-            console.log(carouselList_trend1);
-            ReactDOM.render(<div>
+
+            ReactDOM.render(
+                <div>
                     {imagesList_trend1.map(img => {
-                        return (<div style={{padding: '10'}} key={img}>
-                                <img
-                                    onClick={toggleTrend1Modal}
-                                    style={{ width:'15%', float: 'left', padding: '10'}}
-                                    src={'/static/Representative_Images_top15/' + trend1 + '/' + img}
-                                />{' '}</div>
+                        return (<div style={{width: '15%', float: 'left', padding: '10'}} key={img}>
+                                <ModalImage
+                                    small={'/static/Representative_Images_top15/' + trend1 + '/' + img}
+                                    midium={'/static/Representative_Images_top15/' + trend1 + '/' + img}
+                                    large={'/static/Representative_Images_top15/' + trend1 + '/' + img}
+                                /></div>
                         );
-                    })}<ModalGateway>
-                    {trend1ModalIsOpen ? (
-                        <Modal onClose={toggleTrend1Modal}>
-                            <Carousel views={carouselList_trend1}/>
-                        </Modal>
-                    ) : null}
-                </ModalGateway> </div>,
+                    })}
+                </div>,
                 document.getElementById('images1'),
             );
 
@@ -856,22 +895,17 @@ export default function Dashboard() {
             for (let i = 0; i < 6; i++) {
                 imagesList_trend2.push(flagshipImagesJson[trend2][trendImageArray[i]]);
             }
-            let carouselList_trend2 = [];
-            for (let i = 0; i < imagesList_trend2.length; i++) {
-                let temp = {};
-                temp['source'] =
-                    '/static/Representative_Images_top15/' + trend2 + '/' + imagesList_trend2[i];
-                carouselList_trend2.push(temp);
-            }
             ReactDOM.render(<div>
                     {imagesList_trend2.map(img => {
-                        return (<div style={{padding: '10'}} key={img}>
-                                <img
-                                    style={{width: '15%', float: 'left', padding: '10'}}
-                                    src={'/static/Representative_Images_top15/' + trend2 + '/' + img}
-                                />{' '}</div>
+                        return (<div style={{width: '15%', float: 'left', padding: '10'}} key={img}>
+                                <ModalImage
+                                    small={'/static/Representative_Images_top15/' + trend2 + '/' + img}
+                                    midium={'/static/Representative_Images_top15/' + trend2 + '/' + img}
+                                    large={'/static/Representative_Images_top15/' + trend2 + '/' + img}
+                                /></div>
                         );
-                    })} </div>,
+                    })}
+                </div>,
                 document.getElementById('images2'),
             );
 
@@ -879,95 +913,47 @@ export default function Dashboard() {
             for (let i = 0; i < 6; i++) {
                 imagesList_trend3.push(flagshipImagesJson[trend3][trendImageArray[i]]);
             }
-            console.log(imagesList_trend3);
-            let carouselList_trend3 = [];
-            for (let i = 0; i < imagesList_trend3.length; i++) {
-                let temp = {};
-                temp['source'] =
-                    '/static/Representative_Images_top15/' + trend3 + '/' + imagesList_trend3[i];
-                carouselList_trend3.push(temp);
-            }
             ReactDOM.render(<div>
                     {imagesList_trend3.map(img => {
-                        return (<div style={{padding: '10'}} key={img}>
-                                <img
-                                    style={{width: '15%', float: 'left', padding: '10'}}
-                                    src={'/static/Representative_Images_top15/' + trend3 + '/' + img}
-                                />{' '}</div>
+                        return (<div style={{width: '15%', float: 'left', padding: '10'}} key={img}>
+                                <ModalImage
+                                    small={'/static/Representative_Images_top15/' + trend3 + '/' + img}
+                                    midium={'/static/Representative_Images_top15/' + trend3 + '/' + img}
+                                    large={'/static/Representative_Images_top15/' + trend3 + '/' + img}
+                                /></div>
                         );
                     })} </div>,
                 document.getElementById('images3'),
             );
 
-            // ReactDOM.render(<div>
-            //         {imagesList.map(img => {
-            //             return (<div style={{padding: '10'}} key={img}>
-            //                     <img
-            //                         style={{width: '16%', float: 'left', padding: '10'}}
-            //                         src={'/static/Representative_Images_top15/' + groupNumState + '/' + img}
-            //                     />{' '}</div>
-            //             );
-            //         })} </div>,
-            //     document.getElementById('intersectionLook'),
-            // );
+            // let result = '';
+            // for (let j = 0; j < unique.length; j++) {
+            //     result = result + unique[j] + '<br/>';
+            // }
+            //
+            // let select1List = RepresentativeAttributes[groupNumState];
+            // let select2List = RepresentativeAttributes[selectedTrend];
+            // let intersectList = intersectLists(select1List, select2List);
 
-
-            let result = '';
-            for (let j = 0; j < unique.length; j++) {
-                result = result + unique[j] + '<br/>';
-            }
-
-            let select1List = RepresentativeAttributes[groupNumState];
-            let select2List = RepresentativeAttributes[selectedTrend];
-            let intersectList = intersectLists(select1List, select2List);
-
-            // ReactDOM.render(
-            //     <>
-            //         {intersectList.map(index => {
-            //             return (
-            //                 <span key={index}>
-            //                 <Tag color="white">
-            //                     <h1 style={{color: '#000000', fontFamily: 'BebasNeue-Bold'}}>{index}</h1>
-            //                 </Tag>
-            //             </span>
-            //             );
-            //         })}
-            //     </>,
-            //     document.getElementById('intersectionAttributes'),
-            // );
-
-        //     ReactDOM.render(
-        //         <div>
-        //             <img width="200" src={'/static/Brand_Images/chanel.png'}/>
-        //             <a href={'https://www.vogue.com/fashion-shows/fall-2010-ready-to-wear/chanel'} target={'_blank'}>
-        //                 <div
-        //                     style={{textAlign: 'center', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
-        //                     2010 FW
-        //                 </div>
-        //             </a>
-        //         </div>
-        //         , document.getElementById('intersectionShow'));
         }
 
     });
-
-
 
 
     const menuItems = (
         <Menu style={{float: 'left', textAlign: 'left', fontSize: 30}} onClick={onClickTrendMenu}
               selectedKeys={[trendMenu]} mode="horizontal">
             <Menu.Item key="trending">
-                TRENDING STYLE
+                TRENDING STYLES
             </Menu.Item>
             <Menu.Item key="declining">
-                DECLINING STYLE
+                DECLINING STYLES
             </Menu.Item>
             <Menu.Item key="upcoming">
-                UPCOMING STYLE
+                UPCOMING STYLES
             </Menu.Item>
             <Menu.Item key="steady">
-                STEADY STYLE
+                STEADY STYLES
             </Menu.Item>
         </Menu>
     );
@@ -979,7 +965,7 @@ export default function Dashboard() {
                         <Card>
                             <CardHeader color="rose">
                             <span style={{
-                                color: '#FFFFFF', fontFamily: 'BebasNeue-Bold', fontSize: '30px'
+                                color: '#FFFFFF', fontFamily: 'BebasNeue-Bold', fontSize: '50px'
                             }} className={classes.cardCategory}>Trend-Q</span>
 
                             </CardHeader>
@@ -988,7 +974,7 @@ export default function Dashboard() {
                                 direction="row">
                                 <GridItem xs={12} sm={2} style={{float: 'left', marginRight: '20px'}}>
                                     <div
-                                        style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
+                                        style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold', marginLeft:'20px'}}>
                                         STYLE MAP
                                     </div>
                                     <div id={'trendScatter'}/>
@@ -1010,7 +996,7 @@ export default function Dashboard() {
                                             <GridContainer>
                                                 <GridItem xs={12} sm={4}>
                                                     <Button onClick={() => {
-                                                        onClickTrendButton(trend1)
+                                                        onClickTrendButton(trend1, 0)
                                                     }} style={{
                                                         fontSize: '25px',
                                                         fontFamily: 'BebasNeue-Bold',
@@ -1023,7 +1009,7 @@ export default function Dashboard() {
                                                 </GridItem>
                                                 <GridItem xs={12} sm={4}>
                                                     <Button onClick={() => {
-                                                        onClickTrendButton(trend2)
+                                                        onClickTrendButton(trend2, 1)
                                                     }} style={{
                                                         fontSize: '25px',
                                                         fontFamily: 'BebasNeue-Bold',
@@ -1036,7 +1022,7 @@ export default function Dashboard() {
                                                 </GridItem>
                                                 <GridItem xs={12} sm={4}>
                                                     <Button onClick={() => {
-                                                        onClickTrendButton(trend3)
+                                                        onClickTrendButton(trend3, 2)
                                                     }} style={{
                                                         fontSize: '25px',
                                                         fontFamily: 'BebasNeue-Bold',
@@ -1064,9 +1050,9 @@ export default function Dashboard() {
             <Card>
                 <CardHeader color="rose">
                                 <span style={{
-                                    color: '#FFFFFF', fontFamily: 'BebasNeue-Bold', fontSize: '30px'
+                                    color: '#FFFFFF', fontFamily: 'BebasNeue-Bold', fontSize: '50px'
                                 }} id={'quantitative'} className={classes.cardCategory}>
-                                  Fashion-Q{' '}
+                                  Merge-Q{' '}
                                 </span>
 
                 </CardHeader>
@@ -1076,22 +1062,9 @@ export default function Dashboard() {
                     direction="row">
                     <GridItem xs={12} sm={3}>
                         <div
-                            style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
-                               INTERSECTION ATTRIBUTES
+                            style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold', marginLeft:'10px'}}>
+                            INTERSECTION ATTRIBUTES
                         </div>
-                        {/*<font*/}
-                        {/*    style={{textAlign: 'center', fontSize: '35px', fontFamily: 'BebasNeue-Bold'}}>*/}
-                        {/*    {groupNumState} <font style={{*/}
-                        {/*    textAlign: 'center',*/}
-                        {/*    fontSize: '25px',*/}
-                        {/*    fontFamily: 'BebasNeue-Bold'*/}
-                        {/*}}>and </font> {selectedTrend}*/}
-                        {/*</font>*/}
-                        {/*<br/>*/}
-                        {/*<br/>*/}
-
-                        {/*<div style={{textAlign: 'left'}} id={'intersectionAttributes'}/>*/}
-                        {/*<br/>*/}
                     </GridItem>
                     <GridItem xs={12} sm={6}>
                         <GridItem>
@@ -1101,9 +1074,8 @@ export default function Dashboard() {
                                     fontSize: '40px',
                                     fontFamily: 'BebasNeue-Bold'
                                 }}>
-                                INTERSECTION LOOK
+                                INTERSECTION LOOKS
                             </div>
-                            {/*<div id={'intersectionLook'}></div>*/}
                         </GridItem>
                     </GridItem>
                     <GridItem xs={12} sm={3}>
@@ -1114,13 +1086,12 @@ export default function Dashboard() {
                                     fontSize: '40px',
                                     fontFamily: 'BebasNeue-Bold'
                                 }}>
-                                INTERSECTION SHOW
+                                INTERSECTION SHOWS
                             </div>
-                            {/*<div id={'intersectionShow'}></div>*/}
                         </GridItem>
                     </GridItem>
                 </GridContainer>
-                <FashionQComponent first={groupNumState} second={selectedTrend}/>
+                <FashionQComponent first={groupNumState} second={selectedTrend} positionfirst={firstColorPosition} positionSecond={secondColorPosition}/>
             </Card>
         </GridItem>
     );
@@ -1131,13 +1102,17 @@ export default function Dashboard() {
             <GridContainer>
                 <GridItem xs={12}>
                     <GridItem xs={12}>
+                    </GridItem>
+                    <GridItem xs={12} sm={12}>
                         <Card>
                             <CardHeader color="rose">
-                                <span style={{
-                                    color: '#FFFFFF', fontFamily: 'BebasNeue-Bold', fontSize: '30px'
-                                }} className={classes.cardCategory}>Attribute-Q</span>
+                <span style={{
+                    color: '#FFFFFF', fontFamily: 'BebasNeue-Bold', fontSize: '50px'
+                }} id={'quantitative'} className={classes.cardCategory}>
+                  STYLE-Q{' '}
+                </span>
                             </CardHeader>
-                            <GridContainer
+<GridContainer
                                 justify="center"
                                 direction="row">
                                 <GridItem xs={12} sm={2}>
@@ -1236,31 +1211,17 @@ export default function Dashboard() {
                                             </TableRow>
                                             <TableRow id={'yourLookAttrs'} style={{width: '80%'}}>
                                             </TableRow>
-                                            {/*<TableRow id={'AttrsCompare'} style={{width: '80%'}}>*/}
-                                            {/*</TableRow>*/}
                                         </TableBody>
                                     </Table>
                                     <br/>
                                 </GridItem>
                             </GridContainer>
-                        </Card>
-                    </GridItem>
-                    <GridItem xs={12} sm={12}>
-                        <Card>
-                            <CardHeader color="rose">
-                <span style={{
-                    color: '#FFFFFF', fontFamily: 'BebasNeue-Bold', fontSize: '30px'
-                }} id={'quantitative'} className={classes.cardCategory}>
-                  STYLE-Q{' '}
-                </span>
-                            </CardHeader>
-
                             <GridContainer
                                 justify="center"
                                 direction="row">
                                 <GridItem xs={12} sm={2}>
                                     <div
-                                        style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold'}}>
+                                        style={{textAlign: 'left', fontSize: '40px', fontFamily: 'BebasNeue-Bold', marginLeft:'20px'}}>
                                         STYLE MAP
                                     </div>
                                     <CardBody id={'scatterChart'}/>

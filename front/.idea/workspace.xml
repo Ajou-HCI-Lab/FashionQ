@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96267530-8930-4c6b-8fee-c8a886d925d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/Dashboard/FashionQComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/back/webpack-stats.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/back/webpack-stats.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Dashboard/Attribute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Dashboard/Attribute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Dashboard/AttributeDescription.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Dashboard/AttributeDescription.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Dashboard/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Dashboard/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Dashboard/FashionQComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Dashboard/FashionQComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Icons/Icons.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Maps/Maps.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Notifications/Notifications.js" beforeDir="false" />
@@ -100,7 +102,7 @@
       <workItem from="1592640772175" duration="1180000" />
       <workItem from="1594126156226" duration="10981000" />
       <workItem from="1594623132369" duration="12466000" />
-      <workItem from="1595227554222" duration="29965000" />
+      <workItem from="1595227554222" duration="39117000" />
     </task>
     <servers />
   </component>

@@ -36,7 +36,7 @@ const switchRoutes = (
       }
       return null;
     })}
-    <Redirect from="/" to="/stylecheck" />
+    <Redirect from="/" to="/" />
     <Redirect from="/uploads" to="/" />
   </Switch>
 );

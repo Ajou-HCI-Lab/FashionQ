@@ -81,6 +81,47 @@ class PaintBgFall:
 
 		print("Loading weights ", model_path)
 		model.load_weights(model_path, by_name=True)
+		
+	def go(self):
+
+		global model, media_path
+
+		os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
+		os.environ["CUDA_VISIBLE_DEVICES"]='6'
+		os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
+		model_path = os.path.join('mask_rcnn_coco.h5')  # 101로 할지
+
+		media_path = "../back/media"
+		config = fancy.CocoConfig() # 기본 설정들. hyperparameter
+
+		class InferenceConfig(config.__class__):
+			# Run detection on one image at a time
+			NAME = "coco"
+			NUM_CLASSES = 1 + 80
+			GPU_COUNT = 1
+			IMAGES_PER_GPU = 1
+
+		config = InferenceConfig()
+
+		DEVICE = "/gpu:1"  # /cpu:0 or /gpu:0
+		TEST_MODE = "inference"
+
+		def get_ax(rows=1, cols=1, size=16):
+			"""Return a Matplotlib Axes array to be used in
+			all visualizations in the notebook. Provide a
+			central point to control graph sizes.
+
+			Adjust the size attribute to control how big to render images
+			"""
+			_, ax = plt.subplots(rows, cols, figsize=(size * cols, size * rows))
+			return ax
+
+		with tf.device(DEVICE):
+			model = modellib.MaskRCNN(mode="inference", model_dir=model_path,
+									  config=config)
+
+		print("Loading weights ", model_path)
+		model.load_weights(model_path, by_name=True)
 
 
 	def apply_mask(self, image, mask, color, alpha=0.5):
@@ -120,8 +161,54 @@ class PaintBgFall:
 
 		return image
 
+	def go(self):
+
+		global model, media_path
+
+		os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
+		os.environ["CUDA_VISIBLE_DEVICES"]='6'
+		os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
+		model_path = os.path.join('mask_rcnn_coco.h5')  # 101로 할지
+
+		media_path = "../back/media"
+		config = fancy.CocoConfig() # 기본 설정들. hyperparameter
+
+		class InferenceConfig(config.__class__):
+			# Run detection on one image at a time
+			NAME = "coco"
+			NUM_CLASSES = 1 + 80
+			GPU_COUNT = 1
+			IMAGES_PER_GPU = 1
+
+		config = InferenceConfig()
+
+		DEVICE = "/gpu:1"  # /cpu:0 or /gpu:0
+		TEST_MODE = "inference"
+
+		def get_ax(rows=1, cols=1, size=16):
+			"""Return a Matplotlib Axes array to be used in
+			all visualizations in the notebook. Provide a
+			central point to control graph sizes.
+
+			Adjust the size attribute to control how big to render images
+			"""
+			_, ax = plt.subplots(rows, cols, figsize=(size * cols, size * rows))
+			return ax
+
+		with tf.device(DEVICE):
+			model = modellib.MaskRCNN(mode="inference", model_dir=model_path,
+									  config=config)
+
+		print("Loading weights ", model_path)
+		model.load_weights(model_path, by_name=True)
+
+
+    
+    
 	def paint_bg3(self, current_filename, colors=[(0, 0, 0)]):
 		global model,media_path
+		model = None
+		self.go()
 		path = current_filename
 
 		path = os.path.join(media_path)
@@ -129,6 +216,8 @@ class PaintBgFall:
 		fancy_images_path = os.path.join(path, current_filename)  #### 경로(폴더) 수정
 		print(fancy_images_path)
 
+		temp_file = current_filename.split(".")
+		bg_fall_text = temp_file[0] + "_bgfall." + temp_file[1]
 		start = time.time()
 		# fancy_path/data/data_type
 
@@ -147,7 +236,8 @@ class PaintBgFall:
 			r, g, b = cv2.split(colored_image)
 			colored_image = cv2.merge([b, g, r])
 
-			save_path = os.path.join(path, current_filename)
+			save_path = os.path.join(path, bg_fall_text)
+			print(save_path)
 			# if os.path.isfile(save_path):
 			# 	print("already file exists, {}".format(save_path))
 			# 	continue

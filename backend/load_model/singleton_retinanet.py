@@ -7,7 +7,15 @@
 
 # import keras
 import keras
+# from keras import backend as K
+import tensorflow.compat.v1 as tf 
+from tensorflow.compat.v1 import keras 
+from tensorflow.compat.v1.keras.utils import to_categorical, get_source_inputs 
+from tensorflow.compat.v1.keras import backend as K 
+from tensorflow.compat.v1.keras.layers import Conv2D, GlobalAveragePooling2D, Flatten, Dense, Activation, MaxPooling2D 
+from tensorflow.compat.v1.keras.layers import Dropout, Input, BatchNormalization
 
+# from tensorflow.python.keras import backend as K2
 # import keras_retinanet
 from keras_retinanet import models
 from keras_retinanet.utils.image import read_image_bgr, preprocess_image, resize_image
@@ -46,14 +54,15 @@ class SingletonRetinaNet:
 
 
 	def get_session(self):
-		config = tf.ConfigProto(
-			device_count={'GPU':1},
+		tf.compat.v1.disable_v2_behavior()
+		config = tf.compat.v1.ConfigProto(
+			device_count={'GPU':2},
 			intra_op_parallelism_threads=1,
 			allow_soft_placement=True
 		)
 		config.gpu_options.allow_growth = True
 		config.gpu_options.per_process_gpu_memory_fraction = 0.6
-		return tf.Session(config=config)
+		return tf.compat.v1.Session(config=config)
 
 
 
@@ -67,8 +76,12 @@ class SingletonRetinaNet:
 		# hyperparamet
 		backbone = "resnet101"
 		season = "2014"
-
-		keras.backend.tensorflow_backend.set_session(self.get_session())
+        
+# 		K2.set_session(self.get_session())
+		tf.compat.v1.keras.backend.set_session(
+		    self.get_session()
+		)
+# 		keras.backend.tensorflow_backend.set_session(self.get_session())
 
 		df_tmp = pd.read_csv("mydataset_classmapping.csv", header=None)
 		df = df_tmp.to_dict()[0]
@@ -81,7 +94,47 @@ class SingletonRetinaNet:
 		# resnet50_csv_20.h5
 		# load retinanet model
 		model = models.load_model(model_path, backbone_name=backbone)
+		model._make_predict_function()
+		nmf_path = "../back/media"
+		# if the model is not converted to an inference model, use the line below
+		# see: https://github.com/fizyr/keras-retinanet#converting-a-training-model-to-inference-model
+		# model = models.convert_model(model)
 
+		# print(model.summary())
+
+		# load label to names mapping for visualization purposes
+		labels_to_names = df
+
+	def go(self):
+		global model, nmf_path,labels_to_names
+		K.clear_session()
+		# use this environment flag to change which GPU to use
+		os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
+		os.environ["CUDA_VISIBLE_DEVICES"] = '6'
+		# set the modified tf session as backend in keras
+
+		# hyperparamet
+		backbone = "resnet101"
+		season = "2014"
+        
+		tf.compat.v1.keras.backend.set_session(
+		    self.get_session()
+		)
+# 		K2.set_session(self.get_session())
+# 		keras.backend.tensorflow_backend.set_session(self.get_session())
+
+		df_tmp = pd.read_csv("mydataset_classmapping.csv", header=None)
+		df = df_tmp.to_dict()[0]
+
+		# adjust this to point to your downloaded/trained model
+		# models can be downloaded here: https://github.com/fizyr/keras-retinanet/releases
+		# model_path = os.path.join('..', 'snapshots', 'mymodel.h5')
+
+		model_path = os.path.join('mymodel.h5')  # 101로 할지
+		# resnet50_csv_20.h5
+		# load retinanet model
+		model = models.load_model(model_path, backbone_name=backbone)
+		model._make_predict_function()
 		nmf_path = "../back/media"
 		# if the model is not converted to an inference model, use the line below
 		# see: https://github.com/fizyr/keras-retinanet#converting-a-training-model-to-inference-model
@@ -101,11 +154,11 @@ class SingletonRetinaNet:
 
 	def run_detection(self, current_filename):
 		global model, nmf_path,labels_to_names
+		model = None
 		# load image
+		self.go()
 
 		path = os.path.join(nmf_path)
-		print(nmf_path)
-		print(path)
 		# path = "/home/jin6491/temp_15/RetinaNet/keras-retinanet-master/datas_json/imgs" #grey+shpening_test
 		image_name = []
 		prediction = []
@@ -119,6 +172,9 @@ class SingletonRetinaNet:
 
 		image = preprocess_image(image)
 		image, scale = resize_image(image)
+
+		print("QWEEQWEQWQWEQEWQWE")
+		print(image)
 
 		start = time.time()
 		boxes, scores, labels = model.predict_on_batch(np.expand_dims(image, axis=0))

@@ -26,6 +26,8 @@ from load_model import paintbgfall
 import json
 from collections import OrderedDict
 
+with open("./fashionq/saved_datas.json") as groups:
+	saved_datas = json.load(groups)
 
 global temp_val
 # Create your views here.
@@ -35,11 +37,11 @@ def dataframe(request):
 	md.paint_bg3('FW2010_etro_11_bgfall.jpg')
 	return render(request, "dataframe.html")
 
-def map(request):
+def map(request, imageNum):
 	global temp_val
-	result={}
-	result['group']=temp_val
-	return JsonResponse(result, json_dumps_params={'ensure_ascii': True})
+	print(imageNum)
+	print(saved_datas[imageNum])
+	return JsonResponse(saved_datas[imageNum])
 
 def test(request, groupNum):
 	global temp_val
@@ -146,10 +148,15 @@ class PhotoView(APIView):
 		model = singleton_retinanet.SingletonRetinaNet.instance()
 		# model = paintbgfall.PaintBgFall.instance()
 
-	def get(self, request, *args, **kwargs):
+	def get(self, request, imageNum):
 		global result_json
-		print("qweqwe")
 		if request.method == 'GET':
+			if int(imageNum) < 20:
+				result_json = saved_datas[imageNum]
+				return JsonResponse(saved_datas[imageNum])
+			print(result_json)
+			if result_json:
+				return JsonResponse(result_json, json_dumps_params={'ensure_ascii': True})
 			data ={}
 
 			json_temp = {
@@ -251,6 +258,8 @@ class PhotoView(APIView):
 			photos_serializer.save()
 			# model.paint_bg3(request.FILES['file'].name)
 			model = singleton_retinanet.SingletonRetinaNet.instance()
+			if request.FILES['file'].name == 'undefined':
+				request.FILES['file'].name = "file1"
 
 			print(request.FILES['file'].name)
 
@@ -269,7 +278,7 @@ class PhotoView(APIView):
 			print("@@@@@@@@@qweqwe")
 			print(temp_file)
 			print(current_filename)
-			df_temp , box_coordinates = model.run_detection(temp_file[0]+"_bgfall."+temp_file[1])
+			df_temp , box_coordinates = model.run_detection(current_filename)
 			df = pd.DataFrame(df_temp)
 
 			class_map_arr = pd.read_csv("./mydataset_classmapping.csv")["Class"]
@@ -323,7 +332,7 @@ class PhotoView(APIView):
 			print(data)
 			df_pivot = model.columns_from_attribute_detector(df)
 
-			df2 = pd.DataFrame(color_extraction_model.multiple_color_extraction(temp_file[0]+"_bgfall."+temp_file[1]))
+			df2 = pd.DataFrame(color_extraction_model.multiple_color_extraction(current_filename))
 			df_one_hot_sum = color_extraction_model.columns_from_color_detector(df2)
 			x_name.append(df2['colors'][0])
 

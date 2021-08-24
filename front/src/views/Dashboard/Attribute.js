@@ -50,11 +50,12 @@ class Attribute extends React.Component {
         return null
     }
 
+
     render() {
         return (
             <TableCell
                 style={{
-                    width: '0.1%',
+                    width: '1px',
                     padding: '3.5px', margin: '0',
                     border: '1px solid #000000',
                     backgroundColor: this.returnColor(),

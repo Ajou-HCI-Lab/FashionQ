@@ -68,7 +68,7 @@ module.exports = function(webpackEnv) {
   //   : isEnvDevelopment && '/';
   const publicPath = isEnvProduction
     ? "/static/bundles/"
-    : "http://localhost:3000/";
+    : "http://210.107.206.210:3000/";
   // Some apps do not use client-side routing with pushState.
   // For these, "homepage" can be set to "." to enable relative asset paths.
   const shouldUseRelativeAssetPaths = publicPath === "./";
@@ -79,7 +79,7 @@ module.exports = function(webpackEnv) {
   // const publicUrl = isEnvProduction
   //     ? publicPath.slice(0, -1)
   //     : isEnvDevelopment && '';
-  const publicUrl = "http://localhost:3000/";
+  const publicUrl = "http://210.107.206.210:3000/";
   // Get environment variables to inject into our app.
   const env = getClientEnvironment(publicUrl);
 
@@ -164,7 +164,7 @@ module.exports = function(webpackEnv) {
       // require.resolve('webpack/hot/dev-server'),
       isEnvDevelopment &&
         require.resolve("react-dev-utils/webpackHotDevClient"),
-      require.resolve("webpack-dev-server/client") + "?http://localhost:3000",
+      require.resolve("webpack-dev-server/client") + "?http://210.107.206.210:3000",
       require.resolve("webpack/hot/dev-server"),
       // Finally, this is your app's code:
       paths.appIndexJs

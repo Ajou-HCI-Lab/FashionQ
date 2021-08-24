@@ -2,6 +2,14 @@
 import React from 'react';
 
 class AttributeDescription extends React.Component {
+
+    erasenumAndUnderbar(str) {
+        var res;
+        res = str.replace(/[^a-zA-Z_]/g, "").replace(/_/g, ' ');
+        return res;
+    }
+
+
     render(close) {
         return (
             <div className="modal">
@@ -9,7 +17,7 @@ class AttributeDescription extends React.Component {
                     &times;
                 </a>
                 <div className="content">
-                    <h5>{this.props.styleName}</h5>
+                    <h5>{this.erasenumAndUnderbar(this.props.styleName)}</h5>
                 </div>
             </div>
         )

@@ -24,7 +24,7 @@ SECRET_KEY = '$_ztvdgzl0dshbnraowqxaepp012-5(n=2xkv^=893n)1c1wzs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','192.168.0.1','172.30.1.19','172.30.1.9']
+ALLOWED_HOSTS = ['*']
 
 PROJECT_ROOT = os.path.abspath(
     os.path.join(os.path.dirname(__file__), ".."),

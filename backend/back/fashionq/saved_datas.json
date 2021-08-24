@@ -1,0 +1,1037 @@
+{
+  "0": {
+    "filename": "2020FW_Burberry.jpg",
+    "attribute_names": [
+      "Checked",
+      "Jacket_Biker",
+      "Outer_BasicCoat",
+      "Double-breated",
+      "Stripe",
+      "Jacket_Blouson",
+      "Pants_Wide",
+      "quilted",
+      "Checked",
+      "lapel",
+      "high_waist",
+      "Pants_Skinny",
+      "gray"
+    ],
+    "datas_json": [
+      {
+        "name": "Checked",
+        "datas_json": "0.55"
+      },
+      {
+        "name": "Jacket_Biker",
+        "datas_json": "0.22"
+      },
+      {
+        "name": "Outer_BasicCoat",
+        "datas_json": "0.20"
+      },
+      {
+        "name": "Double-breated",
+        "datas_json": "0.20"
+      },
+      {
+        "name": "Stripe",
+        "datas_json": "0.18"
+      },
+      {
+        "name": "Jacket_Blouson",
+        "datas_json": "0.18"
+      },
+      {
+        "name": "Pants_Wide",
+        "datas_json": "0.17"
+      },
+      {
+        "name": "quilted",
+        "datas_json": "0.17"
+      },
+      {
+        "name": "Checked",
+        "datas_json": "0.16"
+      },
+      {
+        "name": "lapel",
+        "datas_json": "0.15"
+      },
+      {
+        "name": "high_waist",
+        "datas_json": "0.15"
+      },
+      {
+        "name": "Pants_Skinny",
+        "datas_json": "0.13"
+      }
+    ],
+    "prediction_df_NMF": "group4"
+  },
+  "1": {
+    "filename": "2020FW_Celine.jpg",
+    "attribute_names": [
+      "Outer_Parka",
+      "Dress_Basic_Midi",
+      "Top_Cardigan_Boxy",
+      "Dress_Basic_Maxi",
+      "lace",
+      "lace",
+      "lace",
+      "glitter",
+      "Paisley",
+      "Dress_Sheath_Midi",
+      "Outer_BasicCoat",
+      "lace",
+      "gray"
+    ],
+    "datas_json": [
+      {
+        "name": "Outer_Parka",
+        "datas_json": "0.53"
+      },
+      {
+        "name": "Dress_Basic_Midi",
+        "datas_json": "0.47"
+      },
+      {
+        "name": "Top_Cardigan_Boxy",
+        "datas_json": "0.34"
+      },
+      {
+        "name": "Dress_Basic_Maxi",
+        "datas_json": "0.30"
+      },
+      {
+        "name": "lace",
+        "datas_json": "0.27"
+      },
+      {
+        "name": "lace",
+        "datas_json": "0.20"
+      },
+      {
+        "name": "lace",
+        "datas_json": "0.20"
+      },
+      {
+        "name": "glitter",
+        "datas_json": "0.20"
+      },
+      {
+        "name": "Paisley",
+        "datas_json": "0.20"
+      },
+      {
+        "name": "Dress_Sheath_Midi",
+        "datas_json": "0.19"
+      },
+      {
+        "name": "Outer_BasicCoat",
+        "datas_json": "0.19"
+      },
+      {
+        "name": "lace",
+        "datas_json": "0.17"
+      }
+    ],
+    "prediction_df_NMF": "group3"
+  },
+  "2": {
+    "filename": "2020FW_Chanel.jpg",
+    "attribute_names": [
+      "collar",
+      "Jacket_Blouson",
+      "Jacket_Blazer",
+      "Jacket_Biker",
+      "Top_Blause_Regular",
+      "Top_Cardigan_Regular",
+      "pocket",
+      "Top_Sweatshirts_Regular",
+      "Outer_BasicCoat",
+      "Top_Sweater_Boxy",
+      "Top_Cardigan_Boxy",
+      "Top_Sweater_Regular",
+      "white"
+    ],
+    "datas_json": [
+      {
+        "name": "collar",
+        "datas_json": "0.70"
+      },
+      {
+        "name": "Jacket_Blouson",
+        "datas_json": "0.57"
+      },
+      {
+        "name": "Jacket_Blazer",
+        "datas_json": "0.30"
+      },
+      {
+        "name": "Jacket_Biker",
+        "datas_json": "0.29"
+      },
+      {
+        "name": "Top_Blause_Regular",
+        "datas_json": "0.28"
+      },
+      {
+        "name": "Top_Cardigan_Regular",
+        "datas_json": "0.26"
+      },
+      {
+        "name": "pocket",
+        "datas_json": "0.22"
+      },
+      {
+        "name": "Top_Sweatshirts_Regular",
+        "datas_json": "0.21"
+      },
+      {
+        "name": "Outer_BasicCoat",
+        "datas_json": "0.19"
+      },
+      {
+        "name": "Top_Sweater_Boxy",
+        "datas_json": "0.14"
+      },
+      {
+        "name": "Top_Cardigan_Boxy",
+        "datas_json": "0.13"
+      },
+      {
+        "name": "Top_Sweater_Regular",
+        "datas_json": "0.12"
+      }
+    ],
+    "prediction_df_NMF": "group6"
+  },
+  "3": {
+    "filename": "2020FW_Chloe.jpg",
+    "attribute_names": [
+      "belted",
+      "Dress_Basic_Maxi",
+      "Outer_Parka",
+      "slit",
+      "slit",
+      "Grid",
+      "Grid",
+      "Grid",
+      "Dress_Basic_Midi",
+      "Checked",
+      "Dress_A-line_Maxi",
+      "Skirt_HighandLow",
+      "yellow"
+    ],
+    "datas_json": [
+      {
+        "name": "belted",
+        "datas_json": "0.41"
+      },
+      {
+        "name": "Dress_Basic_Maxi",
+        "datas_json": "0.39"
+      },
+      {
+        "name": "Outer_Parka",
+        "datas_json": "0.35"
+      },
+      {
+        "name": "slit",
+        "datas_json": "0.34"
+      },
+      {
+        "name": "slit",
+        "datas_json": "0.32"
+      },
+      {
+        "name": "Grid",
+        "datas_json": "0.28"
+      },
+      {
+        "name": "Grid",
+        "datas_json": "0.22"
+      },
+      {
+        "name": "Grid",
+        "datas_json": "0.21"
+      },
+      {
+        "name": "Dress_Basic_Midi",
+        "datas_json": "0.21"
+      },
+      {
+        "name": "Checked",
+        "datas_json": "0.21"
+      },
+      {
+        "name": "Dress_A-line_Maxi",
+        "datas_json": "0.20"
+      },
+      {
+        "name": "Skirt_HighandLow",
+        "datas_json": "0.18"
+      }
+    ],
+    "prediction_df_NMF": "group4"
+  },
+  "4": {
+    "filename": "2020FW_Christian-Dior.jpg",
+    "attribute_names": [
+      "Double-breated",
+      "Outer_PeaCoat",
+      "Jacket_Blazer",
+      "lapel",
+      "Double-breated",
+      "lapel",
+      "Pants_Straight",
+      "Jacket_Biker",
+      "lapel",
+      "Single-breasted",
+      "Jacket_Blouson",
+      "slit",
+      "black"
+    ],
+    "datas_json": [
+      {
+        "name": "Double-breated",
+        "datas_json": "0.53"
+      },
+      {
+        "name": "Outer_PeaCoat",
+        "datas_json": "0.40"
+      },
+      {
+        "name": "Jacket_Blazer",
+        "datas_json": "0.31"
+      },
+      {
+        "name": "lapel",
+        "datas_json": "0.19"
+      },
+      {
+        "name": "Double-breated",
+        "datas_json": "0.17"
+      },
+      {
+        "name": "lapel",
+        "datas_json": "0.15"
+      },
+      {
+        "name": "Pants_Straight",
+        "datas_json": "0.13"
+      },
+      {
+        "name": "Jacket_Biker",
+        "datas_json": "0.12"
+      },
+      {
+        "name": "lapel",
+        "datas_json": "0.11"
+      },
+      {
+        "name": "Single-breasted",
+        "datas_json": "0.11"
+      },
+      {
+        "name": "Jacket_Blouson",
+        "datas_json": "0.10"
+      },
+      {
+        "name": "slit",
+        "datas_json": "0.10"
+      }
+    ],
+    "prediction_df_NMF": "group10"
+  },
+  "5": {
+    "filename": "2020FW_Cucci.jpg",
+    "attribute_names": [
+      "Skirt_A-line_Maxi",
+      "crochet",
+      "Top_Blause_Regular",
+      "crochet",
+      "U_neck",
+      "lace",
+      "Top_Cardigan_Regular",
+      "crochet",
+      "crochet",
+      "Checked",
+      "Dress_A-line_Maxi",
+      "Top_Sweater_Regular",
+      "maroon"
+    ],
+    "datas_json": [
+      {
+        "name": "Skirt_A-line_Maxi",
+        "datas_json": "0.79"
+      },
+      {
+        "name": "crochet",
+        "datas_json": "0.38"
+      },
+      {
+        "name": "Top_Blause_Regular",
+        "datas_json": "0.36"
+      },
+      {
+        "name": "crochet",
+        "datas_json": "0.32"
+      },
+      {
+        "name": "U_neck",
+        "datas_json": "0.31"
+      },
+      {
+        "name": "lace",
+        "datas_json": "0.30"
+      },
+      {
+        "name": "Top_Cardigan_Regular",
+        "datas_json": "0.29"
+      },
+      {
+        "name": "crochet",
+        "datas_json": "0.23"
+      },
+      {
+        "name": "crochet",
+        "datas_json": "0.20"
+      },
+      {
+        "name": "Checked",
+        "datas_json": "0.20"
+      },
+      {
+        "name": "Dress_A-line_Maxi",
+        "datas_json": "0.19"
+      },
+      {
+        "name": "Top_Sweater_Regular",
+        "datas_json": "0.19"
+      }
+    ],
+    "prediction_df_NMF": "group9"
+  },
+  "6": {
+    "filename": "2020FW_Givenchy.jpg",
+    "attribute_names": [
+      "Outer_Parka",
+      "Draped-open",
+      "Dress_Basic_Maxi",
+      "Top_Sweatshirts_Regular",
+      "slit",
+      "Top_Cardigan_Boxy",
+      "Top_Sweater_Boxy",
+      "Jumpsuit",
+      "slit",
+      "Single-breasted",
+      "Dress_Sheath_Maxi",
+      "Dress_Sheath_Midi",
+      "red"
+    ],
+    "datas_json": [
+      {
+        "name": "Outer_Parka",
+        "datas_json": "0.20"
+      },
+      {
+        "name": "Draped-open",
+        "datas_json": "0.16"
+      },
+      {
+        "name": "Dress_Basic_Maxi",
+        "datas_json": "0.15"
+      },
+      {
+        "name": "Top_Sweatshirts_Regular",
+        "datas_json": "0.14"
+      },
+      {
+        "name": "slit",
+        "datas_json": "0.14"
+      },
+      {
+        "name": "Top_Cardigan_Boxy",
+        "datas_json": "0.12"
+      },
+      {
+        "name": "Top_Sweater_Boxy",
+        "datas_json": "0.12"
+      },
+      {
+        "name": "Jumpsuit",
+        "datas_json": "0.10"
+      },
+      {
+        "name": "slit",
+        "datas_json": "0.08"
+      },
+      {
+        "name": "Single-breasted",
+        "datas_json": "0.07"
+      },
+      {
+        "name": "Dress_Sheath_Maxi",
+        "datas_json": "0.06"
+      },
+      {
+        "name": "Dress_Sheath_Midi",
+        "datas_json": "0.06"
+      }
+    ],
+    "prediction_df_NMF": "group1"
+  },
+  "7": {
+    "filename": "2020FW_Jil-Sander.jpg",
+    "attribute_names": [
+      "Outer_Parka",
+      "Dress_Basic_Maxi",
+      "Outer_TrenchCoat",
+      "lapel",
+      "Draped-open",
+      "lapel",
+      "Outer_BasicCoat",
+      "Dress_Basic_Midi",
+      "Jumpsuit",
+      "lapel",
+      "Dress_Sheath_Maxi",
+      "lapel",
+      "black"
+    ],
+    "datas_json": [
+      {
+        "name": "Outer_Parka",
+        "datas_json": "0.68"
+      },
+      {
+        "name": "Dress_Basic_Maxi",
+        "datas_json": "0.46"
+      },
+      {
+        "name": "Outer_TrenchCoat",
+        "datas_json": "0.19"
+      },
+      {
+        "name": "lapel",
+        "datas_json": "0.15"
+      },
+      {
+        "name": "Draped-open",
+        "datas_json": "0.15"
+      },
+      {
+        "name": "lapel",
+        "datas_json": "0.13"
+      },
+      {
+        "name": "Outer_BasicCoat",
+        "datas_json": "0.10"
+      },
+      {
+        "name": "Dress_Basic_Midi",
+        "datas_json": "0.10"
+      },
+      {
+        "name": "Jumpsuit",
+        "datas_json": "0.09"
+      },
+      {
+        "name": "lapel",
+        "datas_json": "0.08"
+      },
+      {
+        "name": "Dress_Sheath_Maxi",
+        "datas_json": "0.07"
+      },
+      {
+        "name": "lapel",
+        "datas_json": "0.06"
+      }
+    ],
+    "prediction_df_NMF": "group1"
+  },
+  "8": {
+    "filename": "2020FW_Lanvin.jpg",
+    "attribute_names": [
+      "Top_Sweatshirts_Regular",
+      "Jacket_Blouson",
+      "Pants_Wide",
+      "Top_Blause_Boxy",
+      "belted",
+      "Outer_BasicCoat",
+      "Top_Cardigan_Regular",
+      "Top_Blause_Regular",
+      "Top_Sweater_Regular",
+      "Pants_Straight",
+      "Top_Sweater_Boxy",
+      "Outer_PeaCoat",
+      "black"
+    ],
+    "datas_json": [
+      {
+        "name": "Top_Sweatshirts_Regular",
+        "datas_json": "0.83"
+      },
+      {
+        "name": "Jacket_Blouson",
+        "datas_json": "0.33"
+      },
+      {
+        "name": "Pants_Wide",
+        "datas_json": "0.30"
+      },
+      {
+        "name": "Top_Blause_Boxy",
+        "datas_json": "0.22"
+      },
+      {
+        "name": "belted",
+        "datas_json": "0.16"
+      },
+      {
+        "name": "Outer_BasicCoat",
+        "datas_json": "0.15"
+      },
+      {
+        "name": "Top_Cardigan_Regular",
+        "datas_json": "0.13"
+      },
+      {
+        "name": "Top_Blause_Regular",
+        "datas_json": "0.12"
+      },
+      {
+        "name": "Top_Sweater_Regular",
+        "datas_json": "0.12"
+      },
+      {
+        "name": "Pants_Straight",
+        "datas_json": "0.11"
+      },
+      {
+        "name": "Top_Sweater_Boxy",
+        "datas_json": "0.10"
+      },
+      {
+        "name": "Outer_PeaCoat",
+        "datas_json": "0.10"
+      }
+    ],
+    "prediction_df_NMF": "group8"
+  },
+  "9": {
+    "filename": "2020FW_Louis-Vuitton.jpg",
+    "attribute_names": [
+      "Outer_BasicCoat",
+      "Jacket_Blouson",
+      "tiered",
+      "ruffle",
+      "gathering",
+      "fringe",
+      "Top_Blause_Boxy",
+      "high_waist",
+      "bow",
+      "Jacket_Biker",
+      "Skirt_HighandLow",
+      "Top_Sweatshirts_Regular",
+      "blue"
+    ],
+    "datas_json": [
+      {
+        "name": "Outer_BasicCoat",
+        "datas_json": "0.62"
+      },
+      {
+        "name": "Jacket_Blouson",
+        "datas_json": "0.47"
+      },
+      {
+        "name": "tiered",
+        "datas_json": "0.37"
+      },
+      {
+        "name": "ruffle",
+        "datas_json": "0.31"
+      },
+      {
+        "name": "gathering",
+        "datas_json": "0.23"
+      },
+      {
+        "name": "fringe",
+        "datas_json": "0.21"
+      },
+      {
+        "name": "Top_Blause_Boxy",
+        "datas_json": "0.21"
+      },
+      {
+        "name": "high_waist",
+        "datas_json": "0.19"
+      },
+      {
+        "name": "bow",
+        "datas_json": "0.19"
+      },
+      {
+        "name": "Jacket_Biker",
+        "datas_json": "0.17"
+      },
+      {
+        "name": "Skirt_HighandLow",
+        "datas_json": "0.17"
+      },
+      {
+        "name": "Top_Sweatshirts_Regular",
+        "datas_json": "0.16"
+      }
+    ],
+    "prediction_df_NMF": "group3"
+  },
+  "10": {
+    "filename": "2020FW_Mark-Jacobs.jpg",
+    "attribute_names": [
+      "Double-breated",
+      "Skirt_Peplum_Midi",
+      "Skirt_Peplum_Maxi",
+      "Jacket_Blazer",
+      "Dress_Sheath_Maxi",
+      "Skirt_H-line_Maxi",
+      "Dress_Peplum_Midi",
+      "Outer_Parka",
+      "Jacket_Blouson",
+      "Skirt_H-line_Midi",
+      "Single-breasted",
+      "Dress_Sheath_Midi",
+      "white"
+    ],
+    "datas_json": [
+      {
+        "name": "Double-breated",
+        "datas_json": "0.31"
+      },
+      {
+        "name": "Skirt_Peplum_Midi",
+        "datas_json": "0.27"
+      },
+      {
+        "name": "Skirt_Peplum_Maxi",
+        "datas_json": "0.22"
+      },
+      {
+        "name": "Jacket_Blazer",
+        "datas_json": "0.20"
+      },
+      {
+        "name": "Dress_Sheath_Maxi",
+        "datas_json": "0.20"
+      },
+      {
+        "name": "Skirt_H-line_Maxi",
+        "datas_json": "0.19"
+      },
+      {
+        "name": "Dress_Peplum_Midi",
+        "datas_json": "0.16"
+      },
+      {
+        "name": "Outer_Parka",
+        "datas_json": "0.15"
+      },
+      {
+        "name": "Jacket_Blouson",
+        "datas_json": "0.15"
+      },
+      {
+        "name": "Skirt_H-line_Midi",
+        "datas_json": "0.14"
+      },
+      {
+        "name": "Single-breasted",
+        "datas_json": "0.14"
+      },
+      {
+        "name": "Dress_Sheath_Midi",
+        "datas_json": "0.13"
+      }
+    ],
+    "prediction_df_NMF": "group1"
+  },
+  "11": {
+    "filename": "2020FW_Michael-Kors.jpg",
+    "attribute_names": [
+      "Double-breated",
+      "Outer_PeaCoat",
+      "collar",
+      "Pants_Skinny",
+      "lapel",
+      "Jacket_Biker",
+      "Outer_BasicCoat",
+      "Outer_TrenchCoat",
+      "lapel",
+      "Outer_Parka",
+      "Outer_Puffer",
+      "Double-breated",
+      "yellow"
+    ],
+    "datas_json": [
+      {
+        "name": "Double-breated",
+        "datas_json": "0.49"
+      },
+      {
+        "name": "Outer_PeaCoat",
+        "datas_json": "0.38"
+      },
+      {
+        "name": "collar",
+        "datas_json": "0.17"
+      },
+      {
+        "name": "Pants_Skinny",
+        "datas_json": "0.11"
+      },
+      {
+        "name": "lapel",
+        "datas_json": "0.10"
+      },
+      {
+        "name": "Jacket_Biker",
+        "datas_json": "0.10"
+      },
+      {
+        "name": "Outer_BasicCoat",
+        "datas_json": "0.10"
+      },
+      {
+        "name": "Outer_TrenchCoat",
+        "datas_json": "0.09"
+      },
+      {
+        "name": "lapel",
+        "datas_json": "0.09"
+      },
+      {
+        "name": "Outer_Parka",
+        "datas_json": "0.09"
+      },
+      {
+        "name": "Outer_Puffer",
+        "datas_json": "0.08"
+      },
+      {
+        "name": "Double-breated",
+        "datas_json": "0.07"
+      }
+    ],
+    "prediction_df_NMF": "group5"
+  },
+  "12": {
+    "filename": "2020FW_Prada.jpg",
+    "attribute_names": [
+      "fringe",
+      "Double-breated",
+      "lapel",
+      "belted",
+      "slit",
+      "gathering",
+      "lapel",
+      "tiered",
+      "pleat",
+      "Skirt_HighandLow",
+      "ruffle",
+      "lapel",
+      "gray"
+    ],
+    "datas_json": [
+      {
+        "name": "fringe",
+        "datas_json": "0.73"
+      },
+      {
+        "name": "Double-breated",
+        "datas_json": "0.48"
+      },
+      {
+        "name": "lapel",
+        "datas_json": "0.47"
+      },
+      {
+        "name": "belted",
+        "datas_json": "0.41"
+      },
+      {
+        "name": "slit",
+        "datas_json": "0.40"
+      },
+      {
+        "name": "gathering",
+        "datas_json": "0.38"
+      },
+      {
+        "name": "lapel",
+        "datas_json": "0.25"
+      },
+      {
+        "name": "tiered",
+        "datas_json": "0.18"
+      },
+      {
+        "name": "pleat",
+        "datas_json": "0.18"
+      },
+      {
+        "name": "Skirt_HighandLow",
+        "datas_json": "0.17"
+      },
+      {
+        "name": "ruffle",
+        "datas_json": "0.16"
+      },
+      {
+        "name": "lapel",
+        "datas_json": "0.15"
+      }
+    ],
+    "prediction_df_NMF": "group2"
+  },
+  "13": {
+    "filename": "2020FW_Tory-Burch.jpg",
+    "attribute_names": [
+      "fringe",
+      "smocking",
+      "smocking",
+      "Top_Blause_Regular",
+      "gathering",
+      "Skirt_A-line_Maxi",
+      "smocking",
+      "Skirt_HighandLow",
+      "gathering",
+      "gathering",
+      "gathering",
+      "gathering",
+      "white"
+    ],
+    "datas_json": [
+      {
+        "name": "fringe",
+        "datas_json": "0.48"
+      },
+      {
+        "name": "smocking",
+        "datas_json": "0.29"
+      },
+      {
+        "name": "smocking",
+        "datas_json": "0.29"
+      },
+      {
+        "name": "Top_Blause_Regular",
+        "datas_json": "0.27"
+      },
+      {
+        "name": "gathering",
+        "datas_json": "0.27"
+      },
+      {
+        "name": "Skirt_A-line_Maxi",
+        "datas_json": "0.26"
+      },
+      {
+        "name": "smocking",
+        "datas_json": "0.26"
+      },
+      {
+        "name": "Skirt_HighandLow",
+        "datas_json": "0.24"
+      },
+      {
+        "name": "gathering",
+        "datas_json": "0.24"
+      },
+      {
+        "name": "gathering",
+        "datas_json": "0.22"
+      },
+      {
+        "name": "gathering",
+        "datas_json": "0.22"
+      },
+      {
+        "name": "gathering",
+        "datas_json": "0.22"
+      }
+    ],
+    "prediction_df_NMF": "group2"
+  },
+  "14": {
+    "filename": "2020FW_Valentino.jpg",
+    "attribute_names": [
+      "slit",
+      "deep_V_neck",
+      "bow",
+      "Top_T-shirt_Regular",
+      "Dress_Basic_Maxi",
+      "sleeveless",
+      "tassel",
+      "fringe",
+      "cap_sleeve",
+      "gathering",
+      "Zip-up",
+      "keyhole",
+      "red"
+    ],
+    "datas_json": [
+      {
+        "name": "slit",
+        "datas_json": "0.78"
+      },
+      {
+        "name": "deep_V_neck",
+        "datas_json": "0.51"
+      },
+      {
+        "name": "bow",
+        "datas_json": "0.32"
+      },
+      {
+        "name": "Top_T-shirt_Regular",
+        "datas_json": "0.23"
+      },
+      {
+        "name": "Dress_Basic_Maxi",
+        "datas_json": "0.19"
+      },
+      {
+        "name": "sleeveless",
+        "datas_json": "0.18"
+      },
+      {
+        "name": "tassel",
+        "datas_json": "0.16"
+      },
+      {
+        "name": "fringe",
+        "datas_json": "0.15"
+      },
+      {
+        "name": "cap_sleeve",
+        "datas_json": "0.15"
+      },
+      {
+        "name": "gathering",
+        "datas_json": "0.15"
+      },
+      {
+        "name": "Zip-up",
+        "datas_json": "0.14"
+      },
+      {
+        "name": "keyhole",
+        "datas_json": "0.14"
+      }
+    ],
+    "prediction_df_NMF": "group11"
+  }
+}

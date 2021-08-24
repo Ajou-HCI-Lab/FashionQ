@@ -24,7 +24,7 @@ import TableList from '../../../FashionQ_Project/front/src/views/TableList/Table
 
 const dashboardRoutes = [
   {
-    path: '/stylecheck',
+    path: '/',
     name: 'Style Check',
     rtlName: 'لوحة القيادة',
     icon: Dashboard,
