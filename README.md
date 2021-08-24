@@ -1,5 +1,5 @@
-# FashionQ
-FashionQ Project
+# FashionQ and FANCY
+FashionQ and FANCY Project
 
 ## Description
 Backend : Django Framework (python 3.6.10 Anaconda)
